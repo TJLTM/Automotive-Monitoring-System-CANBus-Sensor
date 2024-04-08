@@ -389,6 +389,14 @@
     [
       "8782b0ef-1b0c-41b9-8665-2e7da5446ba9",
       "BareMinAtmel328P"
+    ],
+    [
+      "7d96c4e1-93d6-45eb-8bfa-0469ecf38441",
+      "CANBUS-MCP2515"
+    ],
+    [
+      "5df34325-0121-481e-982d-7498a0311385",
+      "CANBus-MCP2551"
     ]
   ],
   "text_variables": {}
