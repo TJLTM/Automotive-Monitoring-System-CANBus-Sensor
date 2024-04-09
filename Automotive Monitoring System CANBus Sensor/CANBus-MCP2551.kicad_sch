@@ -1021,7 +1021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT65P210X110-3N"
+		(property "Footprint" "SamacSys_Parts:SOT65P210X110-3N"
 			(at 129.54 116.84 0)
 			(effects
 				(font
@@ -1147,7 +1147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 181.61 67.31 0)
 			(effects
 				(font
@@ -1306,7 +1306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 172.212 73.66 90)
 			(effects
 				(font
@@ -1376,7 +1376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 92.202 83.82 90)
 			(effects
 				(font

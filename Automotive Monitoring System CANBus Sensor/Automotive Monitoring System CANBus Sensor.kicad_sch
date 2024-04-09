@@ -4101,7 +4101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "441daac8-c323-4e02-a2e6-078b6d35b134")
-		(property "Reference" "Reset"
+		(property "Reference" "Reset1"
 			(at 251.46 127 0)
 			(effects
 				(font
@@ -4117,7 +4117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TS0266160BK260LCRD"
+		(property "Footprint" "SamacSys_Parts:TS0266160BK260LCRD"
 			(at 262.89 130.81 0)
 			(effects
 				(font
@@ -4212,7 +4212,7 @@
 		(instances
 			(project "Automotive Monitoring System CANBus Sensor"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "Reset")
+					(reference "Reset1")
 					(unit 1)
 				)
 			)
@@ -4439,7 +4439,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical"
 			(at 62.23 137.16 0)
 			(effects
 				(font
@@ -4798,7 +4798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d2808dc-d1d0-42a4-a846-2e0e464174ab")
-		(property "Reference" "J3"
+		(property "Reference" "Powerboard1"
 			(at 46.482 29.5715 0)
 			(effects
 				(font
@@ -4855,7 +4855,7 @@
 		(instances
 			(project "Automotive Monitoring System CANBus Sensor"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "J3")
+					(reference "Powerboard1")
 					(unit 1)
 				)
 			)
@@ -4889,7 +4889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
 			(at 30.48 52.07 0)
 			(effects
 				(font
@@ -5028,7 +5028,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 217.17 133.858 90)
 			(effects
 				(font
