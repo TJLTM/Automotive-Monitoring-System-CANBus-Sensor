@@ -2234,6 +2234,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 234.95 82.55)
@@ -2260,10 +2356,22 @@
 		(uuid "673317bf-e26d-41c8-b613-19c692a2b9ac")
 	)
 	(junction
+		(at 38.1 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f63102c-5778-4529-a095-875dd5baa8f1")
+	)
+	(junction
 		(at 74.93 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b82614b-1407-4582-a361-a679261ce1d7")
+	)
+	(junction
+		(at 36.83 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99b55dcd-0f78-4530-b883-d6121380cdf1")
 	)
 	(junction
 		(at 74.93 49.53)
@@ -2276,6 +2384,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1cccf28-97e4-4020-8dd2-783f06ce2f03")
+	)
+	(junction
+		(at 26.67 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2c62aa8-95f4-449e-8782-c3a588f8e031")
 	)
 	(junction
 		(at 220.98 137.16)
@@ -2317,7 +2431,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 27.94) (xy 39.37 27.94)
+			(xy 34.29 27.94) (xy 36.83 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2384,6 +2498,16 @@
 			(type default)
 		)
 		(uuid "0e844b2d-bc67-47a9-9c6a-d04ef8dd93b3")
+	)
+	(wire
+		(pts
+			(xy 26.67 30.48) (xy 39.37 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb92034-2240-4c08-99b8-b742a7e5027d")
 	)
 	(wire
 		(pts
@@ -2977,7 +3101,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 30.48) (xy 39.37 30.48)
+			(xy 22.86 30.48) (xy 26.67 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3077,6 +3201,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 27.94) (xy 39.37 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c9c9fc-47a8-47a4-83aa-d3e4e0e01a5e")
+	)
+	(wire
+		(pts
 			(xy 163.83 59.69) (xy 171.45 59.69)
 		)
 		(stroke
@@ -3107,7 +3241,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.195 33.02) (xy 39.37 33.02)
+			(xy 36.195 33.02) (xy 38.1 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3394,6 +3528,16 @@
 			(type default)
 		)
 		(uuid "d3ea6198-788a-462e-95e8-15f089c4f5b5")
+	)
+	(wire
+		(pts
+			(xy 38.1 33.02) (xy 39.37 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52d43f7-58d6-4081-8686-e14d3f2ac0bc")
 	)
 	(wire
 		(pts
@@ -3956,6 +4100,72 @@
 			(project "Automotive Monitoring System CANBus Sensor"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 36.83 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e38047d-ccda-4a7f-a8e7-5e7a12b21dc9")
+		(property "Reference" "#FLG02"
+			(at 36.83 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 36.83 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 36.83 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "630ac413-7ac0-4a4d-87c5-b3c69081b7cd")
+		)
+		(instances
+			(project "Automotive Monitoring System CANBus Sensor"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -4590,6 +4800,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 38.1 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c20b49b-68f8-45fb-8b34-6987b06fbea2")
+		(property "Reference" "#FLG03"
+			(at 38.1 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 38.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 38.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18711290-cbcc-424a-9b22-de9347e62f74")
+		)
+		(instances
+			(project "Automotive Monitoring System CANBus Sensor"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 36.195 33.02 0)
 		(unit 1)
@@ -4649,6 +4925,72 @@
 			(project "Automotive Monitoring System CANBus Sensor"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 26.67 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d353913-0972-4966-95d5-6c4069e6d63c")
+		(property "Reference" "#FLG01"
+			(at 26.67 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 26.67 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 26.67 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5077b30-45fa-4f3d-88ef-e79104b23566")
+		)
+		(instances
+			(project "Automotive Monitoring System CANBus Sensor"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
