@@ -1660,7 +1660,7 @@
 				)
 			)
 		)
-		(property "Value" "22nf"
+		(property "Value" "22pf"
 			(at 68.58 78.74 90)
 			(effects
 				(font
@@ -1797,7 +1797,7 @@
 				)
 			)
 		)
-		(property "Value" "22nf"
+		(property "Value" "22pf"
 			(at 68.58 91.44 90)
 			(effects
 				(font
