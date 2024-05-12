@@ -1,11 +1,11 @@
 ﻿pos_x,pos_y,rotation,side,designator,mpn,pack,value,mount_type,place
-134.7505,-78.6225,0.0,top,C1,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,22nf,smt,True
-134.7571,-78.6212,0.0,bottom,C2,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,22nf,smt,True
+134.7505,-78.6225,0.0,top,C1,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,22pf,smt,True
+134.7571,-78.6212,0.0,bottom,C2,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,22pf,smt,True
 118.7504,-92.934,-90.0,top,C3,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,100nf,smt,True
 107.3557,-63.1569,-90.0,bottom,C4,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,100nf,smt,True
 111.1027,-63.083,-90.0,bottom,C5,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,100nf,smt,True
-140.0154,-78.631,180.0,bottom,C6,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,22nf,smt,True
-140.0214,-78.6336,180.0,top,C7,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,22nf,smt,True
+140.0154,-78.631,180.0,bottom,C6,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,22pf,smt,True
+140.0214,-78.6336,180.0,top,C7,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,22pf,smt,True
 140.2698,-62.8344,180.0,bottom,D1,,SOT65P210X110-3N,"PESD5V0L2UU,115",smt,True
 137.5433,-90.6621,0.0,top,J1,,PinHeader_2x03_P2.54mm_Vertical_SMD,ICSP,smt,True
 131.583,-97.4726,-90.0,top,J2,,PinHeader_1x06_P2.54mm_Vertical,TTL_Programmer,tht,True

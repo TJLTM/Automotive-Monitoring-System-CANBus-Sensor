@@ -1982,7 +1982,7 @@
 				)
 			)
 		)
-		(property "Value" "22nf"
+		(property "Value" "22pf"
 			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "7b8324d6-1ad1-4dfa-aa1f-8c2a19dc9b54")
@@ -5359,7 +5359,7 @@
 				)
 			)
 		)
-		(property "Value" "22nf"
+		(property "Value" "22pf"
 			(at 0 1.85 180)
 			(layer "F.Fab")
 			(uuid "58068e9d-b7d4-47e8-a587-3473081d26c2")
@@ -6121,7 +6121,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "22nf"
+		(property "Value" "22pf"
 			(at 0 -1.85 0)
 			(layer "B.Fab")
 			(uuid "55a87ba7-245f-453e-bc3f-64bc470ee952")
@@ -8748,7 +8748,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "22nf"
+		(property "Value" "22pf"
 			(at 0 -1.85 180)
 			(layer "B.Fab")
 			(uuid "b8489317-007c-4e76-ac58-8537a37612c2")
