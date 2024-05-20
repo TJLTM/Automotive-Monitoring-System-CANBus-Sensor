@@ -1325,7 +1325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0af38aa4-cd52-4607-9d9b-b48b06275b0a")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 138.0841 55.88 0)
 			(effects
 				(font
@@ -1426,9 +1426,9 @@
 			(uuid "777590de-5648-4e82-990b-5540acc3e243")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - Pressure"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/7d96c4e1-93d6-45eb-8bfa-0469ecf38441"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -1444,7 +1444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49768215-c2c2-4b01-ab6d-1d78f4254526")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 104.14 40.64 90)
 			(effects
 				(font
@@ -1494,9 +1494,9 @@
 			(uuid "bd63e63b-ab23-47d0-9a7a-898c4de4ee6e")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - Pressure"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/7d96c4e1-93d6-45eb-8bfa-0469ecf38441"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -1562,7 +1562,7 @@
 			(uuid "dcd2f052-b632-4c87-a450-bd673914a2c4")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - Pressure"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/7d96c4e1-93d6-45eb-8bfa-0469ecf38441"
 					(reference "R5")
 					(unit 1)
@@ -1633,7 +1633,7 @@
 			(uuid "339f3664-524d-453b-a3cd-b5c942f16747")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - Pressure"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/7d96c4e1-93d6-45eb-8bfa-0469ecf38441"
 					(reference "Y2")
 					(unit 1)
@@ -1652,7 +1652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1fbbc50-5689-4b06-826c-95788b6ae761")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 68.58 76.2 90)
 			(effects
 				(font
@@ -1702,9 +1702,9 @@
 			(uuid "db53e0ae-2d26-4476-a192-4e60734ff6f2")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - Pressure"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/7d96c4e1-93d6-45eb-8bfa-0469ecf38441"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -1720,7 +1720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee5fa8f7-401f-434e-ac39-0657d8410e30")
-		(property "Reference" "C4"
+		(property "Reference" "C7"
 			(at 116.84 40.64 90)
 			(effects
 				(font
@@ -1770,9 +1770,9 @@
 			(uuid "4fb0969e-9725-48bb-a549-80ff722cbccc")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - Pressure"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/7d96c4e1-93d6-45eb-8bfa-0469ecf38441"
-					(reference "C4")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -1789,7 +1789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f89051e2-1c5a-4cd0-bcb8-f430e0954b70")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 68.58 88.9 90)
 			(effects
 				(font
@@ -1839,9 +1839,9 @@
 			(uuid "ba278cf0-d3a4-4bda-b6b2-86e81b6433db")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - Pressure"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/7d96c4e1-93d6-45eb-8bfa-0469ecf38441"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
