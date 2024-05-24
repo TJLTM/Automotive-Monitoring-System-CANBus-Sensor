@@ -298,6 +298,116 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
@@ -466,551 +576,6 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x08_Odd_Even"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_02x08_Odd_Even"
-				(at 1.27 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_02x08_Odd_Even_1_1"
-				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 8.89)
-					(end 3.81 -11.43)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -10.033)
-					(end 2.54 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -7.493)
-					(end 2.54 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 5.207)
-					(end 2.54 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 7.747)
-					(end 2.54 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 3.81)
-					(name "Pin_12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -7.62 180)
-					(length 3.81)
-					(name "Pin_14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -10.16 180)
-					(length 3.81)
-					(name "Pin_16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -1132,7 +697,7 @@
 				)
 			)
 		)
-		(symbol "SamacSys_Parts:178.6165.0001"
+		(symbol "SamacSys_Parts:3568"
 			(pin_names
 				(offset 0.762)
 			)
@@ -1148,7 +713,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SamacSys_Parts_178.6165.0001"
+			(property "Value" "3568"
 				(at 16.51 5.08 0)
 				(effects
 					(font
@@ -1157,7 +722,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "17861650001"
+			(property "Footprint" "3568"
 				(at 16.51 2.54 0)
 				(effects
 					(font
@@ -1177,7 +742,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "FLR PCB FUSE HOLDER FOR ATO STYLE BLADE FUSE RATED 58V"
+			(property "Description" "Fuse Holder 30A 500V 1 Circuit Blade Through Hole"
 				(at 16.51 -2.54 0)
 				(effects
 					(font
@@ -1187,7 +752,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "17.5"
+			(property "Height" "7.5"
 				(at 16.51 -5.08 0)
 				(effects
 					(font
@@ -1197,7 +762,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "576-178.6165.0001"
+			(property "Mouser Part Number" "534-3568"
 				(at 16.51 -7.62 0)
 				(effects
 					(font
@@ -1207,7 +772,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/17861650001?qs=CSLd874fYV1KI1oBGU5EQg%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3568?qs=fP5bVVCrK%2Fd7nbA%2FPpwnKw%3D%3D"
 				(at 16.51 -10.16 0)
 				(effects
 					(font
@@ -1217,7 +782,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "LITTELFUSE"
+			(property "Manufacturer_Name" "Keystone Electronics"
 				(at 16.51 -12.7 0)
 				(effects
 					(font
@@ -1227,7 +792,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "178.6165.0001"
+			(property "Manufacturer_Part_Number" "3568"
 				(at 16.51 -15.24 0)
 				(effects
 					(font
@@ -1237,9 +802,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "178.6165.0001_0_0"
+			(symbol "3568_0_0"
 				(pin passive line
-					(at 0 0 0)
+					(at 0 -2.54 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -1257,7 +822,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at 0 0 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -1275,7 +840,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
+					(at 20.32 -2.54 180)
 					(length 5.08)
 					(name "3"
 						(effects
@@ -1293,7 +858,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 0)
+					(at 20.32 0 180)
 					(length 5.08)
 					(name "4"
 						(effects
@@ -1310,87 +875,15 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 20.32 -7.62 180)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -5.08 180)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
-			(symbol "178.6165.0001_0_1"
+			(symbol "3568_0_1"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
+						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
 					)
 					(stroke
 						(width 0.1524)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1686,6 +1179,272 @@
 					(stroke
 						(width 0.254)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "SamacSys_Parts:OPA2340UA_2K5"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OPA2340UA_2K5"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SOIC127P600X175-8N"
+				(at 26.67 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/opa2340"
+				(at 26.67 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-Supply, Rail-to-Rail Operational Amplifiers MicroAmplifier Series"
+				(at 26.67 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 26.67 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-OPA2340UA/2K5"
+				(at 26.67 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA2340UA-2K5?qs=7nS3%252BbEUL6sUfjelNiiypQ%3D%3D"
+				(at 26.67 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 26.67 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "OPA2340UA/2K5"
+				(at 26.67 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "OPA2340UA_2K5_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "OUT_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "-INA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "+IN_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -7.62 180)
+					(length 5.08)
+					(name "+INB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "-IN_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "OUTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA2340UA_2K5_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 25.4 2.54) (xy 25.4 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -2332,28 +2091,34 @@
 		)
 	)
 	(junction
+		(at 95.25 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01051b5d-fc73-42b9-9114-c0f377ada1c5")
+	)
+	(junction
+		(at 111.76 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0948632c-49ad-4c87-8bda-9158a6d66766")
+	)
+	(junction
+		(at 54.61 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30a6b833-cd57-4429-beef-e4389372beee")
+	)
+	(junction
+		(at 74.93 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31dd55ec-4edd-431e-942c-e2e66c34744d")
+	)
+	(junction
 		(at 234.95 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31f24588-f437-45ec-8832-7b2e09e44913")
-	)
-	(junction
-		(at 74.93 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fb07396-3895-46c3-8f81-10835db8fe78")
-	)
-	(junction
-		(at 95.25 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40d530b3-a8d0-46f7-8fba-e938cf7af3a9")
-	)
-	(junction
-		(at 95.25 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "673317bf-e26d-41c8-b613-19c692a2b9ac")
 	)
 	(junction
 		(at 38.1 33.02)
@@ -2362,10 +2127,10 @@
 		(uuid "7f63102c-5778-4529-a095-875dd5baa8f1")
 	)
 	(junction
-		(at 74.93 34.29)
+		(at 64.77 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8b82614b-1407-4582-a361-a679261ce1d7")
+		(uuid "8a5686be-9102-4998-bb86-b5dfe8793b34")
 	)
 	(junction
 		(at 36.83 27.94)
@@ -2374,10 +2139,10 @@
 		(uuid "99b55dcd-0f78-4530-b883-d6121380cdf1")
 	)
 	(junction
-		(at 74.93 49.53)
+		(at 77.47 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cd2eafe4-75d5-419d-a240-a87b6aab18c1")
+		(uuid "b78fa326-ec73-4422-b1ed-93cf4bb310b1")
 	)
 	(junction
 		(at 220.98 134.62)
@@ -2398,10 +2163,10 @@
 		(uuid "e5409c50-1a44-4e39-9557-140369dc31a3")
 	)
 	(junction
-		(at 95.25 34.29)
+		(at 120.65 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f41a9158-eb99-4652-aa5a-e7bb815953db")
+		(uuid "e9957005-be36-49b8-9061-157c6988980b")
 	)
 	(no_connect
 		(at 176.53 106.68)
@@ -2418,16 +2183,6 @@
 	(no_connect
 		(at 266.7 133.35)
 		(uuid "a830a764-3a22-4545-868e-f19efc1f19fa")
-	)
-	(wire
-		(pts
-			(xy 176.53 132.08) (xy 93.98 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01f4729b-f00e-4458-8c20-c6f4f821cb46")
 	)
 	(wire
 		(pts
@@ -2461,23 +2216,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 36.83) (xy 74.93 34.29)
+			(xy 81.28 167.64) (xy 64.77 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08e7e0b8-0800-472b-aca2-ff0cbfd4869e")
-	)
-	(wire
-		(pts
-			(xy 30.48 134.62) (xy 30.48 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c17d484-ea43-4f51-a38e-f7e1fc2b7190")
+		(uuid "092634c2-01e2-4e45-b63c-51da5b2ef73f")
 	)
 	(wire
 		(pts
@@ -2531,16 +2276,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 137.16) (xy 57.15 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10b9a37c-1f2c-460b-9b42-48ccb81c635c")
-	)
-	(wire
-		(pts
 			(xy 200.66 33.02) (xy 200.66 82.55)
 		)
 		(stroke
@@ -2551,23 +2286,13 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 158.75) (xy 34.29 158.75)
+			(xy 275.59 152.4) (xy 133.35 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "149a08e9-cf83-42e4-9e88-a40a4d723714")
-	)
-	(wire
-		(pts
-			(xy 69.85 147.32) (xy 73.66 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14b24f86-b14a-423f-b81e-52cb69bf3e00")
+		(uuid "174ee854-872b-4914-8be9-32197700d070")
 	)
 	(wire
 		(pts
@@ -2611,13 +2336,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 25.4) (xy 95.25 25.4)
+			(xy 278.13 165.1) (xy 278.13 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1db85087-b3c2-4b3c-b2ad-7804e7d19fb5")
+		(uuid "1d786b7a-758a-46bc-a550-e0176f5d9f14")
 	)
 	(wire
 		(pts
@@ -2631,36 +2356,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 137.16) (xy 88.9 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "203d00f3-0ce5-4f41-ab45-18dc73082a5a")
-	)
-	(wire
-		(pts
-			(xy 90.17 124.46) (xy 90.17 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20ed4477-eb9d-427e-afe9-84181a8a0c13")
-	)
-	(wire
-		(pts
-			(xy 85.09 114.3) (xy 85.09 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "216137ae-b881-44bb-9460-4fdbbcfab7f6")
-	)
-	(wire
-		(pts
 			(xy 234.95 81.28) (xy 234.95 82.55)
 		)
 		(stroke
@@ -2668,6 +2363,16 @@
 			(type default)
 		)
 		(uuid "21f24421-0eb0-4050-b413-06e5fa2b45bf")
+	)
+	(wire
+		(pts
+			(xy 49.53 121.92) (xy 59.69 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27a24e40-ff34-4030-b346-7bab0e6119ad")
 	)
 	(wire
 		(pts
@@ -2681,6 +2386,26 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 111.76) (xy 278.13 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2942d658-3cb1-4c22-8c85-1441b4f2c75a")
+	)
+	(wire
+		(pts
+			(xy 49.53 114.3) (xy 54.61 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298efe60-2757-40e5-9346-6ec6300f07c4")
+	)
+	(wire
+		(pts
 			(xy 139.7 38.1) (xy 143.51 38.1)
 		)
 		(stroke
@@ -2688,16 +2413,6 @@
 			(type default)
 		)
 		(uuid "2c8c4cb3-9452-4c4a-aeed-69547536d24c")
-	)
-	(wire
-		(pts
-			(xy 35.56 157.48) (xy 274.32 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f3172af-2550-432c-bf65-749a2cac3de7")
 	)
 	(wire
 		(pts
@@ -2731,26 +2446,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 160.02) (xy 276.86 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36193f31-cf21-4e62-a70e-fb933591d8c9")
-	)
-	(wire
-		(pts
-			(xy 88.9 137.16) (xy 88.9 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39788194-e5ce-49ce-8e20-0f7bf5c1cf27")
-	)
-	(wire
-		(pts
 			(xy 163.83 129.54) (xy 163.83 81.28)
 		)
 		(stroke
@@ -2771,16 +2466,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 119.38) (xy 210.82 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3efb846b-d739-434c-9c61-f33e32858ea6")
-	)
-	(wire
-		(pts
 			(xy 128.27 30.48) (xy 143.51 30.48)
 		)
 		(stroke
@@ -2788,16 +2473,6 @@
 			(type default)
 		)
 		(uuid "41f286bf-277c-485d-9f7b-c70072bfd7c9")
-	)
-	(wire
-		(pts
-			(xy 176.53 124.46) (xy 90.17 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4220d5b8-8814-4c80-b8fb-2be3c6ae539d")
 	)
 	(wire
 		(pts
@@ -2811,13 +2486,23 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 39.37) (xy 74.93 41.91)
+			(xy 74.93 34.29) (xy 74.93 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "459f5e04-c546-41b5-aedc-b101e3e8d7fb")
+	)
+	(wire
+		(pts
+			(xy 95.25 34.29) (xy 95.25 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a356d5-623d-4b86-a778-7c28751b3f7b")
 	)
 	(wire
 		(pts
@@ -2831,23 +2516,13 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 160.02) (xy 276.86 114.3)
+			(xy 210.82 109.22) (xy 275.59 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b903058-bc63-41ac-9bbb-ce2c6b3ff2e3")
-	)
-	(wire
-		(pts
-			(xy 34.29 142.24) (xy 57.15 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c8b896a-9a62-4133-9276-7d75409fba84")
+		(uuid "49ad7c8d-e0b8-45ba-97eb-313392e9bb8b")
 	)
 	(wire
 		(pts
@@ -2861,6 +2536,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 162.56) (xy 73.66 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d992131-d847-4f37-80af-93ed2a0ec0ed")
+	)
+	(wire
+		(pts
 			(xy 127 64.77) (xy 127 66.04)
 		)
 		(stroke
@@ -2868,16 +2553,6 @@
 			(type default)
 		)
 		(uuid "511560d3-8083-4ccb-aac6-e050d7d95491")
-	)
-	(wire
-		(pts
-			(xy 86.36 116.84) (xy 176.53 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "537d0af7-1c11-49e6-830a-d7a83402334d")
 	)
 	(wire
 		(pts
@@ -2891,6 +2566,36 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 162.56) (xy 115.57 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54867049-8e3c-4200-95df-7d1a9a1d1d17")
+	)
+	(wire
+		(pts
+			(xy 111.76 189.23) (xy 58.42 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d27da9-758c-4a62-9843-e9969f0490e4")
+	)
+	(wire
+		(pts
+			(xy 81.28 165.1) (xy 77.47 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5770c00a-868d-4855-8c1e-80cce0874e68")
+	)
+	(wire
+		(pts
 			(xy 234.95 91.44) (xy 234.95 95.25)
 		)
 		(stroke
@@ -2901,13 +2606,23 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 157.48) (xy 274.32 119.38)
+			(xy 275.59 109.22) (xy 275.59 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "581594fd-da97-489c-8494-fdf373c991d9")
+		(uuid "58a21684-52ba-4e24-894c-ba59a759d3e3")
+	)
+	(wire
+		(pts
+			(xy 74.93 36.83) (xy 74.93 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591cc0f1-93e0-4f9a-95c3-d3bbc947aa1a")
 	)
 	(wire
 		(pts
@@ -2918,16 +2633,6 @@
 			(type default)
 		)
 		(uuid "5ab461a7-2968-4a28-a187-1a01fe610e27")
-	)
-	(wire
-		(pts
-			(xy 278.13 111.76) (xy 278.13 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ba3f410-f648-4aca-bc97-125f4bbcbe0a")
 	)
 	(wire
 		(pts
@@ -2951,26 +2656,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 121.92) (xy 176.53 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "615c5674-e03c-4140-b51b-4082e0c7fcc7")
-	)
-	(wire
-		(pts
-			(xy 44.45 132.08) (xy 57.15 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63cfd4f0-03d2-4285-9173-7be643342dcf")
-	)
-	(wire
-		(pts
 			(xy 143.51 55.88) (xy 139.7 55.88)
 		)
 		(stroke
@@ -2978,6 +2663,16 @@
 			(type default)
 		)
 		(uuid "64a2a4a4-a482-4fd6-a62d-ef99bbb926d3")
+	)
+	(wire
+		(pts
+			(xy 73.66 142.24) (xy 73.66 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "656fec72-9fce-440a-b5e9-397ac8736c12")
 	)
 	(wire
 		(pts
@@ -2991,23 +2686,23 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 129.54) (xy 85.09 129.54)
+			(xy 49.53 116.84) (xy 54.61 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "669c3e38-e558-4a1e-80be-0279f503d4ff")
+		(uuid "6694412d-537a-4f37-bb98-cc9e88331d89")
 	)
 	(wire
 		(pts
-			(xy 31.75 137.16) (xy 31.75 161.29)
+			(xy 64.77 167.64) (xy 64.77 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66d05ff2-5d44-4886-b5aa-557ea8fade07")
+		(uuid "675873cc-6b5c-43d7-9f1e-d060036d30fc")
 	)
 	(wire
 		(pts
@@ -3021,23 +2716,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 144.78) (xy 93.98 144.78)
+			(xy 111.76 162.56) (xy 115.57 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d647829-32e4-4f9d-82df-91a1c9298c70")
-	)
-	(wire
-		(pts
-			(xy 55.88 129.54) (xy 57.15 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d859e42-91bc-4cfe-81a1-8cc20c865c7f")
+		(uuid "6d8aa8e1-fae1-48e9-a929-a3bcfd48f70c")
 	)
 	(wire
 		(pts
@@ -3051,6 +2736,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 189.23) (xy 58.42 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "721ce83a-55af-40e3-9546-c3d629c5cbda")
+	)
+	(wire
+		(pts
 			(xy 135.89 40.64) (xy 135.89 58.42)
 		)
 		(stroke
@@ -3058,26 +2753,6 @@
 			(type default)
 		)
 		(uuid "7279722c-6d23-401e-a1c9-0b8a72d7c17e")
-	)
-	(wire
-		(pts
-			(xy 57.15 144.78) (xy 35.56 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7539b515-2b86-4d21-b95f-bc1666423848")
-	)
-	(wire
-		(pts
-			(xy 69.85 132.08) (xy 86.36 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76fa1cab-2b12-4e8d-992e-82991423abb0")
 	)
 	(wire
 		(pts
@@ -3101,6 +2776,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 170.18) (xy 81.28 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e68757-1820-4c7a-aa3b-29b0e051e772")
+	)
+	(wire
+		(pts
 			(xy 22.86 30.48) (xy 26.67 30.48)
 		)
 		(stroke
@@ -3108,16 +2793,6 @@
 			(type default)
 		)
 		(uuid "78ee5479-8674-4d4c-b220-0a25b5e2e861")
-	)
-	(wire
-		(pts
-			(xy 74.93 49.53) (xy 95.25 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79c82022-e62b-4506-9966-dd2822c8a00a")
 	)
 	(wire
 		(pts
@@ -3131,23 +2806,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 142.24) (xy 91.44 142.24)
+			(xy 120.65 157.48) (xy 120.65 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7dca740e-5429-4b9f-81b3-298067e27639")
-	)
-	(wire
-		(pts
-			(xy 55.88 123.19) (xy 55.88 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e6b6f1b-94a3-4378-9f12-950f08261b94")
+		(uuid "8042730d-559e-418d-a821-89ee56dad28b")
 	)
 	(wire
 		(pts
@@ -3161,16 +2826,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 139.7) (xy 33.02 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88dbe0f5-c1a1-4456-aacb-ba78d1ba0d10")
-	)
-	(wire
-		(pts
 			(xy 234.95 69.85) (xy 234.95 73.66)
 		)
 		(stroke
@@ -3178,16 +2833,6 @@
 			(type default)
 		)
 		(uuid "89b161f4-a9d6-474e-9007-188a9cd93f80")
-	)
-	(wire
-		(pts
-			(xy 52.07 147.32) (xy 57.15 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89bd6983-464c-4f2e-9e24-ee1d23f86312")
 	)
 	(wire
 		(pts
@@ -3201,6 +2846,26 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 167.64) (xy 111.76 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e5d2b4b-1ee6-493f-8454-147cfe5cfe11")
+	)
+	(wire
+		(pts
+			(xy 111.76 165.1) (xy 120.65 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee6796a-c699-4426-8dbd-d609a3399fb9")
+	)
+	(wire
+		(pts
 			(xy 36.83 27.94) (xy 39.37 27.94)
 		)
 		(stroke
@@ -3208,6 +2873,16 @@
 			(type default)
 		)
 		(uuid "91c9c9fc-47a8-47a4-83aa-d3e4e0e01a5e")
+	)
+	(wire
+		(pts
+			(xy 120.65 165.1) (xy 278.13 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9304b843-77ae-4e02-b0b5-947f3319dddf")
 	)
 	(wire
 		(pts
@@ -3221,23 +2896,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 139.7) (xy 90.17 139.7)
+			(xy 80.01 172.72) (xy 80.01 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "943f531a-e880-4c7b-a4d1-bdf5e896aaf5")
-	)
-	(wire
-		(pts
-			(xy 74.93 41.91) (xy 74.93 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "963cf9c6-6d67-4264-8641-d51a9f6ba1d0")
+		(uuid "967cec8c-c0f3-4c3b-a7a8-cf0e68077473")
 	)
 	(wire
 		(pts
@@ -3261,36 +2926,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 162.56) (xy 279.4 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c8fff46-b0a1-40eb-a5d2-e27382697ca9")
-	)
-	(wire
-		(pts
-			(xy 86.36 132.08) (xy 86.36 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5a6d254-37b4-4ff8-ace0-ce2e6bd8156f")
-	)
-	(wire
-		(pts
-			(xy 176.53 114.3) (xy 85.09 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad59936a-ec35-4503-96ca-bebe2ce2edbd")
-	)
-	(wire
-		(pts
 			(xy 134.62 35.56) (xy 143.51 35.56)
 		)
 		(stroke
@@ -3311,33 +2946,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 162.56) (xy 279.4 162.56)
+			(xy 59.69 125.73) (xy 78.74 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3d80afc-e097-43ee-8c2a-87c029f9403a")
-	)
-	(wire
-		(pts
-			(xy 95.25 36.83) (xy 95.25 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba707042-3783-4a00-bf04-698ca146e276")
-	)
-	(wire
-		(pts
-			(xy 57.15 134.62) (xy 30.48 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bacb1abb-ba9a-4150-9d7e-8cc2f8b3eb38")
+		(uuid "b59245f9-1714-4ee0-a337-01b2850e7c72")
 	)
 	(wire
 		(pts
@@ -3348,16 +2963,6 @@
 			(type default)
 		)
 		(uuid "bc47a8c0-c9f8-4119-b1a0-a40bd5b0092a")
-	)
-	(wire
-		(pts
-			(xy 275.59 116.84) (xy 275.59 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd63c868-bb01-4073-b361-364d43b49c27")
 	)
 	(wire
 		(pts
@@ -3401,16 +3006,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 127) (xy 44.45 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0b0b330-9146-4bef-beb9-7c37fdfcfb37")
-	)
-	(wire
-		(pts
 			(xy 199.39 81.28) (xy 199.39 38.1)
 		)
 		(stroke
@@ -3418,16 +3013,6 @@
 			(type default)
 		)
 		(uuid "c1c44c35-4b86-4102-86e2-e24291a18b8d")
-	)
-	(wire
-		(pts
-			(xy 210.82 109.22) (xy 279.4 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c32b51fe-41df-4bd3-af82-7c9382c76360")
 	)
 	(wire
 		(pts
@@ -3451,23 +3036,23 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 116.84) (xy 275.59 116.84)
+			(xy 81.28 162.56) (xy 77.47 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7f7d212-d60f-4218-9638-89807804d5b1")
+		(uuid "c96c03ab-f341-48cc-88c1-51f40c093422")
 	)
 	(wire
 		(pts
-			(xy 210.82 114.3) (xy 276.86 114.3)
+			(xy 54.61 116.84) (xy 64.77 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca1873ef-c5ba-450f-99d5-0b06ee4a5aa7")
+		(uuid "c9923fa2-8897-4c6d-8463-a978d6e1707b")
 	)
 	(wire
 		(pts
@@ -3491,33 +3076,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 134.62) (xy 87.63 134.62)
+			(xy 59.69 121.92) (xy 59.69 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cef74f53-d71b-4167-a43a-8470a218ac29")
-	)
-	(wire
-		(pts
-			(xy 91.44 127) (xy 176.53 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d024bee8-a263-4e9d-b474-f47e0bb5552a")
-	)
-	(wire
-		(pts
-			(xy 95.25 34.29) (xy 95.25 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d307236d-7d54-4282-8f34-61533e89ee9a")
+		(uuid "cdcf8b70-6c4c-4443-8da9-ebb1209ee091")
 	)
 	(wire
 		(pts
@@ -3541,16 +3106,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 41.91) (xy 95.25 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6389e99-37d5-44b4-941d-000f195ddf74")
-	)
-	(wire
-		(pts
 			(xy 163.83 55.88) (xy 171.45 55.88)
 		)
 		(stroke
@@ -3558,16 +3113,6 @@
 			(type default)
 		)
 		(uuid "d7bbd48c-1936-4369-8b8b-a88a07972622")
-	)
-	(wire
-		(pts
-			(xy 87.63 119.38) (xy 87.63 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d90ff378-1569-4e6f-8749-f899d197a00e")
 	)
 	(wire
 		(pts
@@ -3581,6 +3126,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 154.94) (xy 77.47 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db40876a-a98f-4e3d-b1ef-30d2b63543db")
+	)
+	(wire
+		(pts
 			(xy 35.56 54.61) (xy 39.37 54.61)
 		)
 		(stroke
@@ -3591,23 +3146,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 132.08) (xy 93.98 144.78)
+			(xy 133.35 152.4) (xy 133.35 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de5893b6-2f17-44d0-a294-0edb580074b0")
-	)
-	(wire
-		(pts
-			(xy 57.15 139.7) (xy 33.02 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df69fce9-5b7b-4e3f-b19b-5f42d6dddbfe")
+		(uuid "dc37d6a7-090b-438b-a1f8-f3a8c649dea0")
 	)
 	(wire
 		(pts
@@ -3631,23 +3176,33 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 111.76) (xy 278.13 111.76)
+			(xy 111.76 170.18) (xy 111.76 189.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3fe3b27-e045-4362-a678-c12f850c3267")
+		(uuid "e8caaa28-0c44-41ed-8a27-d8d4ec17fa42")
 	)
 	(wire
 		(pts
-			(xy 176.53 119.38) (xy 87.63 119.38)
+			(xy 58.42 124.46) (xy 49.53 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e71f8d26-1b8e-43a4-9c59-9ad3937fa80e")
+		(uuid "ea6aa21f-36b2-48bb-908b-bad5bd19e282")
+	)
+	(wire
+		(pts
+			(xy 78.74 125.73) (xy 78.74 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea8f2c1a-00d1-4893-9771-41f425c0f8b1")
 	)
 	(wire
 		(pts
@@ -3661,13 +3216,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 49.53) (xy 95.25 41.91)
+			(xy 49.53 119.38) (xy 64.77 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed084a1b-d80e-4b70-98e0-b86073a04ad5")
+		(uuid "ecde6b2d-35df-48b8-8b4d-dac7d0a8de9a")
 	)
 	(wire
 		(pts
@@ -3681,23 +3236,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 144.78) (xy 35.56 157.48)
+			(xy 64.77 158.75) (xy 64.77 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed115bab-ed68-4c69-8a93-9fec14388c5d")
-	)
-	(wire
-		(pts
-			(xy 278.13 161.29) (xy 31.75 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed8a4719-70dc-4918-8260-522771d46117")
+		(uuid "f058b2df-d3a8-4a3a-ac73-391b0562afca")
 	)
 	(wire
 		(pts
@@ -3711,33 +3256,33 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 25.4) (xy 74.93 34.29)
+			(xy 64.77 176.53) (xy 64.77 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1b68f43-b9d7-4aac-bafe-cc9ee4cae6f4")
+		(uuid "f33ccdda-7c42-40bb-b0b7-920fbba5e673")
 	)
 	(wire
 		(pts
-			(xy 34.29 142.24) (xy 34.29 158.75)
+			(xy 133.35 142.24) (xy 73.66 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6014e23-43d8-4165-9725-e1ea7b195917")
+		(uuid "f3bd73fa-9243-476a-b232-392c5f770240")
 	)
 	(wire
 		(pts
-			(xy 91.44 142.24) (xy 91.44 127)
+			(xy 95.25 25.4) (xy 95.25 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6d81b36-adbb-4eaf-b7c7-fb1d4eb73d36")
+		(uuid "f550c3ad-f241-45bf-9c9b-15693d4e7beb")
 	)
 	(wire
 		(pts
@@ -3751,6 +3296,26 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 165.1) (xy 77.47 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa2b7da1-6176-451f-9fd1-71ffe447eafc")
+	)
+	(wire
+		(pts
+			(xy 54.61 114.3) (xy 54.61 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faab8196-112c-46bd-acc3-38368a634fbc")
+	)
+	(wire
+		(pts
 			(xy 199.39 38.1) (xy 163.83 38.1)
 		)
 		(stroke
@@ -3758,6 +3323,16 @@
 			(type default)
 		)
 		(uuid "fc20d4bc-0328-4fd7-a963-df0d013bb939")
+	)
+	(wire
+		(pts
+			(xy 64.77 166.37) (xy 64.77 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf20971-f7b0-446b-913e-e638bb08e8d0")
 	)
 	(global_label "CANBUS_H"
 		(shape input)
@@ -3848,6 +3423,281 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 83.82 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "002f336c-4c9a-43a9-8696-bf29f95655ce")
+		(property "Reference" "J8"
+			(at 86.36 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 86.36 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 83.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 83.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b79fec2-a1ba-4a55-847f-207e8177c790")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - RPM"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00530dd5-8958-4ba9-8bec-56f08e726771")
+		(property "Reference" "R10"
+			(at 66.548 161.3916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120k"
+			(at 66.548 163.703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 62.992 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e8fad3b-ddff-430e-bc96-2c2c9b5cd9be")
+		)
+		(pin "2"
+			(uuid "3cb50d29-e939-46b3-a13b-3cf7bcfb72a9")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - RPM"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 158.75 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c85d765-b8f8-4266-9c46-24a35f2a32cc")
+		(property "Reference" "R14"
+			(at 79.248 159.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 79.248 157.607 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 75.692 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "020cb773-9caf-48c8-a93d-fd9e1aabb440")
+		)
+		(pin "2"
+			(uuid "7a7b5ece-4147-40c8-ad00-6e717b1fa8ec")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - RPM"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1303f084-652b-4166-900b-d262d635e26e")
+		(property "Reference" "R13"
+			(at 66.548 171.5516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15k"
+			(at 66.548 173.863 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 62.992 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e06703f2-a71d-4797-aeed-a98c857b1fef")
+		)
+		(pin "2"
+			(uuid "9f960c88-cadb-45f3-95b1-8777bf6b98d6")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - RPM"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 22.86 30.48 0)
 		(unit 1)
@@ -3905,7 +3755,7 @@
 			(uuid "3ed6ba07-96ee-475c-897d-c69a12e16b51")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR04")
 					(unit 1)
@@ -3914,17 +3764,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 55.88 123.19 0)
+		(lib_id "power:+VDC")
+		(at 64.77 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1588aa30-a6de-4729-91e6-962f3ec20705")
-		(property "Reference" "#PWR015"
-			(at 55.88 127 0)
+		(uuid "1f7a8899-9a81-43a0-8090-e75b34ab2f05")
+		(property "Reference" "#PWR017"
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,8 +3781,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 55.88 118.11 0)
+		(property "Value" "+VDC"
+			(at 64.77 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3941,7 +3790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 123.19 0)
+			(at 64.77 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3950,7 +3799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 123.19 0)
+			(at 64.77 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,8 +3807,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 55.88 123.19 0)
+		(property "Description" ""
+			(at 64.77 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,12 +3817,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8b6c29a4-aa5a-4a19-bd32-cfd1ffe2bbc7")
+			(uuid "f5deb4d4-09b2-43c7-a04e-df7016fa5469")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4097,7 +3946,7 @@
 			(uuid "f262eb1c-c57c-46a4-b4c9-247dca56b0a5")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "Q1")
 					(unit 1)
@@ -4163,9 +4012,148 @@
 			(uuid "630ac413-7ac0-4a4d-87c5-b3c69081b7cd")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:OPA2340UA_2K5")
+		(at 81.28 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38c27ee2-b84e-41ca-a132-2f4bac294d4c")
+		(property "Reference" "IC4"
+			(at 96.52 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2340UA_2K5"
+			(at 96.52 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
+			(at 107.95 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/opa2340"
+			(at 107.95 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-Supply, Rail-to-Rail Operational Amplifiers MicroAmplifier Series"
+			(at 107.95 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 107.95 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-OPA2340UA/2K5"
+			(at 107.95 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA2340UA-2K5?qs=7nS3%252BbEUL6sUfjelNiiypQ%3D%3D"
+			(at 107.95 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 107.95 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "OPA2340UA/2K5"
+			(at 107.95 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbe05b8b-5162-488f-a58e-410bc214058f")
+		)
+		(pin "2"
+			(uuid "0e112d41-aef4-478d-92cc-28a4c30bfdab")
+		)
+		(pin "3"
+			(uuid "5c82ead5-1f17-44ac-8887-5c0fcbf3e851")
+		)
+		(pin "4"
+			(uuid "9ddec567-d29f-4a6d-9892-7117959756de")
+		)
+		(pin "5"
+			(uuid "aee685d9-bd16-4191-a2e9-0caa9b986875")
+		)
+		(pin "6"
+			(uuid "bf24eb7e-9955-44a6-8fe5-c679c43c0b1e")
+		)
+		(pin "7"
+			(uuid "fb66c348-844f-4a7a-97eb-78843b0671fd")
+		)
+		(pin "8"
+			(uuid "4cb04fe7-7db7-4e3a-b9c0-c4f026b1522d")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - RPM"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -4228,74 +4216,9 @@
 			(uuid "11da98d9-9ffc-4ff9-8f62-3193d4f2a712")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 52.07 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41b22c1c-486c-46b2-941d-c1772a1d93ce")
-		(property "Reference" "#PWR018"
-			(at 52.07 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.197 151.7142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d3c299c-b39b-4083-a056-3ca6baff0b85")
-		)
-		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4420,74 +4343,9 @@
 			(uuid "4a9edadc-3b0a-4aee-97f8-34d82d301c74")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "Reset1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 73.66 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4cd20463-39c2-4785-9667-d4918ba11162")
-		(property "Reference" "#PWR019"
-			(at 73.66 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 73.787 151.7142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2d189fa-121c-4fa1-ad4c-eca57a3bc580")
-		)
-		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4550,7 +4408,7 @@
 			(uuid "fc17bc03-aa67-40fa-b2d1-d8d65958faa6")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR016")
 					(unit 1)
@@ -4559,98 +4417,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+VDC")
-		(at 44.45 127 0)
+		(lib_id "Device:R")
+		(at 120.65 161.29 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "50047ff9-abe1-491c-a0f7-db73cddaba02")
-		(property "Reference" "#PWR017"
-			(at 44.45 129.54 0)
+		(uuid "515d853a-866b-4f11-8585-006ec5f36aa9")
+		(property "Reference" "R15"
+			(at 122.428 162.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "+VDC"
-			(at 44.45 120.015 0)
+		(property "Value" "47k"
+			(at 122.428 160.147 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 44.45 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4258d907-c3f4-433a-a13a-57e3bc36cc5a")
-		)
-		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x08_Odd_Even")
-		(at 62.23 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56b8e8e7-94c5-4c45-949f-b8054f596d80")
-		(property "Reference" "J6"
-			(at 63.5 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x08_Odd_Even"
-			(at 63.5 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical"
-			(at 62.23 137.16 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 118.872 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4659,7 +4454,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 137.16 0)
+			(at 120.65 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4667,67 +4462,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 62.23 137.16 0)
+		(property "Description" ""
+			(at 120.65 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "fa466cfc-43ff-400d-8af9-3a512cdc16f3")
-		)
-		(pin "5"
-			(uuid "1476f107-16f5-4547-a151-3a2eabffe722")
-		)
-		(pin "11"
-			(uuid "23f2a027-b5b0-4d06-906a-2f8f2d1fbfb6")
 		)
 		(pin "1"
-			(uuid "01828cb0-7ecf-4024-a65c-dd9114fca332")
-		)
-		(pin "12"
-			(uuid "63a0e527-a19e-4fb1-9406-3ea5eb9f040c")
-		)
-		(pin "13"
-			(uuid "9e332032-c071-4dea-8827-b89525c810dc")
+			(uuid "fbb05cb2-2e63-4250-b46e-eb3b5495dc58")
 		)
 		(pin "2"
-			(uuid "c6009b67-39a2-4821-a734-7b72c115e4bd")
-		)
-		(pin "16"
-			(uuid "2c640e7f-b56b-479e-b561-333c8baa5ab4")
-		)
-		(pin "9"
-			(uuid "55713fa0-c22c-4bc2-a05d-d661abc69b34")
-		)
-		(pin "15"
-			(uuid "23f797a9-cf36-4e1d-ba29-717481947a0f")
-		)
-		(pin "14"
-			(uuid "81782045-62c4-430d-bc56-7ddf6849aa95")
-		)
-		(pin "10"
-			(uuid "1449f2a8-c1f1-4959-a00e-4a0854cdae36")
-		)
-		(pin "6"
-			(uuid "8dccfb21-db33-4a2b-ace4-559c14a9ccc2")
-		)
-		(pin "8"
-			(uuid "399af905-d1d3-423c-a5c2-730f7e4ee0e2")
-		)
-		(pin "4"
-			(uuid "0767c40c-e39c-4cc7-aaae-502797892628")
-		)
-		(pin "7"
-			(uuid "487513f9-a744-49b7-a500-177f396bd0bc")
+			(uuid "ae065aa0-00be-4ade-a600-f859218776c5")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "J6")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4791,9 +4544,74 @@
 			(uuid "5762219c-754b-4b29-9304-e5daa4179bcb")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67dabe1d-0d3c-485c-9272-641dc7781c89")
+		(property "Reference" "#PWR024"
+			(at 80.01 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.137 177.1142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dbe3517-5624-473c-a0c1-401489dc4373")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - RPM"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4857,7 +4675,7 @@
 			(uuid "18711290-cbcc-424a-9b22-de9347e62f74")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#FLG03")
 					(unit 1)
@@ -4922,9 +4740,140 @@
 			(uuid "b9a40b15-7f65-44cb-9899-be644563b397")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 115.57 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7acf8d2b-6267-42f6-ba3d-01add1ab35dc")
+		(property "Reference" "#PWR018"
+			(at 115.57 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 115.57 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 115.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f52a52a1-50d8-492e-972c-8ec2f2c73a18")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - RPM"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c51498a-d78c-406c-a0a5-9eb3a8298bae")
+		(property "Reference" "#PWR015"
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.897 123.7742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1c1b079-5785-4bee-bba2-2440b345f048")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - RPM"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4988,7 +4937,7 @@
 			(uuid "b5077b30-45fa-4f3d-88ef-e79104b23566")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#FLG01")
 					(unit 1)
@@ -5057,9 +5006,74 @@
 			(uuid "3612df13-2110-4f34-908b-ccfecb8db211")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VDC")
+		(at 64.77 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88cb5bb6-41c0-4f26-a924-89f7cb98de47")
+		(property "Reference" "#PWR020"
+			(at 64.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDC"
+			(at 64.77 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8479c142-1a60-4c56-9201-2d501f1ad437")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - RPM"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5122,7 +5136,7 @@
 			(uuid "5e0a2aaf-6d32-4bc0-809d-771a6b32a73d")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR01")
 					(unit 1)
@@ -5195,7 +5209,7 @@
 			(uuid "a4f0e1d7-772c-4007-804c-c43c20782f26")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "Powerboard1")
 					(unit 1)
@@ -5271,7 +5285,7 @@
 			(uuid "5d77a1de-03f1-4bbd-8b71-a8f1b51eb12a")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "J5")
 					(unit 1)
@@ -5336,9 +5350,141 @@
 			(uuid "af76d48f-0735-4863-8bf4-0768441718b9")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 153.67 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0db5b4b-5424-42f3-8c2c-1f654c4ffd4a")
+		(property "Reference" "#PWR027"
+			(at 120.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.777 149.2758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b637ef15-0ff2-4bc2-81b7-a81bfbc97468")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - RPM"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 151.13 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2416a4d-0063-488f-a691-82864c175ae9")
+		(property "Reference" "#PWR023"
+			(at 77.47 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.597 146.7358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8198b59-dc3b-4f1a-bd83-414dedffa8d4")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - RPM"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5404,7 +5550,7 @@
 			(uuid "1c413531-f104-4980-9041-26fddca891e0")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "R3")
 					(unit 1)
@@ -5413,31 +5559,32 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:178.6165.0001")
+		(lib_id "SamacSys_Parts:3568")
 		(at 74.93 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c7744d80-5f2a-449e-87e8-68768f99f624")
+		(fields_autoplaced yes)
+		(uuid "cd2992cf-d9ac-4519-9459-1fa3cdb6958c")
 		(property "Reference" "U2"
-			(at 85.09 27.559 0)
+			(at 85.09 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "178.6165.0001"
-			(at 85.09 29.8704 0)
+		(property "Value" "3568"
+			(at 85.09 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:17861650001"
+		(property "Footprint" "SamacSys_Parts:3568"
 			(at 91.44 31.75 0)
 			(effects
 				(font
@@ -5457,7 +5604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FLR PCB FUSE HOLDER FOR ATO STYLE BLADE FUSE RATED 58V"
+		(property "Description" "Fuse Holder 30A 500V 1 Circuit Blade Through Hole"
 			(at 91.44 36.83 0)
 			(effects
 				(font
@@ -5467,7 +5614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "17.5"
+		(property "Height" "7.5"
 			(at 91.44 39.37 0)
 			(effects
 				(font
@@ -5477,7 +5624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "576-178.6165.0001"
+		(property "Mouser Part Number" "534-3568"
 			(at 91.44 41.91 0)
 			(effects
 				(font
@@ -5487,7 +5634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/17861650001?qs=CSLd874fYV1KI1oBGU5EQg%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3568?qs=fP5bVVCrK%2Fd7nbA%2FPpwnKw%3D%3D"
 			(at 91.44 44.45 0)
 			(effects
 				(font
@@ -5497,7 +5644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "LITTELFUSE"
+		(property "Manufacturer_Name" "Keystone Electronics"
 			(at 91.44 46.99 0)
 			(effects
 				(font
@@ -5507,7 +5654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "178.6165.0001"
+		(property "Manufacturer_Part_Number" "3568"
 			(at 91.44 49.53 0)
 			(effects
 				(font
@@ -5517,32 +5664,20 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "b15fca0f-6dbe-45d8-b62b-2c40d2086ece")
-		)
-		(pin "2"
-			(uuid "cd5373ad-be54-48ee-af48-bc5ebd8b6503")
+		(pin "4"
+			(uuid "51262eae-6f39-4ae8-996a-879576fa60be")
 		)
 		(pin "3"
-			(uuid "3fa83e21-7f36-489c-b092-f06aac85b3aa")
+			(uuid "621468e4-f350-4560-aaac-aaaa52bcf05b")
 		)
-		(pin "4"
-			(uuid "41cea3c3-9624-43a4-9e09-947a0991e1b5")
+		(pin "2"
+			(uuid "63781ef0-ebd8-4c2f-b6c3-e94324bca068")
 		)
-		(pin "5"
-			(uuid "3d8d8db6-61b3-4240-bc8c-9594865c44a4")
-		)
-		(pin "6"
-			(uuid "c70d2085-04b6-4e41-acbc-e9b07b94a762")
-		)
-		(pin "7"
-			(uuid "dc6fe432-5d8d-4414-a406-d938e0a03d51")
-		)
-		(pin "8"
-			(uuid "aeeca9e4-39ef-4dc6-9f4b-f890d726e062")
+		(pin "1"
+			(uuid "fc148934-504e-43f4-a2e3-d6e22c00b2d5")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "U2")
 					(unit 1)
@@ -5605,7 +5740,7 @@
 			(uuid "00136c90-3252-48dc-92e3-a6e3b039c264")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR013")
 					(unit 1)
@@ -5670,7 +5805,7 @@
 			(uuid "2a06006e-6aea-4619-a38a-ccebc1e203e6")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR02")
 					(unit 1)
@@ -5737,7 +5872,7 @@
 			(uuid "820f617c-daaa-49ce-977c-8e81f3c6d029")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "R7")
 					(unit 1)
@@ -5803,7 +5938,7 @@
 			(uuid "d7153aaf-59d9-4d50-9212-4e21ba1c6321")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR08")
 					(unit 1)
@@ -5868,7 +6003,7 @@
 			(uuid "2de995ba-cb9e-49c2-accb-3a0c12fa1d86")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR07")
 					(unit 1)
@@ -5933,7 +6068,7 @@
 			(uuid "1d8db916-797c-45fb-8bec-56c782b20237")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR03")
 					(unit 1)
@@ -6000,9 +6135,74 @@
 			(uuid "1d1ce2c5-49d3-43b7-8295-ea233d214f8e")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "NTC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8ff0422-f1ae-4d31-9331-6e2df57a577d")
+		(property "Reference" "#PWR021"
+			(at 64.77 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.897 184.7342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72bf74bb-3ca7-4c11-9f6d-0a5b9411c79d")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - RPM"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6065,7 +6265,7 @@
 			(uuid "e498c632-3cd8-4cf4-b70a-599ce246320b")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR010")
 					(unit 1)
@@ -6131,7 +6331,7 @@
 			(uuid "72dc543e-22d6-4a43-a3e7-efb074563cab")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR012")
 					(unit 1)
@@ -6197,7 +6397,7 @@
 			(uuid "8bce4b4c-7071-43eb-8c6b-8cbb557dbcd3")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR014")
 					(unit 1)
@@ -6296,9 +6496,97 @@
 			(uuid "c1e91cd2-ba8d-4ba1-862b-4640a615e9da")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 111.76)
+		(size 22.86 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6cf7d612-5579-48db-b820-5632afa39602")
+		(property "Sheetname" "RPM_Sensor"
+			(at 26.67 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RPM_Sensor.kicad_sch"
+			(at 26.67 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VoltageForInverter" input
+			(at 49.53 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "29081891-17c0-4e92-863d-80bdebdd0fac")
+		)
+		(pin "TachIn" input
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "72ba883f-a208-4476-b422-eaba7f28f03c")
+		)
+		(pin "RPM-Vout" input
+			(at 49.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "268a1b7b-265b-48b4-968f-48dbaf3ac45e")
+		)
+		(pin "GND" input
+			(at 49.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "491d16a9-4fce-4272-be77-1fd2ee4d302c")
+		)
+		(pin "VinFromCar" input
+			(at 49.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "703c3cb4-bc41-48f3-a285-d5dfc1d67458")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - RPM"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(page "5")
 				)
 			)
 		)
@@ -6424,7 +6712,7 @@
 			(uuid "2346e6da-7ce2-4a3f-aca9-ee2b261baff6")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(page "3")
 				)
@@ -6712,7 +7000,7 @@
 			(uuid "72be0d90-b3df-4849-95c3-de0f26d42fa9")
 		)
 		(instances
-			(project "Automotive Monitoring System CANBus Sensor"
+			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(page "2")
 				)

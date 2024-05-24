@@ -1248,7 +1248,7 @@
 				)
 			)
 		)
-		(symbol "SamacSys_Parts:178.6165.0001"
+		(symbol "SamacSys_Parts:3568"
 			(pin_names
 				(offset 0.762)
 			)
@@ -1264,7 +1264,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SamacSys_Parts_178.6165.0001"
+			(property "Value" "3568"
 				(at 16.51 5.08 0)
 				(effects
 					(font
@@ -1273,7 +1273,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "17861650001"
+			(property "Footprint" "3568"
 				(at 16.51 2.54 0)
 				(effects
 					(font
@@ -1293,7 +1293,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "FLR PCB FUSE HOLDER FOR ATO STYLE BLADE FUSE RATED 58V"
+			(property "Description" "Fuse Holder 30A 500V 1 Circuit Blade Through Hole"
 				(at 16.51 -2.54 0)
 				(effects
 					(font
@@ -1303,7 +1303,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "17.5"
+			(property "Height" "7.5"
 				(at 16.51 -5.08 0)
 				(effects
 					(font
@@ -1313,7 +1313,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "576-178.6165.0001"
+			(property "Mouser Part Number" "534-3568"
 				(at 16.51 -7.62 0)
 				(effects
 					(font
@@ -1323,7 +1323,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/17861650001?qs=CSLd874fYV1KI1oBGU5EQg%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3568?qs=fP5bVVCrK%2Fd7nbA%2FPpwnKw%3D%3D"
 				(at 16.51 -10.16 0)
 				(effects
 					(font
@@ -1333,7 +1333,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "LITTELFUSE"
+			(property "Manufacturer_Name" "Keystone Electronics"
 				(at 16.51 -12.7 0)
 				(effects
 					(font
@@ -1343,7 +1343,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "178.6165.0001"
+			(property "Manufacturer_Part_Number" "3568"
 				(at 16.51 -15.24 0)
 				(effects
 					(font
@@ -1353,9 +1353,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "178.6165.0001_0_0"
+			(symbol "3568_0_0"
 				(pin passive line
-					(at 0 0 0)
+					(at 0 -2.54 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -1373,7 +1373,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at 0 0 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -1391,7 +1391,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
+					(at 20.32 -2.54 180)
 					(length 5.08)
 					(name "3"
 						(effects
@@ -1409,7 +1409,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 0)
+					(at 20.32 0 180)
 					(length 5.08)
 					(name "4"
 						(effects
@@ -1426,87 +1426,15 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 20.32 -7.62 180)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -5.08 180)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
-			(symbol "178.6165.0001_0_1"
+			(symbol "3568_0_1"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
+						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
 					)
 					(stroke
 						(width 0.1524)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -2454,22 +2382,10 @@
 		(uuid "31f24588-f437-45ec-8832-7b2e09e44913")
 	)
 	(junction
-		(at 74.93 41.91)
+		(at 82.55 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3fb07396-3895-46c3-8f81-10835db8fe78")
-	)
-	(junction
-		(at 95.25 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40d530b3-a8d0-46f7-8fba-e938cf7af3a9")
-	)
-	(junction
-		(at 95.25 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "673317bf-e26d-41c8-b613-19c692a2b9ac")
+		(uuid "50fcfcbf-99f6-425a-8cb4-5130f55ec07d")
 	)
 	(junction
 		(at 38.1 33.02)
@@ -2478,22 +2394,16 @@
 		(uuid "7f63102c-5778-4529-a095-875dd5baa8f1")
 	)
 	(junction
-		(at 74.93 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b82614b-1407-4582-a361-a679261ce1d7")
-	)
-	(junction
 		(at 36.83 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99b55dcd-0f78-4530-b883-d6121380cdf1")
 	)
 	(junction
-		(at 74.93 49.53)
+		(at 102.87 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cd2eafe4-75d5-419d-a240-a87b6aab18c1")
+		(uuid "a1b21ad0-868f-4726-b504-f2709c2818ea")
 	)
 	(junction
 		(at 220.98 134.62)
@@ -2512,12 +2422,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5409c50-1a44-4e39-9557-140369dc31a3")
-	)
-	(junction
-		(at 95.25 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f41a9158-eb99-4652-aa5a-e7bb815953db")
 	)
 	(no_connect
 		(at 176.53 106.68)
@@ -2577,16 +2481,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 36.83) (xy 74.93 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08e7e0b8-0800-472b-aca2-ff0cbfd4869e")
-	)
-	(wire
-		(pts
 			(xy 210.82 121.92) (xy 273.05 121.92)
 		)
 		(stroke
@@ -2604,6 +2498,16 @@
 			(type default)
 		)
 		(uuid "0c17d484-ea43-4f51-a38e-f7e1fc2b7190")
+	)
+	(wire
+		(pts
+			(xy 82.55 41.91) (xy 82.55 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c679a40-b837-41d9-9630-e0f016b06183")
 	)
 	(wire
 		(pts
@@ -2727,13 +2631,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 25.4) (xy 95.25 25.4)
+			(xy 82.55 39.37) (xy 82.55 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1db85087-b3c2-4b3c-b2ad-7804e7d19fb5")
+		(uuid "1eaa3fb3-8f85-4186-b264-b05870ffd28b")
 	)
 	(wire
 		(pts
@@ -2784,6 +2688,16 @@
 			(type default)
 		)
 		(uuid "21f24421-0eb0-4050-b413-06e5fa2b45bf")
+	)
+	(wire
+		(pts
+			(xy 102.87 41.91) (xy 102.87 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279b6ad2-5fe3-49e3-ac06-1754b82ed59c")
 	)
 	(wire
 		(pts
@@ -2964,16 +2878,6 @@
 			(type default)
 		)
 		(uuid "43985f4b-6596-4cb2-a2cd-9029a12c30be")
-	)
-	(wire
-		(pts
-			(xy 74.93 39.37) (xy 74.93 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "459f5e04-c546-41b5-aedc-b101e3e8d7fb")
 	)
 	(wire
 		(pts
@@ -3327,7 +3231,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 49.53) (xy 95.25 49.53)
+			(xy 74.93 49.53) (xy 82.55 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3434,16 +3338,6 @@
 			(type default)
 		)
 		(uuid "943f531a-e880-4c7b-a4d1-bdf5e896aaf5")
-	)
-	(wire
-		(pts
-			(xy 74.93 41.91) (xy 74.93 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "963cf9c6-6d67-4264-8641-d51a9f6ba1d0")
 	)
 	(wire
 		(pts
@@ -3554,16 +3448,6 @@
 			(type default)
 		)
 		(uuid "b3d80afc-e097-43ee-8c2a-87c029f9403a")
-	)
-	(wire
-		(pts
-			(xy 95.25 36.83) (xy 95.25 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba707042-3783-4a00-bf04-698ca146e276")
 	)
 	(wire
 		(pts
@@ -3777,16 +3661,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 34.29) (xy 95.25 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d307236d-7d54-4282-8f34-61533e89ee9a")
-	)
-	(wire
-		(pts
 			(xy 143.51 40.64) (xy 135.89 40.64)
 		)
 		(stroke
@@ -3804,16 +3678,6 @@
 			(type default)
 		)
 		(uuid "d52d43f7-58d6-4081-8686-e14d3f2ac0bc")
-	)
-	(wire
-		(pts
-			(xy 95.25 41.91) (xy 95.25 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6389e99-37d5-44b4-941d-000f195ddf74")
 	)
 	(wire
 		(pts
@@ -3937,16 +3801,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 49.53) (xy 95.25 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed084a1b-d80e-4b70-98e0-b86073a04ad5")
-	)
-	(wire
-		(pts
 			(xy 210.82 134.62) (xy 220.98 134.62)
 		)
 		(stroke
@@ -3987,16 +3841,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 25.4) (xy 74.93 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1b68f43-b9d7-4aac-bafe-cc9ee4cae6f4")
-	)
-	(wire
-		(pts
 			(xy 34.29 142.24) (xy 34.29 163.83)
 		)
 		(stroke
@@ -4034,6 +3878,16 @@
 			(type default)
 		)
 		(uuid "fc20d4bc-0328-4fd7-a963-df0d013bb939")
+	)
+	(wire
+		(pts
+			(xy 102.87 39.37) (xy 102.87 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe3c0c16-99df-4127-9e07-51462a2b9c1e")
 	)
 	(global_label "CANBUS_H"
 		(shape input)
@@ -5633,6 +5487,133 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:3568")
+		(at 82.55 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1822c47-eca5-4eeb-89be-612bd200af33")
+		(property "Reference" "U1"
+			(at 92.71 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3568"
+			(at 92.71 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "3568"
+			(at 99.06 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse Holder 30A 500V 1 Circuit Blade Through Hole"
+			(at 99.06 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.5"
+			(at 99.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-3568"
+			(at 99.06 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3568?qs=fP5bVVCrK%2Fd7nbA%2FPpwnKw%3D%3D"
+			(at 99.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "3568"
+			(at 99.06 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0086d434-6fd0-4a77-b1a4-996a0937ed80")
+		)
+		(pin "2"
+			(uuid "c3adad7d-3c97-45a8-8060-bb06d409de5c")
+		)
+		(pin "3"
+			(uuid "d6922317-3f4e-44cf-9146-24107bc9ccdd")
+		)
+		(pin "1"
+			(uuid "2d75b087-f0d9-4697-ad01-1548230eb1a1")
+		)
+		(instances
+			(project "Automotive Monitoring System CANBus Sensor SMD Processor"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 217.17 132.08 90)
 		(unit 1)
@@ -5695,144 +5676,6 @@
 			(project "Automotive Monitoring System CANBus Sensor SMD Processor"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:178.6165.0001")
-		(at 74.93 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7744d80-5f2a-449e-87e8-68768f99f624")
-		(property "Reference" "U2"
-			(at 85.09 27.559 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "178.6165.0001"
-			(at 85.09 29.8704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:17861650001"
-			(at 91.44 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "FLR PCB FUSE HOLDER FOR ATO STYLE BLADE FUSE RATED 58V"
-			(at 91.44 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "17.5"
-			(at 91.44 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "576-178.6165.0001"
-			(at 91.44 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/17861650001?qs=CSLd874fYV1KI1oBGU5EQg%3D%3D"
-			(at 91.44 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 91.44 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "178.6165.0001"
-			(at 91.44 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b15fca0f-6dbe-45d8-b62b-2c40d2086ece")
-		)
-		(pin "2"
-			(uuid "cd5373ad-be54-48ee-af48-bc5ebd8b6503")
-		)
-		(pin "3"
-			(uuid "3fa83e21-7f36-489c-b092-f06aac85b3aa")
-		)
-		(pin "4"
-			(uuid "41cea3c3-9624-43a4-9e09-947a0991e1b5")
-		)
-		(pin "5"
-			(uuid "3d8d8db6-61b3-4240-bc8c-9594865c44a4")
-		)
-		(pin "6"
-			(uuid "c70d2085-04b6-4e41-acbc-e9b07b94a762")
-		)
-		(pin "7"
-			(uuid "dc6fe432-5d8d-4414-a406-d938e0a03d51")
-		)
-		(pin "8"
-			(uuid "aeeca9e4-39ef-4dc6-9f4b-f890d726e062")
-		)
-		(instances
-			(project "Automotive Monitoring System CANBus Sensor SMD Processor"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6166,7 +6009,7 @@
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 95.25 25.4 0)
+		(at 102.87 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6174,7 +6017,7 @@
 		(dnp no)
 		(uuid "db858062-6f27-48e0-be72-2b4f333b81ae")
 		(property "Reference" "#PWR03"
-			(at 95.25 27.94 0)
+			(at 102.87 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,7 +6026,7 @@
 			)
 		)
 		(property "Value" "+VDC"
-			(at 95.25 18.415 0)
+			(at 102.87 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6191,7 +6034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 25.4 0)
+			(at 102.87 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6200,7 +6043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 25.4 0)
+			(at 102.87 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6209,7 +6052,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 25.4 0)
+			(at 102.87 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
