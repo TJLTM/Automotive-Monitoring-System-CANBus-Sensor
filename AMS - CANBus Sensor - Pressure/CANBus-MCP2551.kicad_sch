@@ -1021,7 +1021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SOT65P210X110-3N"
+		(property "Footprint" "SOT65P210X110-3N"
 			(at 129.54 116.84 0)
 			(effects
 				(font
