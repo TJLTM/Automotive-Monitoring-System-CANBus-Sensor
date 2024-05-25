@@ -609,8 +609,12 @@
       "CANBus-MCP2551"
     ],
     [
-      "1d6692e6-3da6-4bb1-8db9-92d5a320b8aa",
-      "BufferedADC"
+      "078480f7-efd8-4daf-8b91-3ac2141f17a0",
+      "VacuumSensor1"
+    ],
+    [
+      "f37fe740-c6f5-4b65-ba1e-97939b966df4",
+      "VacuumSensor2"
     ]
   ],
   "text_variables": {}
