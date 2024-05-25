@@ -1,0 +1,31 @@
+﻿designator,quantity,value,pack,mpn,mount_type
+"C1, C6, C7",3,100nf,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,,smt
+"C10, C13, C16",3,100nF,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,,smt
+"C11, C12, C14, C15, C8, C9",6,0.33uF,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,,smt
+C17,1,22uf,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,,smt
+"C2, C3, C4, C5",4,22pf,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,,smt
+D1,1,"PESD5V0L2UU,115",SOT65P210X110-3N,,smt
+"IC1, IC2, IC3",3,MAX31865AAP+,SOP65P778X199-20N,,smt
+IC4,1,CD74HC4050ME4,SOIC127P600X175-16N,,smt
+IC5,1,AZ1117CH2-3.3TRG1,SOT230P700X180-4N,,smt
+J1,1,Power_And_CAN,"TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal",,tht
+"J10, J11, J13, J2, J5, J7, J8",7,Conn_01x02,PinHeader_1x02_P2.54mm_Vertical,,tht
+"J12, J6, J9, Powerboard1",4,Conn_01x03,PinHeader_1x03_P2.54mm_Vertical,,tht
+J14,1,RTD1,"TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal",,tht
+J15,1,RTD2,"TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal",,tht
+J16,1,RTD3,"TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal",,tht
+J3,1,TTL_Programmer,PinHeader_1x06_P2.54mm_Vertical,,tht
+J4,1,ICSP,PinHeader_2x03_P2.54mm_Vertical_SMD,,smt
+NTC1,1,10k,R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,,tht
+Q1,1,IRF9Z34NPBF,TO254P469X1042X1967-3P,,tht
+"R1, R3, R4, R5",4,10k,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,,smt
+"R10, R8, R9",3,430,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,,smt
+R2,1,4.7k,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,,smt
+R6,1,17k,R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,,tht
+R7,1,120,R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,,tht
+Reset1,1,TS02-66-160-BK-260-LCR-D,TS0266160BK260LCRD,,tht
+U2,1,ATmega328P-P,DIP-28_W7.62mm,,tht
+U3,1,MCP2515-xSO,SOIC-18W_7.5x11.6mm_P1.27mm,,smt
+U4,1,MCP2551-I-SN,SOIC-8_3.9x4.9mm_P1.27mm,,smt
+U5,1,3568,3568,,tht
+"Y1, Y2",2,16MHz,Crystal_HC49-U_Vertical,,tht
