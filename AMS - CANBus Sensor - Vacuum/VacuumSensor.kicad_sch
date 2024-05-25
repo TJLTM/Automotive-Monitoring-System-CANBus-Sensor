@@ -5,6 +5,272 @@
 	(uuid "af249cc5-47bd-4853-bc61-6e405d79398e")
 	(paper "A4")
 	(lib_symbols
+		(symbol "INA849DR_1"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "INA849DR"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SOIC127P600X175-8N"
+				(at 24.13 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina849.pdf?ts=1609495728489&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA849"
+				(at 24.13 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Texas Instruments Ultra-low noise (1 nV/vHz), high-speed (28 MHz, 35 V/), precision (35 V) instrumentation amplifier"
+				(at 24.13 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 24.13 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-INA849DR"
+				(at 24.13 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA849DR?qs=eP2BKZSCXI4qgDpsz1tg9g%3D%3D"
+				(at 24.13 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "INA849DR"
+				(at 24.13 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "INA849DR_1_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "-IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "RG_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "RG_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "+IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -7.62 180)
+					(length 5.08)
+					(name "-VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "REF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "+VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "INA849DR_1_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 22.86 2.54) (xy 22.86 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "SamacSys_Parts:24PCDFA6D"
 			(pin_names
 				(offset 0.762)
@@ -199,273 +465,7 @@
 				)
 			)
 		)
-		(symbol "SamacSys_Parts:INA849DR"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 24.13 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SamacSys_Parts_INA849DR"
-				(at 24.13 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "SOIC127P600X175-8N"
-				(at 24.13 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina849.pdf?ts=1609495728489&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA849"
-				(at 24.13 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Texas Instruments Ultra-low noise (1 nV/vHz), high-speed (28 MHz, 35 V/), precision (35 V) instrumentation amplifier"
-				(at 24.13 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.75"
-				(at 24.13 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-INA849DR"
-				(at 24.13 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA849DR?qs=eP2BKZSCXI4qgDpsz1tg9g%3D%3D"
-				(at 24.13 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 24.13 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "INA849DR"
-				(at 24.13 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "INA849DR_0_0"
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "-IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "RG_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "RG_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "+IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -7.62 180)
-					(length 5.08)
-					(name "-VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -5.08 180)
-					(length 5.08)
-					(name "REF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -2.54 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 0 180)
-					(length 5.08)
-					(name "+VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "INA849DR_0_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 22.86 2.54) (xy 22.86 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
-		(symbol "SamacSys_Parts:YR1B665RCC"
+		(symbol "YR1B665RCC_1"
 			(pin_names
 				(offset 0.762)
 			)
@@ -481,7 +481,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SamacSys_Parts_YR1B665RCC"
+			(property "Value" "YR1B665RCC"
 				(at 13.97 3.81 0)
 				(effects
 					(font
@@ -500,7 +500,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/YR1B665RCC.pdf"
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1309350_PASSIVE_COMPONENT&DocType=Catalog%20Section&DocLang=English&PartCntxt=8-1676914-2&DocFormat=pdf"
 				(at 13.97 -1.27 0)
 				(effects
 					(font
@@ -510,8 +510,18 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "TE Connectivity R Series Axial Through Hole Fixed Resistor 665 +/-0.1% 0.25W +/-15ppm/C"
+			(property "Description" "Body Features: Lead Type Axial-Leaded | Configuration Features: Number of Resistors 1 | Dimensions: Passive Component Dimensions 6.3 x 2.3 MM | Electrical Characteristics: Passive Component Tolerance .1 PCT | Power Rating .25 WATT | Operating Voltage 250 V | Resistance Value 665 OHM | Resistance Class Up to 1k | Packaging Features: Packaging Method Ammo Packed | Product Type Features: Element Type Thin Film | Resistor Type Precision Resistor | Termination Features: Termination Area Base Material Copper |"
 				(at 13.97 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 13.97 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -530,7 +540,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=279-YR1B665RCC"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/YR1B665RCC?qs=8G8kQhBkhGiPCBHktkhxCA%3D%3D"
 				(at 13.97 -11.43 0)
 				(effects
 					(font
@@ -560,7 +570,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "YR1B665RCC_0_0"
+			(symbol "YR1B665RCC_1_0_0"
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
@@ -598,14 +608,14 @@
 					)
 				)
 			)
-			(symbol "YR1B665RCC_0_1"
+			(symbol "YR1B665RCC_1_0_1"
 				(polyline
 					(pts
 						(xy 5.08 1.27) (xy 12.7 1.27) (xy 12.7 -1.27) (xy 5.08 -1.27) (xy 5.08 1.27)
 					)
 					(stroke
 						(width 0.1524)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -887,148 +897,7 @@
 		(uuid "e6824591-adcb-4e02-b8dc-955a1e36adb9")
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:INA849DR")
-		(at 138.43 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "831ad1a0-3063-40d8-85e4-34af90d4e844")
-		(property "Reference" "IC5"
-			(at 152.4 73.279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA849DR"
-			(at 152.4 75.5904 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Samac_Sys:SOIC127P600X175-8N"
-			(at 162.56 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina849.pdf?ts=1609495728489&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA849"
-			(at 162.56 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Texas Instruments Ultra-low noise (1 nV/vHz), high-speed (28 MHz, 35 V/), precision (35 V) instrumentation amplifier"
-			(at 162.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 162.56 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-INA849DR"
-			(at 162.56 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA849DR?qs=eP2BKZSCXI4qgDpsz1tg9g%3D%3D"
-			(at 162.56 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 162.56 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "INA849DR"
-			(at 162.56 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4db0752-e712-4d14-840f-dcd080bf5d95")
-		)
-		(pin "2"
-			(uuid "8e061222-7d59-40c9-a11b-83b5739d7d3c")
-		)
-		(pin "3"
-			(uuid "91aef9a5-f29e-4a44-86f6-567e29dbcc72")
-		)
-		(pin "4"
-			(uuid "c0a64941-f043-4d78-872d-b0ac10661038")
-		)
-		(pin "5"
-			(uuid "2dd9640e-b3ef-409f-a5bd-77c876584fb6")
-		)
-		(pin "6"
-			(uuid "1301ebca-39fb-4339-9ad7-055eefb3a64d")
-		)
-		(pin "7"
-			(uuid "f601aa76-d205-49d4-85a4-cfd9e378bf72")
-		)
-		(pin "8"
-			(uuid "0a8201fb-156d-40f6-9eda-f15cdd003f2e")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Vacuum"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/078480f7-efd8-4daf-8b91-3ac2141f17a0"
-					(reference "IC5")
-					(unit 1)
-				)
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/f37fe740-c6f5-4b65-ba1e-97939b966df4"
-					(reference "IC7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "YR1B665RCC_1")
 		(lib_id "SamacSys_Parts:YR1B665RCC")
 		(at 81.28 90.17 0)
 		(unit 1)
@@ -1036,9 +905,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aea5caf4-987d-47f7-8d51-5f3245c95a0e")
-		(property "Reference" "R10"
-			(at 90.17 84.455 0)
+		(fields_autoplaced yes)
+		(uuid "2a6f7823-4ea3-47c7-9954-57539d964aeb")
+		(property "Reference" "R14"
+			(at 90.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1046,14 +916,14 @@
 			)
 		)
 		(property "Value" "YR1B665RCC"
-			(at 90.17 86.7664 0)
+			(at 90.17 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Samac_Sys:RESAD1550W60L630D230"
+		(property "Footprint" "RESAD1550W60L630D230"
 			(at 95.25 88.9 0)
 			(effects
 				(font
@@ -1063,7 +933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/YR1B665RCC.pdf"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1309350_PASSIVE_COMPONENT&DocType=Catalog%20Section&DocLang=English&PartCntxt=8-1676914-2&DocFormat=pdf"
 			(at 95.25 91.44 0)
 			(effects
 				(font
@@ -1073,7 +943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TE Connectivity R Series Axial Through Hole Fixed Resistor 665 +/-0.1% 0.25W +/-15ppm/C"
+		(property "Description" "Body Features: Lead Type Axial-Leaded | Configuration Features: Number of Resistors 1 | Dimensions: Passive Component Dimensions 6.3 x 2.3 MM | Electrical Characteristics: Passive Component Tolerance .1 PCT | Power Rating .25 WATT | Operating Voltage 250 V | Resistance Value 665 OHM | Resistance Class Up to 1k | Packaging Features: Packaging Method Ammo Packed | Product Type Features: Element Type Thin Film | Resistor Type Precision Resistor | Termination Features: Termination Area Base Material Copper |"
 			(at 95.25 93.98 0)
 			(effects
 				(font
@@ -1103,7 +973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=279-YR1B665RCC"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/YR1B665RCC?qs=8G8kQhBkhGiPCBHktkhxCA%3D%3D"
 			(at 95.25 101.6 0)
 			(effects
 				(font
@@ -1134,19 +1004,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "822712d1-6fcf-4ea9-b3d3-6e98e6b91c6b")
+			(uuid "68ee8466-6255-4c51-9b1f-ea179815460b")
 		)
 		(pin "2"
-			(uuid "2cf7a62a-5100-41d7-ac93-98e5a0e2a9d7")
+			(uuid "f8a9454f-42a2-4627-aad4-689ff95a2e8d")
 		)
 		(instances
 			(project "AMS - CANBus Sensor - Vacuum"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/078480f7-efd8-4daf-8b91-3ac2141f17a0"
-					(reference "R10")
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/f37fe740-c6f5-4b65-ba1e-97939b966df4"
-					(reference "R11")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -1177,7 +1047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samac_Sys:24PCDFA6D"
+		(property "Footprint" "SamacSys_Parts:24PCDFA6D"
 			(at 60.96 66.04 0)
 			(effects
 				(font
@@ -1277,6 +1147,150 @@
 				)
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/f37fe740-c6f5-4b65-ba1e-97939b966df4"
 					(reference "IC6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "INA849DR_1")
+		(lib_id "SamacSys_Parts:INA849DR")
+		(at 138.43 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e14f406d-ff44-4c40-86bd-d755ed3785b2")
+		(property "Reference" "IC8"
+			(at 152.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA849DR"
+			(at 152.4 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-8N"
+			(at 162.56 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina849.pdf?ts=1609495728489&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA849"
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Texas Instruments Ultra-low noise (1 nV/vHz), high-speed (28 MHz, 35 V/), precision (35 V) instrumentation amplifier"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-INA849DR"
+			(at 162.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA849DR?qs=eP2BKZSCXI4qgDpsz1tg9g%3D%3D"
+			(at 162.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 162.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "INA849DR"
+			(at 162.56 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "d1f61fa2-740f-4c9f-bc69-f0c816120084")
+		)
+		(pin "3"
+			(uuid "aef499a2-0fa6-4966-8193-b71f43cf8e62")
+		)
+		(pin "4"
+			(uuid "bc4c548e-aa1f-4762-9a8e-1510a87e9156")
+		)
+		(pin "8"
+			(uuid "aaddffac-c53d-47ca-a09a-9e0b1b118583")
+		)
+		(pin "1"
+			(uuid "2a446134-15af-45e6-99af-33d3eb2431ec")
+		)
+		(pin "2"
+			(uuid "d7c5e393-2e72-4e1b-a65b-9e3afa08ceea")
+		)
+		(pin "7"
+			(uuid "8a9e03d3-274a-461b-942b-eb6ef3304d11")
+		)
+		(pin "5"
+			(uuid "1eef60ca-6654-4d54-a29e-04affe049d85")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - Vacuum"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/078480f7-efd8-4daf-8b91-3ac2141f17a0"
+					(reference "IC8")
+					(unit 1)
+				)
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/f37fe740-c6f5-4b65-ba1e-97939b966df4"
+					(reference "IC9")
 					(unit 1)
 				)
 			)

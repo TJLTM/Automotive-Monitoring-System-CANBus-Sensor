@@ -1,4 +1,4 @@
-23093425439204241
+23108938456954467
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87066,6 +87066,13 @@ rotary encoder
 7
 6
 SamacSys_Parts
+24PCDFA6D
+24PCDFA6D-4
+Integrated Circuit
+0
+4
+4
+SamacSys_Parts
 3568
 3568-1
 Undefined or Miscellaneous
@@ -87129,12 +87136,26 @@ Diode
 2
 2
 SamacSys_Parts
+DIOAD1414W86L464D238
+DO-41
+Diode
+0
+2
+2
+SamacSys_Parts
 DIOAD2860W130L840D505
 DO-201AD_21
 Schottky Diode
 0
 2
 2
+SamacSys_Parts
+DIP762W56P254L938H457Q8N
+8 PDIP (Height=4.572mm)-
+Integrated Circuit
+0
+8
+8
 SamacSys_Parts
 DIP762W56P254L1918H457Q16N
 16 PDIP
@@ -87149,6 +87170,13 @@ Transistor
 0
 16
 16
+SamacSys_Parts
+DIP794W53P254L959H508Q8N
+P (R-PDIP-T8)
+Integrated Circuit
+0
+8
+8
 SamacSys_Parts
 DIP794W56P254L3486H508Q28N
 28-(SP -300MIL) [SPDIP]
@@ -87221,18 +87249,39 @@ Schottky Diode
 2
 SamacSys_Parts
 SOIC127P600X175-8N
-MCP2542FD-H/SN-1
+D0008A
 Integrated Circuit
 0
 8
 8
 SamacSys_Parts
 SOIC127P600X175-14N
-SOIC
+D
 Integrated Circuit
 0
 14
 14
+SamacSys_Parts
+SOIC127P600X175-16N
+D (R-PDSO-G16)
+Integrated Circuit
+0
+16
+16
+SamacSys_Parts
+SOP50P490X110-10N
+DGS (S-PDSO-G10)
+Integrated Circuit
+0
+10
+10
+SamacSys_Parts
+SOP65P778X199-20N
+20-SSOP-5.3_MM
+Integrated Circuit
+0
+20
+20
 SamacSys_Parts
 SOP65P780X200-20N
 (SS)20-lead(SSOP)
@@ -87247,6 +87296,20 @@ TVS Diode (Uni-directional)
 0
 3
 3
+SamacSys_Parts
+SOT95P270X145-5N
+OT
+Integrated Circuit
+0
+5
+5
+SamacSys_Parts
+SOT230P700X180-4N
+AZ1117CH2-3.3TRG1
+Integrated Circuit
+0
+4
+4
 SamacSys_Parts
 SPM7054VT
 SPM7054VT
