@@ -5,193 +5,6 @@
 	(uuid "1c8b441e-37da-469b-a62d-a2093a833f7a")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Screw_Terminal_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Screw_Terminal_01x04"
 			(pin_names
 				(offset 1.016) hide)
@@ -653,6 +466,142 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -765,216 +714,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:R_Potentiometer_US"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Potentiometer_US"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Potentiometer, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor variable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Potentiometer_US_0_1"
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1167,6 +906,610 @@
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "SamacSys_Parts:AZ1117CH2-3.3TRG1"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 36.83 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AZ1117CH2-3.3TRG1"
+				(at 36.83 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SOT230P700X180-4N"
+				(at 36.83 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/AZ1117C.pdf"
+				(at 36.83 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "LDO Voltage Regulators LDO BJT HiCurr SOT223 T&R 4K"
+				(at 36.83 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.8"
+				(at 36.83 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "621-AZ1117CH2-33TRG1"
+				(at 36.83 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ1117CH2-3.3TRG1?qs=lQAVKuKFhkLc7jCxso2G3w%3D%3D"
+				(at 36.83 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 36.83 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AZ1117CH2-3.3TRG1"
+				(at 36.83 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "AZ1117CH2-3.3TRG1_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "INPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "ADJ/GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 0 180)
+					(length 5.08)
+					(name "ADJ/GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AZ1117CH2-3.3TRG1_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 35.56 2.54) (xy 35.56 -7.62) (xy 5.08 -7.62) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "SamacSys_Parts:CD74HC4050ME4"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CD74HC4050ME4"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SOIC127P600X175-16N"
+				(at 24.13 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/pdf/MPDS178"
+				(at 24.13 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Buffers & Line Drivers Hi-Spd CMOS Logic Hex Non-Inv Bfr"
+				(at 24.13 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 24.13 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-CD74HC4050ME4"
+				(at 24.13 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD74HC4050ME4?qs=xFfolx0DHx14hqY1xeFnNQ%3D%3D"
+				(at 24.13 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CD74HC4050ME4"
+				(at 24.13 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "CD74HC4050ME4_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -15.24 180)
+					(length 5.08)
+					(name "4Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -12.7 180)
+					(length 5.08)
+					(name "5A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -10.16 180)
+					(length 5.08)
+					(name "5Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -7.62 180)
+					(length 5.08)
+					(name "NC_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "6A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "6Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "NC_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "2Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "3Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "3A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -17.78 180)
+					(length 5.08)
+					(name "4A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CD74HC4050ME4_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 22.86 2.54) (xy 22.86 -20.32) (xy 5.08 -20.32) (xy 5.08 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -1667,6 +2010,126 @@
 				)
 			)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -2112,10 +2575,34 @@
 		)
 	)
 	(junction
-		(at 234.95 82.55)
+		(at 69.85 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cd890c4-4820-49c7-90d4-e8a60a87b3ff")
+	)
+	(junction
+		(at 250.19 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31f24588-f437-45ec-8832-7b2e09e44913")
+	)
+	(junction
+		(at 81.28 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3824de2d-dea6-421e-aa12-ef4fbbd73223")
+	)
+	(junction
+		(at 66.04 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39dada7f-30ff-4068-a4d2-26f557c6ced4")
+	)
+	(junction
+		(at 85.09 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "413fbb34-4234-4bb9-83c2-6a7fff9e0325")
 	)
 	(junction
 		(at 95.25 41.91)
@@ -2124,10 +2611,28 @@
 		(uuid "44d899bd-5d7a-4870-a940-7e0935348a11")
 	)
 	(junction
+		(at 81.28 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57330392-5e26-4163-8a7c-690fe410a822")
+	)
+	(junction
 		(at 74.93 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59e65631-d65a-46fe-84ec-535dd911c16e")
+	)
+	(junction
+		(at 69.85 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72041c7f-a7e6-4d80-898d-f03efca8b577")
+	)
+	(junction
+		(at 66.04 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81e5cee9-24ff-499e-be82-245db2c361ab")
 	)
 	(junction
 		(at 36.83 27.94)
@@ -2136,7 +2641,13 @@
 		(uuid "99b55dcd-0f78-4530-b883-d6121380cdf1")
 	)
 	(junction
-		(at 220.98 134.62)
+		(at 180.34 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5784953-b2c8-48f2-9446-f38d96c9f5d7")
+	)
+	(junction
+		(at 236.22 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1cccf28-97e4-4020-8dd2-783f06ce2f03")
@@ -2148,64 +2659,76 @@
 		(uuid "d2c62aa8-95f4-449e-8782-c3a588f8e031")
 	)
 	(junction
-		(at 220.98 137.16)
+		(at 181.61 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d504b145-ab6a-4e3d-a0ae-e82f4e0b5e72")
+	)
+	(junction
+		(at 236.22 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5409c50-1a44-4e39-9557-140369dc31a3")
 	)
-	(junction
-		(at 71.12 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8d73295-7057-4571-a0be-56c92d9f3d53")
-	)
 	(no_connect
-		(at 176.53 116.84)
-		(uuid "03f8b992-63fb-4d42-919e-c08d1b032b54")
-	)
-	(no_connect
-		(at 176.53 106.68)
+		(at 191.77 97.79)
 		(uuid "11f071e2-8a1e-45dd-9288-7907fed3f82f")
 	)
 	(no_connect
-		(at 176.53 109.22)
+		(at 191.77 100.33)
 		(uuid "16d5ed95-ec56-4a9d-8e9f-dcd91b374cd7")
 	)
 	(no_connect
-		(at 176.53 114.3)
-		(uuid "355e03e9-0e9d-4ad2-a987-c6b2b27b098d")
+		(at 191.77 115.57)
+		(uuid "1f2936d8-fa72-48c7-941b-67446fc87d1d")
 	)
 	(no_connect
-		(at 266.7 135.89)
+		(at 191.77 123.19)
+		(uuid "20efa352-1778-4295-9e47-46827d4405f5")
+	)
+	(no_connect
+		(at 191.77 118.11)
+		(uuid "26858cc1-2dd3-4823-8b87-2b67615ec533")
+	)
+	(no_connect
+		(at 129.54 127)
+		(uuid "2dd79655-fcf9-4d59-a324-681898ee5629")
+	)
+	(no_connect
+		(at 226.06 102.87)
+		(uuid "34cac709-af53-402b-a0ec-296920d326ca")
+	)
+	(no_connect
+		(at 226.06 100.33)
+		(uuid "45b75136-b284-4fcc-87cd-8c6435c116bb")
+	)
+	(no_connect
+		(at 281.94 127)
 		(uuid "62eba72c-30a6-4ef1-96b9-d1a3bd1b9f81")
 	)
 	(no_connect
-		(at 176.53 132.08)
-		(uuid "7811c41d-ed7e-4fc3-8057-6867d67c8051")
-	)
-	(no_connect
-		(at 210.82 119.38)
+		(at 226.06 110.49)
 		(uuid "7d6f272f-3cc2-4725-a156-039613408014")
 	)
 	(no_connect
-		(at 176.53 124.46)
-		(uuid "a5b031ca-bce4-40e4-a4b6-dc3355fef1e2")
+		(at 191.77 113.03)
+		(uuid "81bb304d-9e80-4fcf-acb7-13f6d5eb286d")
 	)
 	(no_connect
-		(at 266.7 133.35)
+		(at 226.06 107.95)
+		(uuid "a336693d-760c-481e-99b4-dd9144f5c29a")
+	)
+	(no_connect
+		(at 281.94 124.46)
 		(uuid "a830a764-3a22-4545-868e-f19efc1f19fa")
 	)
 	(no_connect
-		(at 176.53 121.92)
-		(uuid "c89a1468-bcff-433d-a2dc-16f5042de393")
+		(at 226.06 105.41)
+		(uuid "db9d10c4-f644-4d87-a112-f244de9065fb")
 	)
 	(no_connect
-		(at 176.53 127)
-		(uuid "f5c9d3bd-4954-4864-8607-31a2e946299f")
-	)
-	(no_connect
-		(at 176.53 119.38)
-		(uuid "f909a8d2-3bd7-4afe-bdc5-3bfcba7bb887")
+		(at 129.54 119.38)
+		(uuid "ec813f65-61b5-441f-ace9-e0da0100ab15")
 	)
 	(wire
 		(pts
@@ -2229,33 +2752,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 33.02) (xy 143.51 33.02)
+			(xy 143.51 24.13) (xy 158.75 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "04a249e3-185d-46fc-8800-6a918fd0a339")
-	)
-	(wire
-		(pts
-			(xy 274.32 157.48) (xy 110.49 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06f8bedf-cefb-482f-983b-7847a47f4ad0")
-	)
-	(wire
-		(pts
-			(xy 110.49 160.02) (xy 276.86 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "096e7ccf-9943-404e-99a7-d6c51c8c683f")
 	)
 	(wire
 		(pts
@@ -2269,7 +2772,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 129.54) (xy 231.14 133.35)
+			(xy 246.38 120.65) (xy 246.38 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2279,13 +2782,23 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 111.76) (xy 121.92 111.76)
+			(xy 191.77 102.87) (xy 137.16 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0e844b2d-bc67-47a9-9c6a-d04ef8dd93b3")
+	)
+	(wire
+		(pts
+			(xy 69.85 124.46) (xy 49.53 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e918835-b1a5-4c2f-a18f-02411992b096")
 	)
 	(wire
 		(pts
@@ -2299,7 +2812,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 129.54) (xy 163.83 129.54)
+			(xy 191.77 120.65) (xy 179.07 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2309,7 +2822,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 106.68) (xy 212.09 82.55)
+			(xy 227.33 97.79) (xy 227.33 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2319,33 +2832,23 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 33.02) (xy 200.66 82.55)
+			(xy 101.6 116.84) (xy 101.6 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b08e0b-8beb-43e6-a33a-f20b6939e080")
+	)
+	(wire
+		(pts
+			(xy 215.9 24.13) (xy 215.9 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "10e293dd-b537-41c6-bb1e-bfaaaa0a8595")
-	)
-	(wire
-		(pts
-			(xy 86.36 160.02) (xy 90.17 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10fb8bc0-55e9-4c78-b5b4-4d02aa4fbf8b")
-	)
-	(wire
-		(pts
-			(xy 64.77 160.02) (xy 64.77 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1618edfb-4284-49ac-8e8c-7ac375aebe8f")
 	)
 	(wire
 		(pts
@@ -2359,7 +2862,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 82.55) (xy 234.95 83.82)
+			(xy 250.19 73.66) (xy 250.19 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2369,7 +2872,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 135.89) (xy 234.95 140.97)
+			(xy 250.19 127) (xy 250.19 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2379,13 +2882,23 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 64.77) (xy 127 64.77)
+			(xy 158.75 55.88) (xy 142.24 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1a1ea2c2-ad82-4d80-a4be-994833aee253")
+	)
+	(wire
+		(pts
+			(xy 191.77 107.95) (xy 138.43 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eba2f2a-da2f-45f5-ab54-b803cccd596d")
 	)
 	(wire
 		(pts
@@ -2399,7 +2912,37 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 81.28) (xy 234.95 82.55)
+			(xy 157.48 147.32) (xy 86.36 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f96ea7c-bb6b-48da-99a5-d07f9e47d496")
+	)
+	(wire
+		(pts
+			(xy 49.53 116.84) (xy 93.98 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "203bfcee-c534-45e0-b850-0ffcaaf10da1")
+	)
+	(wire
+		(pts
+			(xy 191.77 105.41) (xy 137.16 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b6b13a-64a6-473e-90ce-a9f7d773874e")
+	)
+	(wire
+		(pts
+			(xy 250.19 72.39) (xy 250.19 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2409,7 +2952,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 139.7) (xy 214.63 139.7)
+			(xy 226.06 130.81) (xy 229.87 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2419,17 +2962,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 133.35) (xy 83.82 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "289dbf85-7ced-4011-bddb-a3e1a1b2c9e4")
-	)
-	(wire
-		(pts
-			(xy 139.7 38.1) (xy 143.51 38.1)
+			(xy 154.94 29.21) (xy 158.75 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2439,17 +2972,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 152.4) (xy 90.17 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e82bc49-f891-4eeb-9f1a-8c44d7ca151c")
-	)
-	(wire
-		(pts
-			(xy 163.83 81.28) (xy 199.39 81.28)
+			(xy 179.07 72.39) (xy 214.63 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2459,7 +2982,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 62.23) (xy 143.51 62.23)
+			(xy 142.24 53.34) (xy 158.75 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2469,7 +2992,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 35.56) (xy 163.83 35.56)
+			(xy 213.36 26.67) (xy 179.07 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2479,17 +3002,27 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 111.76) (xy 210.82 111.76)
+			(xy 95.25 124.46) (xy 101.6 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37ebdfc4-e24c-479b-a60a-6438de0c5a04")
+		(uuid "385fda8c-0b82-4aae-9d6d-bbc35364d14f")
 	)
 	(wire
 		(pts
-			(xy 163.83 129.54) (xy 163.83 81.28)
+			(xy 49.53 165.1) (xy 66.04 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b70e75-1b34-473f-b0ee-61a5649f44fe")
+	)
+	(wire
+		(pts
+			(xy 179.07 120.65) (xy 179.07 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2499,7 +3032,17 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 132.08) (xy 213.36 132.08)
+			(xy 81.28 63.5) (xy 85.09 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d38b89b-5813-42d4-8161-d2ed0f5391f9")
+	)
+	(wire
+		(pts
+			(xy 226.06 123.19) (xy 228.6 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2509,7 +3052,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 30.48) (xy 143.51 30.48)
+			(xy 143.51 21.59) (xy 158.75 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2519,7 +3062,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 137.16) (xy 227.33 137.16)
+			(xy 236.22 128.27) (xy 242.57 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2529,7 +3072,17 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 80.01) (xy 198.12 35.56)
+			(xy 137.16 124.46) (xy 129.54 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "458c1177-765d-4ca3-9303-1f132eefd541")
+	)
+	(wire
+		(pts
+			(xy 213.36 71.12) (xy 213.36 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2539,17 +3092,27 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 160.02) (xy 276.86 116.84)
+			(xy 125.73 60.96) (xy 125.73 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b9e4333-456d-4f09-8e06-d71368012693")
+		(uuid "4883488c-3f86-4fc2-9536-0fa2620e29b6")
 	)
 	(wire
 		(pts
-			(xy 121.92 38.1) (xy 134.62 38.1)
+			(xy 129.54 132.08) (xy 138.43 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a49b409-b1ac-4663-82b3-252fb46fabdb")
+	)
+	(wire
+		(pts
+			(xy 137.16 29.21) (xy 149.86 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2559,17 +3122,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 109.22) (xy 271.78 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d4d7c86-8d49-4421-9ead-91cd8c2e7fee")
-	)
-	(wire
-		(pts
-			(xy 127 64.77) (xy 127 66.04)
+			(xy 142.24 55.88) (xy 142.24 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2579,7 +3132,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 33.02) (xy 200.66 33.02)
+			(xy 179.07 24.13) (xy 215.9 24.13)
 		)
 		(stroke
 			(width 0)
@@ -2589,27 +3142,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 134.62) (xy 43.18 134.62)
+			(xy 49.53 167.64) (xy 69.85 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "555e78b1-c5b0-42a8-8a1d-92f927451d6f")
+		(uuid "54112c44-3e48-4639-9240-ed0b765f6cb6")
 	)
 	(wire
 		(pts
-			(xy 71.12 114.3) (xy 71.12 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57389be0-d5b4-4b1f-b7ce-d6dae46fbe64")
-	)
-	(wire
-		(pts
-			(xy 234.95 91.44) (xy 234.95 95.25)
+			(xy 250.19 82.55) (xy 250.19 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2619,7 +3162,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 82.55) (xy 165.1 134.62)
+			(xy 129.54 129.54) (xy 157.48 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f213e1-8598-4bda-b74e-aaacb9b40c06")
+	)
+	(wire
+		(pts
+			(xy 180.34 73.66) (xy 180.34 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2639,13 +3192,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 80.01) (xy 198.12 80.01)
+			(xy 177.8 71.12) (xy 213.36 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5e903738-355b-41cb-8a4d-36671cc8a24a")
+	)
+	(wire
+		(pts
+			(xy 95.25 134.62) (xy 101.6 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ff05bdc-714b-4648-9682-c48cae386137")
 	)
 	(wire
 		(pts
@@ -2659,7 +3222,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 55.88) (xy 139.7 55.88)
+			(xy 158.75 46.99) (xy 154.94 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2669,17 +3232,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 175.26) (xy 60.96 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "661802d6-5322-4675-8c5d-042219281ddd")
-	)
-	(wire
-		(pts
-			(xy 210.82 106.68) (xy 212.09 106.68)
+			(xy 226.06 97.79) (xy 227.33 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2689,17 +3242,27 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 151.13) (xy 58.42 153.67)
+			(xy 86.36 147.32) (xy 86.36 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67db7827-fa48-4e7f-8284-f4ef11b2b03b")
+		(uuid "66871d83-aa65-4ac4-8275-b969bdf04ea5")
 	)
 	(wire
 		(pts
-			(xy 176.53 139.7) (xy 162.56 139.7)
+			(xy 49.53 146.05) (xy 69.85 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a19ff7c-6582-4883-a2e2-d20852904d5f")
+	)
+	(wire
+		(pts
+			(xy 191.77 130.81) (xy 177.8 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2709,17 +3272,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 116.84) (xy 210.82 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e1e60bc-e025-4e2a-82ed-2d493ba48920")
-	)
-	(wire
-		(pts
-			(xy 210.82 129.54) (xy 231.14 129.54)
+			(xy 226.06 120.65) (xy 246.38 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2729,7 +3282,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 40.64) (xy 135.89 58.42)
+			(xy 49.53 160.02) (xy 144.78 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ed17ba-dcd6-452f-9e70-599df8a2d24b")
+	)
+	(wire
+		(pts
+			(xy 151.13 31.75) (xy 151.13 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2739,47 +3302,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 167.64) (xy 86.36 167.64)
+			(xy 93.98 109.22) (xy 132.08 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73cd0b93-d072-43ea-8b80-a4b05981ede2")
+		(uuid "736ec237-dafe-4871-93ad-9d95b3a3e98b")
 	)
 	(wire
 		(pts
-			(xy 50.8 163.83) (xy 50.8 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "743854e7-ff2b-43b2-9dc9-fea77d1cd9ad")
-	)
-	(wire
-		(pts
-			(xy 82.55 154.94) (xy 90.17 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75ac59ab-d69a-4911-a6ea-413f4ace6b15")
-	)
-	(wire
-		(pts
-			(xy 83.82 170.18) (xy 83.82 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78b7ec93-fc98-4cdc-8599-3c75848bfd77")
-	)
-	(wire
-		(pts
-			(xy 220.98 134.62) (xy 220.98 137.16)
+			(xy 236.22 125.73) (xy 236.22 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2789,7 +3322,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 111.76) (xy 121.92 38.1)
+			(xy 137.16 102.87) (xy 137.16 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2809,17 +3342,17 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 137.16) (xy 66.04 139.7)
+			(xy 101.6 132.08) (xy 69.85 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7aab09bd-81c7-4952-8c2a-b1339be876ee")
+		(uuid "7b142923-3cc7-4427-bdea-fde2ac7f8296")
 	)
 	(wire
 		(pts
-			(xy 176.53 137.16) (xy 166.37 137.16)
+			(xy 191.77 128.27) (xy 181.61 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2829,27 +3362,27 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 114.3) (xy 74.93 114.3)
+			(xy 129.54 137.16) (xy 139.7 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d1e97fe-2a4e-4afa-bcb4-470aced50326")
+		(uuid "8129225d-7876-45da-8fee-694bc0928feb")
 	)
 	(wire
 		(pts
-			(xy 43.18 179.07) (xy 43.18 181.61)
+			(xy 139.7 110.49) (xy 191.77 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7dc1cbb9-5890-4e84-981e-3c91dab49b80")
+		(uuid "848a8c73-70d3-4731-adb8-bc23db3f3bc5")
 	)
 	(wire
 		(pts
-			(xy 165.1 134.62) (xy 176.53 134.62)
+			(xy 180.34 125.73) (xy 191.77 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2859,7 +3392,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 69.85) (xy 234.95 73.66)
+			(xy 250.19 60.96) (xy 250.19 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2889,27 +3422,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 116.84) (xy 50.8 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92089d06-d85a-47e8-b472-86482f14704a")
-	)
-	(wire
-		(pts
-			(xy 43.18 129.54) (xy 66.04 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "924fe397-aa1a-4122-94ec-4010094e54f7")
-	)
-	(wire
-		(pts
-			(xy 163.83 59.69) (xy 171.45 59.69)
+			(xy 179.07 50.8) (xy 186.69 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2919,13 +3432,23 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 160.02) (xy 64.77 160.02)
+			(xy 138.43 107.95) (xy 138.43 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97188104-6858-4dcc-b5a3-cf991a04a682")
+		(uuid "950e4933-a399-475e-95d0-efad59c67535")
+	)
+	(wire
+		(pts
+			(xy 175.26 128.27) (xy 181.61 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "964fd63d-6594-4938-bb09-4ae5c9cabf0b")
 	)
 	(wire
 		(pts
@@ -2939,7 +3462,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 139.7) (xy 162.56 80.01)
+			(xy 81.28 129.54) (xy 101.6 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9980061b-0f7d-4a66-b23d-01e8e74b0062")
+	)
+	(wire
+		(pts
+			(xy 177.8 130.81) (xy 177.8 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2949,13 +3482,53 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 161.29) (xy 86.36 161.29)
+			(xy 95.25 127) (xy 101.6 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b8ef5c6-d875-4bf8-828e-659b4af2c7a7")
+		(uuid "9ac0e965-e2a8-4cfc-badb-4618f991de9b")
+	)
+	(wire
+		(pts
+			(xy 49.53 119.38) (xy 81.28 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d46f7d2-6d99-4ec2-ae16-d0a6aba2e5b2")
+	)
+	(wire
+		(pts
+			(xy 86.36 138.43) (xy 49.53 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d61605b-97e8-4889-92ef-7823950d4326")
+	)
+	(wire
+		(pts
+			(xy 81.28 119.38) (xy 81.28 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ea71828-9f24-4eb7-b165-8987ddbc9a2b")
+	)
+	(wire
+		(pts
+			(xy 139.7 137.16) (xy 139.7 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0463d24-5f71-4fb8-97a7-95be13d657cb")
 	)
 	(wire
 		(pts
@@ -2969,37 +3542,37 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 175.26) (xy 60.96 175.26)
+			(xy 129.54 134.62) (xy 144.78 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa0844c1-a923-4e16-b29e-6c941fe747de")
+		(uuid "a7fd0794-2f5f-477a-9966-72e2f6f4c8ee")
 	)
 	(wire
 		(pts
-			(xy 273.05 154.94) (xy 273.05 111.76)
+			(xy 81.28 72.39) (xy 85.09 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aca89d69-a606-40fa-8315-bc8d7c9d817a")
+		(uuid "aed8a922-58c0-4e6d-a9fd-78970cd68105")
 	)
 	(wire
 		(pts
-			(xy 82.55 147.32) (xy 82.55 154.94)
+			(xy 69.85 132.08) (xy 69.85 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b01b1ca6-ed0d-450c-ac62-cb75b01176bd")
+		(uuid "b34c1336-5be0-47bc-8e6f-d225b5bab6f8")
 	)
 	(wire
 		(pts
-			(xy 134.62 35.56) (xy 143.51 35.56)
+			(xy 149.86 26.67) (xy 158.75 26.67)
 		)
 		(stroke
 			(width 0)
@@ -3009,7 +3582,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 55.88) (xy 139.7 38.1)
+			(xy 154.94 46.99) (xy 154.94 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3019,53 +3592,33 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 143.51) (xy 58.42 132.08)
+			(xy 69.85 132.08) (xy 69.85 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b53f803c-d0d6-4922-9f6a-e05108363e25")
+		(uuid "b48f1b77-28d8-4a36-b14f-c412b9c45613")
 	)
 	(wire
 		(pts
-			(xy 210.82 114.3) (xy 274.32 114.3)
+			(xy 81.28 162.56) (xy 81.28 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8296983-3ff7-42ed-bcdc-69a5573b5680")
+		(uuid "b6e17127-e80b-4022-a124-0a45b5dd3198")
 	)
 	(wire
 		(pts
-			(xy 86.36 161.29) (xy 86.36 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9231836-087e-485e-a9c1-62194f306bc6")
-	)
-	(wire
-		(pts
-			(xy 166.37 137.16) (xy 166.37 83.82)
+			(xy 181.61 128.27) (xy 181.61 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bc47a8c0-c9f8-4119-b1a0-a40bd5b0092a")
-	)
-	(wire
-		(pts
-			(xy 64.77 157.48) (xy 90.17 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc4cb690-f556-4f13-83ee-21d5f219c31f")
 	)
 	(wire
 		(pts
@@ -3079,7 +3632,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 83.82) (xy 201.93 83.82)
+			(xy 181.61 74.93) (xy 217.17 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3099,7 +3652,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 135.89) (xy 234.95 135.89)
+			(xy 251.46 127) (xy 250.19 127)
 		)
 		(stroke
 			(width 0)
@@ -3109,7 +3662,27 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 81.28) (xy 199.39 38.1)
+			(xy 157.48 129.54) (xy 157.48 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0462959-781f-45bc-bb42-636f754aa685")
+	)
+	(wire
+		(pts
+			(xy 144.78 160.02) (xy 144.78 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c07d149e-60ec-4cbf-a134-b977463a0bcb")
+	)
+	(wire
+		(pts
+			(xy 214.63 72.39) (xy 214.63 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3119,17 +3692,27 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 109.22) (xy 271.78 152.4)
+			(xy 49.53 143.51) (xy 66.04 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c20924f9-f807-4e22-8eb4-03185b772afd")
+		(uuid "c1ff46fb-0590-4f39-bb9c-5b1e76860f3f")
 	)
 	(wire
 		(pts
-			(xy 135.89 58.42) (xy 143.51 58.42)
+			(xy 137.16 105.41) (xy 137.16 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31a7d5a-f884-41b0-b010-2a2367ea10c7")
+	)
+	(wire
+		(pts
+			(xy 151.13 49.53) (xy 158.75 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3139,7 +3722,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 38.1) (xy 134.62 35.56)
+			(xy 66.04 165.1) (xy 66.04 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f1b7a6-5bef-443a-aadf-fddfb42c411b")
+	)
+	(wire
+		(pts
+			(xy 149.86 29.21) (xy 149.86 26.67)
 		)
 		(stroke
 			(width 0)
@@ -3149,7 +3742,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 82.55) (xy 165.1 82.55)
+			(xy 215.9 73.66) (xy 180.34 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3159,7 +3752,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 30.48) (xy 201.93 30.48)
+			(xy 179.07 21.59) (xy 217.17 21.59)
 		)
 		(stroke
 			(width 0)
@@ -3169,27 +3762,27 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 156.21) (xy 50.8 134.62)
+			(xy 101.6 137.16) (xy 101.6 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2d80c6b-661b-4f98-b36f-98e46854d605")
+		(uuid "cd0bc19c-c438-4daa-ab03-bd861935c98d")
 	)
 	(wire
 		(pts
-			(xy 110.49 154.94) (xy 273.05 154.94)
+			(xy 132.08 121.92) (xy 129.54 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d37079c5-1829-41c0-9fec-2a61aa4dab1f")
+		(uuid "cec53999-4d9f-4828-9408-53670f5fb366")
 	)
 	(wire
 		(pts
-			(xy 143.51 40.64) (xy 135.89 40.64)
+			(xy 158.75 31.75) (xy 151.13 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3199,17 +3792,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 167.64) (xy 86.36 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6c309ca-23fc-46e9-9449-8fa5872edeb6")
-	)
-	(wire
-		(pts
-			(xy 163.83 55.88) (xy 171.45 55.88)
+			(xy 179.07 46.99) (xy 186.69 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3219,13 +3802,23 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 83.82) (xy 201.93 30.48)
+			(xy 217.17 74.93) (xy 217.17 21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "da5b3dea-d00f-4a72-88da-be2b10ec61f7")
+	)
+	(wire
+		(pts
+			(xy 66.04 143.51) (xy 66.04 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db3aab78-7da2-4e73-8d49-1e3479a009c2")
 	)
 	(wire
 		(pts
@@ -3239,53 +3832,33 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 170.18) (xy 83.82 170.18)
+			(xy 81.28 129.54) (xy 81.28 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc83c2b9-a6c3-488e-82f0-538919f3fff3")
+		(uuid "dc676dee-b2a1-4a33-97d4-5d8f82ca9488")
 	)
 	(wire
 		(pts
-			(xy 274.32 114.3) (xy 274.32 157.48)
+			(xy 85.09 72.39) (xy 85.09 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de839466-886b-4687-9fcc-b57557e94a82")
+		(uuid "e0586ce3-63bf-4945-890c-ab2a553f9dfe")
 	)
 	(wire
 		(pts
-			(xy 231.14 133.35) (xy 236.22 133.35)
+			(xy 246.38 124.46) (xy 251.46 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e08b2865-b8cf-464a-a39f-ee174aaeede2")
-	)
-	(wire
-		(pts
-			(xy 43.18 137.16) (xy 43.18 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e11f84aa-c5c0-4007-ba6a-141f358b2f6b")
-	)
-	(wire
-		(pts
-			(xy 83.82 133.35) (xy 83.82 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1f8fe9a-174c-4c32-96bf-67a221882171")
 	)
 	(wire
 		(pts
@@ -3299,13 +3872,23 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 82.55) (xy 234.95 82.55)
+			(xy 227.33 73.66) (xy 250.19 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e2c810c7-97da-408d-acf0-39d972a6e246")
+	)
+	(wire
+		(pts
+			(xy 85.09 58.42) (xy 85.09 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e351b715-9f5e-4081-9cc2-91eafe059ca4")
 	)
 	(wire
 		(pts
@@ -3319,7 +3902,27 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 134.62) (xy 220.98 134.62)
+			(xy 49.53 140.97) (xy 81.28 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb2a5a3f-772d-4f54-b179-aa01f8997726")
+	)
+	(wire
+		(pts
+			(xy 93.98 116.84) (xy 93.98 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec3ecbc5-590a-4989-8905-89126da78ae5")
+	)
+	(wire
+		(pts
+			(xy 226.06 125.73) (xy 236.22 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3329,27 +3932,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 165.1) (xy 90.17 165.1)
+			(xy 49.53 162.56) (xy 81.28 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eda75fb0-e4cb-432e-a5e1-84af924fc249")
+		(uuid "f093260c-ad97-4e97-97d7-1e160b45c31b")
 	)
 	(wire
 		(pts
-			(xy 62.23 147.32) (xy 82.55 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eec0fe03-764d-4940-b548-87a6ca71f0ff")
-	)
-	(wire
-		(pts
-			(xy 220.98 132.08) (xy 220.98 134.62)
+			(xy 236.22 123.19) (xy 236.22 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3359,27 +3952,17 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 152.4) (xy 110.49 152.4)
+			(xy 49.53 121.92) (xy 66.04 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2d0ead0-f0a5-4bf6-ae09-869362c14f17")
+		(uuid "f68e75b7-d380-40d4-8a4d-fc19ea45b073")
 	)
 	(wire
 		(pts
-			(xy 43.18 114.3) (xy 50.8 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f64ed7d0-a0e9-4845-96f9-1afe7ca9e06d")
-	)
-	(wire
-		(pts
-			(xy 210.82 137.16) (xy 220.98 137.16)
+			(xy 226.06 128.27) (xy 236.22 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3389,7 +3972,37 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 38.1) (xy 163.83 38.1)
+			(xy 66.04 121.92) (xy 101.6 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7f234ea-614b-43ec-a148-a4f4d68d0a5a")
+	)
+	(wire
+		(pts
+			(xy 132.08 109.22) (xy 132.08 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f810657d-6e83-4274-9122-94c867e977c9")
+	)
+	(wire
+		(pts
+			(xy 175.26 125.73) (xy 180.34 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb70f9a7-a42c-4afd-98dc-08b604ad7634")
+	)
+	(wire
+		(pts
+			(xy 214.63 29.21) (xy 179.07 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3399,13 +4012,44 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 132.08) (xy 43.18 132.08)
+			(xy 85.09 80.01) (xy 85.09 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fda67edc-60d3-4da3-8e59-f77fe52e466c")
+		(uuid "fd558e8f-bf1b-4a87-882c-3ded8290828a")
+	)
+	(wire
+		(pts
+			(xy 69.85 167.64) (xy 69.85 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe6b4a75-7cb7-437a-9b40-4b6568a3676e")
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 175.26 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37768270-f127-4efc-a87d-7b45a7bb7ef3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.97 -138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CANBUS_H"
 		(shape input)
@@ -3429,9 +4073,93 @@
 			)
 		)
 	)
+	(global_label "MISO"
+		(shape input)
+		(at 175.26 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d222319-773a-4e62-af35-a86e4d84cf87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.97 -128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape input)
+		(at 95.25 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "82dc855b-29db-496d-b2e6-4a78488a9a5c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.96 -129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 95.25 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d5c5fff-0591-41b5-99d0-73297733919f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.96 -129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK"
+		(shape input)
+		(at 177.8 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac4d69f9-f4ef-4736-a763-fa261391f624")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.51 -123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CANBUS_H"
 		(shape input)
-		(at 171.45 55.88 0)
+		(at 186.69 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3441,7 +4169,7 @@
 		)
 		(uuid "b17e63b2-28c5-494d-8761-45e0ce4cd446")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.2324 55.88 0)
+			(at 199.4724 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3451,9 +4179,30 @@
 			)
 		)
 	)
+	(global_label "CLK"
+		(shape input)
+		(at 95.25 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c843615c-ac24-4db3-8342-fb0c229b0bc5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.96 -129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CANBUS_L"
 		(shape input)
-		(at 171.45 59.69 0)
+		(at 186.69 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3463,7 +4212,7 @@
 		)
 		(uuid "eabc28a6-14b2-47d4-b3d8-1e87935ef3cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.93 59.69 0)
+			(at 199.17 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3496,34 +4245,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_US")
-		(at 43.18 175.26 0)
+		(lib_id "power:GND")
+		(at 101.6 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "090e78a6-a498-4f33-b440-9d73c4c393ac")
-		(property "Reference" "RV4"
-			(at 40.64 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "200k"
-			(at 40.64 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 43.18 175.26 0)
+		(uuid "00ff1f4e-b880-48ac-9baf-0391920a2ea3")
+		(property "Reference" "#PWR011"
+			(at 101.6 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3531,8 +4262,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 43.18 175.26 0)
+		(property "Value" "GND"
+			(at 99.06 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3540,8 +4279,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer, US symbol"
-			(at 43.18 175.26 0)
+		(property "Datasheet" ""
+			(at 101.6 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3549,54 +4288,38 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "93d36870-83a7-4286-850a-1c4bf2619653")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "744ee2f7-1b86-4fde-965a-cecc7049de4c")
-		)
-		(pin "3"
-			(uuid "d01ed9d8-a052-4c10-b5cb-80c69380d5c8")
+			(uuid "91a13b0f-4ad5-4c0a-b69a-2099ce5b9ba1")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "RV4")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 38.1 132.08 0)
-		(mirror y)
+		(lib_id "power:GND")
+		(at 81.28 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0f5739ad-7045-44e9-b5f2-87e8f52151b8")
-		(property "Reference" "J2"
-			(at 35.56 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Power_And_CAN"
-			(at 35.56 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
-			(at 38.1 132.08 0)
+		(uuid "112b04d0-695f-4ab8-9f5d-7a0b0c983be4")
+		(property "Reference" "#PWR05"
+			(at 81.28 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3604,8 +4327,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 38.1 132.08 0)
+		(property "Value" "GND"
+			(at 78.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3613,8 +4344,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 38.1 132.08 0)
+		(property "Datasheet" ""
+			(at 81.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3623,21 +4363,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8ec17b86-c29b-412b-86b5-61b6f2b7da5c")
-		)
-		(pin "2"
-			(uuid "0a90c00f-112d-437e-a665-3a537c7b2962")
-		)
-		(pin "3"
-			(uuid "39cc378f-9ba3-4e51-8243-6b3518b26178")
-		)
-		(pin "4"
-			(uuid "f5a0fa41-254d-4c85-bf9b-c50a0df7b453")
+			(uuid "1ebe06dd-d5fd-4060-96db-b8ccd266b4dc")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "J2")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3701,9 +4432,74 @@
 			(uuid "3ed6ba07-96ee-475c-897d-c69a12e16b51")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 81.28 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cf5f613-c1e4-45e4-8e67-f03529b91ff7")
+		(property "Reference" "#PWR09"
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 81.28 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 81.28 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa42bfe2-9bb5-4ba8-b0a1-f760fb971ab5")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - Temperature"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3827,7 +4623,7 @@
 			(uuid "f262eb1c-c57c-46a4-b4c9-247dca56b0a5")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "Q1")
 					(unit 1)
@@ -3836,162 +4632,42 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:3568")
-		(at 50.8 114.3 0)
+		(lib_id "power:+3.3V")
+		(at 101.6 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2207e950-062a-49a3-a08e-7a128b8701d1")
-		(property "Reference" "U1"
-			(at 60.96 106.68 0)
+		(uuid "2c9d0640-e4f2-4996-a23c-b8987f885762")
+		(property "Reference" "#PWR022"
+			(at 101.6 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 101.6 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "3568"
-			(at 60.96 109.22 0)
+		(property "Footprint" ""
+			(at 101.6 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" "3568"
-			(at 67.31 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse Holder 30A 500V 1 Circuit Blade Through Hole"
-			(at 67.31 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "7.5"
-			(at 67.31 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "534-3568"
-			(at 67.31 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3568?qs=fP5bVVCrK%2Fd7nbA%2FPpwnKw%3D%3D"
-			(at 67.31 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 67.31 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "3568"
-			(at 67.31 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "01bd328e-6c26-4566-9954-f70ff5eabfd7")
-		)
-		(pin "3"
-			(uuid "2f3b84ef-bfe9-4d4c-a1ce-724684600d7c")
-		)
-		(pin "2"
-			(uuid "1ff6661d-11c4-4d1e-b549-39dd4f2bdc96")
-		)
-		(pin "1"
-			(uuid "c345f2e6-f0be-48c4-83d9-33603f6b30cc")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 38.1 114.3 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "27e350f2-5fff-4539-ad46-12ad9f6ee025")
-		(property "Reference" "J6"
-			(at 35.56 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 35.56 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
-			(at 38.1 114.3 0)
+			(at 101.6 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3999,17 +4675,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 38.1 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 38.1 114.3 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 101.6 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,15 +4685,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e3d5e90-0bfa-4de8-b3e8-552efbcb9514")
-		)
-		(pin "2"
-			(uuid "2c65cfd9-d299-4832-afce-1f748ece1c90")
+			(uuid "1f2458c0-d909-458b-9c47-546c9202b6d9")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "J6")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4090,7 +4754,7 @@
 			(uuid "630ac413-7ac0-4a4d-87c5-b3c69081b7cd")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#FLG02")
 					(unit 1)
@@ -4099,65 +4763,127 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 86.36 171.45 0)
+		(lib_id "SamacSys_Parts:AZ1117CH2-3.3TRG1")
+		(at 85.09 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3b34101c-cd20-4423-a171-e6a30575f1cd")
-		(property "Reference" "#PWR011"
-			(at 86.36 177.8 0)
+		(fields_autoplaced yes)
+		(uuid "32ee8de0-71fe-4b69-81ea-f3cb7b3c5310")
+		(property "Reference" "IC5"
+			(at 105.41 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Value" "AZ1117CH2-3.3TRG1"
+			(at 105.41 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT230P700X180-4N"
+			(at 121.92 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 86.487 175.8442 0)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/AZ1117C.pdf"
+			(at 121.92 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 86.36 171.45 0)
+		(property "Description" "LDO Voltage Regulators LDO BJT HiCurr SOT223 T&R 4K"
+			(at 121.92 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 171.45 0)
+		(property "Height" "1.8"
+			(at 121.92 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-AZ1117CH2-33TRG1"
+			(at 121.92 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ1117CH2-3.3TRG1?qs=lQAVKuKFhkLc7jCxso2G3w%3D%3D"
+			(at 121.92 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 121.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AZ1117CH2-3.3TRG1"
+			(at 121.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "cea1f41c-a2ff-4403-9254-3a1f9c366c40")
+			(uuid "4efe5d97-9abf-4444-9f61-bcd580595779")
+		)
+		(pin "2"
+			(uuid "78c0e9b9-91a3-4d86-a082-15eb80f47b8c")
+		)
+		(pin "4"
+			(uuid "a97f1f64-6fe2-469f-83bc-93136f955e38")
+		)
+		(pin "3"
+			(uuid "337f1841-ffeb-4e04-99ae-df6095ed156f")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "#PWR011")
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -4220,7 +4946,7 @@
 			(uuid "11da98d9-9ffc-4ff9-8f62-3193d4f2a712")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR02")
 					(unit 1)
@@ -4229,145 +4955,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_US")
-		(at 66.04 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e704528-82fc-4c0e-9e17-7d51834e0c99")
-		(property "Reference" "RV1"
-			(at 63.5 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "200k"
-			(at 63.5 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 66.04 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer, US symbol"
-			(at 66.04 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b25bc57d-23d7-49d6-b50f-ac471bb57c24")
-		)
-		(pin "1"
-			(uuid "b321b27f-bbb0-4d26-b7af-b03f808f3ff9")
-		)
-		(pin "3"
-			(uuid "af44411d-887e-4f8a-ac0f-aa912e20a546")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "RV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 58.42 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e723969-9978-4ed4-9885-a1d8d58b5aa4")
-		(property "Reference" "#PWR05"
-			(at 58.42 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.547 158.0642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41670829-7d95-4c77-aeed-7dc81bf45dda")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SamacSys_Parts:TS02-66-160-BK-260-LCR-D")
-		(at 236.22 133.35 0)
+		(at 251.46 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4376,7 +4965,7 @@
 		(fields_autoplaced yes)
 		(uuid "441daac8-c323-4e02-a2e6-078b6d35b134")
 		(property "Reference" "Reset1"
-			(at 251.46 127 0)
+			(at 266.7 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4384,7 +4973,7 @@
 			)
 		)
 		(property "Value" "TS02-66-160-BK-260-LCR-D"
-			(at 251.46 129.54 0)
+			(at 266.7 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4392,7 +4981,7 @@
 			)
 		)
 		(property "Footprint" "TS0266160BK260LCRD"
-			(at 262.89 130.81 0)
+			(at 278.13 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4402,7 +4991,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.cuidevices.com/product/resource/ts02.pdf"
-			(at 262.89 133.35 0)
+			(at 278.13 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,7 +5001,7 @@
 			)
 		)
 		(property "Description" "Tactile Switches 6 x 6 mm, 16 mm Act Height, 260 gf, Black, Long Crimped, Through Hole, SPST,"
-			(at 262.89 135.89 0)
+			(at 278.13 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,7 +5011,7 @@
 			)
 		)
 		(property "Height" "16.2"
-			(at 262.89 138.43 0)
+			(at 278.13 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,7 +5021,7 @@
 			)
 		)
 		(property "Mouser Part Number" "179-TS0266160BK260LC"
-			(at 262.89 140.97 0)
+			(at 278.13 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4442,7 +5031,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TS02-66-160-BK-260-LCR-D?qs=A6eO%252BMLsxmR2iSh4nOToMQ%3D%3D"
-			(at 262.89 143.51 0)
+			(at 278.13 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4452,7 +5041,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "CUI Devices"
-			(at 262.89 146.05 0)
+			(at 278.13 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,7 +5051,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TS02-66-160-BK-260-LCR-D"
-			(at 262.89 148.59 0)
+			(at 278.13 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,7 +5073,7 @@
 			(uuid "4a9edadc-3b0a-4aee-97f8-34d82d301c74")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "Reset1")
 					(unit 1)
@@ -4494,7 +5083,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 140.97 0)
+		(at 250.19 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4502,7 +5091,7 @@
 		(dnp no)
 		(uuid "4dc00e86-30c3-4766-ad1d-343747f417ad")
 		(property "Reference" "#PWR021"
-			(at 234.95 147.32 0)
+			(at 250.19 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4511,7 +5100,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 235.077 145.3642 0)
+			(at 250.317 136.4742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4519,7 +5108,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 140.97 0)
+			(at 250.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4528,7 +5117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 140.97 0)
+			(at 250.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4537,7 +5126,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 140.97 0)
+			(at 250.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4549,7 +5138,7 @@
 			(uuid "fc17bc03-aa67-40fa-b2d1-d8d65958faa6")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR021")
 					(unit 1)
@@ -4558,80 +5147,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_US")
-		(at 50.8 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "568601f0-c487-463d-8019-35411bdef44c")
-		(property "Reference" "RV3"
-			(at 48.26 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "200k"
-			(at 48.26 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 50.8 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer, US symbol"
-			(at 50.8 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "71af6bd9-d1f0-4b6d-9aa4-d76207b17fed")
-		)
-		(pin "1"
-			(uuid "a3e5e861-67db-45ea-9764-f0db4c71ce51")
-		)
-		(pin "3"
-			(uuid "f1a46770-02d0-4eb4-9b03-7ce2fd6f233e")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "RV3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 127 62.23 0)
+		(at 142.24 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4640,7 +5157,7 @@
 		(fields_autoplaced yes)
 		(uuid "589f473a-1466-45cf-be03-7fe5c3b27d63")
 		(property "Reference" "#PWR013"
-			(at 127 66.04 0)
+			(at 142.24 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4649,7 +5166,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 127 57.15 0)
+			(at 142.24 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +5174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 62.23 0)
+			(at 142.24 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4666,7 +5183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 62.23 0)
+			(at 142.24 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,7 +5192,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 127 62.23 0)
+			(at 142.24 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4687,7 +5204,7 @@
 			(uuid "5762219c-754b-4b29-9304-e5daa4179bcb")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR013")
 					(unit 1)
@@ -4752,7 +5269,7 @@
 			(uuid "b9a40b15-7f65-44cb-9899-be644563b397")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR03")
 					(unit 1)
@@ -4761,17 +5278,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 74.93 114.3 0)
+		(lib_id "power:GND")
+		(at 125.73 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76b3b9e3-8fa4-47e8-9332-845fe32a3a6f")
-		(property "Reference" "#PWR022"
-			(at 74.93 118.11 0)
+		(uuid "771147f0-53db-4cf2-b7de-5ed3a01f0c7e")
+		(property "Reference" "#PWR04"
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4779,8 +5295,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 74.93 109.22 0)
+		(property "Value" "GND"
+			(at 123.19 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4788,7 +5304,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 114.3 0)
+			(at 125.73 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4797,7 +5313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 114.3 0)
+			(at 125.73 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4805,8 +5321,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 74.93 114.3 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4815,12 +5331,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "42c248ca-9c30-4ccc-9524-01b4d65fec9e")
+			(uuid "94c74831-7ba0-4bc2-a524-49e1f9d2898c")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "#PWR022")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4884,9 +5400,172 @@
 			(uuid "b5077b30-45fa-4f3d-88ef-e79104b23566")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:CD74HC4050ME4")
+		(at 101.6 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f12c91a-9be9-470f-8c71-18b1ba1fb225")
+		(property "Reference" "IC4"
+			(at 115.57 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CD74HC4050ME4"
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-16N"
+			(at 125.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/pdf/MPDS178"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buffers & Line Drivers Hi-Spd CMOS Logic Hex Non-Inv Bfr"
+			(at 125.73 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 125.73 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-CD74HC4050ME4"
+			(at 125.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD74HC4050ME4?qs=xFfolx0DHx14hqY1xeFnNQ%3D%3D"
+			(at 125.73 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 125.73 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CD74HC4050ME4"
+			(at 125.73 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "0e7034f7-8214-402e-a833-5a1be5e158b1")
+		)
+		(pin "16"
+			(uuid "54961b0a-45c5-41f4-88ad-f32157be136f")
+		)
+		(pin "13"
+			(uuid "9fe3e371-0e6b-44d7-8bcf-520c3bdb26f5")
+		)
+		(pin "6"
+			(uuid "5d0ac843-0330-44a4-91be-7055c0625ac8")
+		)
+		(pin "4"
+			(uuid "aa9aa079-bd6e-40b7-8921-767ad4610b38")
+		)
+		(pin "7"
+			(uuid "96e8354b-4fad-466f-9cc4-376f63ebfd2f")
+		)
+		(pin "3"
+			(uuid "73d3523e-b626-4dd4-a450-55f05379c216")
+		)
+		(pin "1"
+			(uuid "82160cc9-fbcc-4f70-b13e-d0355cbe894b")
+		)
+		(pin "11"
+			(uuid "a6071d13-4c6a-4e15-a6bd-d26e2888f56b")
+		)
+		(pin "10"
+			(uuid "2da60640-3e7b-4af8-9f18-a8bd6a9f35a2")
+		)
+		(pin "2"
+			(uuid "9248d9dc-9d8e-4fea-8079-10369a3b14ba")
+		)
+		(pin "8"
+			(uuid "9733f266-2cff-486e-8565-2e2ac6037b4e")
+		)
+		(pin "14"
+			(uuid "cecc185c-c897-48b0-a654-3c3145483b4d")
+		)
+		(pin "15"
+			(uuid "327aca4d-00e3-4f47-a9e6-2151b961561e")
+		)
+		(pin "9"
+			(uuid "dd01e39f-b62a-4972-861d-3ce77ba38fa7")
+		)
+		(pin "12"
+			(uuid "d16351d0-d423-4006-a41a-7c9b03e9daac")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - Temperature"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -4953,74 +5632,9 @@
 			(uuid "3612df13-2110-4f34-908b-ccfecb8db211")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8db21dc4-0b0f-4d67-b273-8cc2000908da")
-		(property "Reference" "#PWR04"
-			(at 66.04 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.167 144.0942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1bbc606-0a76-4d83-8475-c3316b7295b4")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5083,7 +5697,7 @@
 			(uuid "5e0a2aaf-6d32-4bc0-809d-771a6b32a73d")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR06")
 					(unit 1)
@@ -5156,7 +5770,7 @@
 			(uuid "a4f0e1d7-772c-4007-804c-c43c20782f26")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "Powerboard1")
 					(unit 1)
@@ -5232,7 +5846,7 @@
 			(uuid "5d77a1de-03f1-4bbd-8b71-a8f1b51eb12a")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "J1")
 					(unit 1)
@@ -5242,7 +5856,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 33.02 0)
+		(at 143.51 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5250,7 +5864,7 @@
 		(dnp no)
 		(uuid "accf9ffc-1dd3-47c1-8022-38eb507239a1")
 		(property "Reference" "#PWR016"
-			(at 128.27 39.37 0)
+			(at 143.51 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5259,7 +5873,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 33.02 0)
+			(at 140.97 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,7 +5881,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 33.02 0)
+			(at 143.51 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5276,7 +5890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 33.02 0)
+			(at 143.51 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5285,7 +5899,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 33.02 0)
+			(at 143.51 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5297,7 +5911,7 @@
 			(uuid "af76d48f-0735-4863-8bf4-0768441718b9")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR016")
 					(unit 1)
@@ -5306,74 +5920,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 81.28 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c10e529b-5e1a-4886-84ce-d296e9d1b8e6")
-		(property "Reference" "#PWR010"
-			(at 81.28 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 81.28 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 81.28 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a302515e-e0f1-42bc-940b-a72bb6e900bd")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 217.17 132.08 90)
+		(at 232.41 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5382,7 +5930,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1a00cb2-f02b-4491-b00d-90c24cfe521a")
 		(property "Reference" "R2"
-			(at 217.17 125.73 90)
+			(at 232.41 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,7 +5938,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 217.17 128.27 90)
+			(at 232.41 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5398,7 +5946,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 217.17 133.858 90)
+			(at 232.41 124.968 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5407,7 +5955,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 132.08 0)
+			(at 232.41 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5416,7 +5964,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 217.17 132.08 0)
+			(at 232.41 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5431,7 +5979,7 @@
 			(uuid "1c413531-f104-4980-9041-26fddca891e0")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "R2")
 					(unit 1)
@@ -5440,8 +5988,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 85.09 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5a3a2c5-2714-47b3-93e7-5808d13b6ba4")
+		(property "Reference" "C17"
+			(at 88.9 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22uf"
+			(at 88.9 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 84.1248 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71e2a031-f5f5-4eee-b925-bdfbdbf8c159")
+		)
+		(pin "1"
+			(uuid "e091ff5b-3f68-4d4e-8001-b09e0c39f88d")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - Temperature"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 234.95 95.25 0)
+		(at 250.19 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5449,7 +6067,7 @@
 		(dnp no)
 		(uuid "ce3c3c5d-7603-4309-9df4-f54f68707e9f")
 		(property "Reference" "#PWR020"
-			(at 234.95 101.6 0)
+			(at 250.19 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +6076,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 99.06 0)
+			(at 250.19 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5466,7 +6084,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 95.25 0)
+			(at 250.19 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,7 +6092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 95.25 0)
+			(at 250.19 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5482,7 +6100,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 95.25 0)
+			(at 250.19 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5494,7 +6112,7 @@
 			(uuid "00136c90-3252-48dc-92e3-a6e3b039c264")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR020")
 					(unit 1)
@@ -5559,7 +6177,7 @@
 			(uuid "2a06006e-6aea-4619-a38a-ccebc1e203e6")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR08")
 					(unit 1)
@@ -5569,7 +6187,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 234.95 87.63 180)
+		(at 250.19 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5577,7 +6195,7 @@
 		(dnp no)
 		(uuid "d34f47dd-e220-4265-8fb3-9481eb56b67a")
 		(property "Reference" "R3"
-			(at 240.2078 87.63 90)
+			(at 255.4478 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5585,7 +6203,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 237.8964 87.63 90)
+			(at 253.1364 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,7 +6211,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 236.728 87.63 90)
+			(at 251.968 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,7 +6220,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 87.63 0)
+			(at 250.19 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5611,7 +6229,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 234.95 87.63 0)
+			(at 250.19 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5626,7 +6244,7 @@
 			(uuid "820f617c-daaa-49ce-977c-8e81f3c6d029")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "R3")
 					(unit 1)
@@ -5635,73 +6253,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 50.8 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d376a37b-48bc-4890-a61d-7704fe45324a")
-		(property "Reference" "#PWR07"
-			(at 50.8 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.927 170.7642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f82d320c-3e4f-4891-b3d9-070a047307df")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 227.33 137.16 0)
+		(at 242.57 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5710,7 +6263,7 @@
 		(fields_autoplaced yes)
 		(uuid "d578d983-1e10-4f1e-bfba-270d56c2ebcb")
 		(property "Reference" "#PWR018"
-			(at 227.33 140.97 0)
+			(at 242.57 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5719,7 +6272,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 227.33 132.08 0)
+			(at 242.57 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5727,7 +6280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 137.16 0)
+			(at 242.57 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +6289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 137.16 0)
+			(at 242.57 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,7 +6298,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 227.33 137.16 0)
+			(at 242.57 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5757,7 +6310,7 @@
 			(uuid "d7153aaf-59d9-4d50-9212-4e21ba1c6321")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR018")
 					(unit 1)
@@ -5767,7 +6320,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 139.7 0)
+		(at 229.87 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5775,7 +6328,7 @@
 		(dnp no)
 		(uuid "d60dd0cb-7d5c-40ac-b099-9dd635ead376")
 		(property "Reference" "#PWR017"
-			(at 214.63 146.05 0)
+			(at 229.87 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +6337,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.757 144.0942 0)
+			(at 229.997 135.2042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5792,7 +6345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 139.7 0)
+			(at 229.87 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5801,7 +6354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 139.7 0)
+			(at 229.87 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5810,7 +6363,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 139.7 0)
+			(at 229.87 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5822,7 +6375,7 @@
 			(uuid "2de995ba-cb9e-49c2-accb-3a0c12fa1d86")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR017")
 					(unit 1)
@@ -5887,7 +6440,7 @@
 			(uuid "1d8db916-797c-45fb-8bec-56c782b20237")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR012")
 					(unit 1)
@@ -5897,7 +6450,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 234.95 77.47 180)
+		(at 250.19 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5905,7 +6458,7 @@
 		(dnp no)
 		(uuid "dcc9cef9-659d-4b80-90da-03ce9fe6cdfc")
 		(property "Reference" "NTC1"
-			(at 240.2078 77.47 90)
+			(at 255.4478 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5913,7 +6466,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 237.8964 77.47 90)
+			(at 253.1364 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5921,7 +6474,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 236.728 77.47 90)
+			(at 251.968 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5930,7 +6483,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 77.47 0)
+			(at 250.19 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5939,7 +6492,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 234.95 77.47 0)
+			(at 250.19 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5954,7 +6507,7 @@
 			(uuid "1d1ce2c5-49d3-43b7-8295-ea233d214f8e")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "NTC1")
 					(unit 1)
@@ -5963,88 +6516,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_US")
-		(at 58.42 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec44a861-b07e-4503-8ef4-d50a4dff5453")
-		(property "Reference" "RV2"
-			(at 55.88 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "200k"
-			(at 55.88 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 58.42 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer, US symbol"
-			(at 58.42 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7a2638e3-927f-4748-ab50-92e285414090")
-		)
-		(pin "1"
-			(uuid "f996d177-c6ba-4393-90cd-9b1eb80beed8")
-		)
-		(pin "3"
-			(uuid "88561b90-dc7c-4867-a46a-c8b49307220c")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "RV2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 43.18 181.61 0)
+		(at 85.09 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f78d365f-81f0-47a7-b3ae-24e79a4dd432")
-		(property "Reference" "#PWR09"
-			(at 43.18 187.96 0)
+		(uuid "f00143b7-e974-4af2-ab0f-ba37ba821d63")
+		(property "Reference" "#PWR010"
+			(at 85.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6053,7 +6534,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.307 186.0042 0)
+			(at 82.55 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6061,7 +6542,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 181.61 0)
+			(at 85.09 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,7 +6551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 181.61 0)
+			(at 85.09 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6079,7 +6560,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 181.61 0)
+			(at 85.09 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6088,12 +6569,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1bbf745a-c9ff-447f-8376-e203fd097f35")
+			(uuid "b5186ec4-59c9-4961-b719-4b8e13899e5b")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6101,7 +6582,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 66.04 0)
+		(at 142.24 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6109,7 +6590,7 @@
 		(dnp no)
 		(uuid "fa16893d-7537-4087-9aa5-88755902fbe2")
 		(property "Reference" "#PWR014"
-			(at 127 72.39 0)
+			(at 142.24 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6118,7 +6599,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 66.04 0)
+			(at 139.7 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6126,7 +6607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 66.04 0)
+			(at 142.24 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6135,7 +6616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 66.04 0)
+			(at 142.24 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +6625,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 66.04 0)
+			(at 142.24 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6156,7 +6637,7 @@
 			(uuid "e498c632-3cd8-4cf4-b70a-599ce246320b")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR014")
 					(unit 1)
@@ -6166,7 +6647,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 128.27 30.48 0)
+		(at 143.51 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6175,7 +6656,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb2c072c-3326-48ad-827a-e1526a4bfb82")
 		(property "Reference" "#PWR015"
-			(at 128.27 34.29 0)
+			(at 143.51 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6184,7 +6665,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 128.27 25.4 0)
+			(at 143.51 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6192,7 +6673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 30.48 0)
+			(at 143.51 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6201,7 +6682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 30.48 0)
+			(at 143.51 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,7 +6691,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 128.27 30.48 0)
+			(at 143.51 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6222,7 +6703,7 @@
 			(uuid "72dc543e-22d6-4a43-a3e7-efb074563cab")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR015")
 					(unit 1)
@@ -6232,7 +6713,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 234.95 69.85 0)
+		(at 250.19 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6241,7 +6722,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd3051ab-73cf-4183-8d37-2205c7765bc6")
 		(property "Reference" "#PWR019"
-			(at 234.95 73.66 0)
+			(at 250.19 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6250,7 +6731,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 234.95 64.77 0)
+			(at 250.19 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6258,7 +6739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 69.85 0)
+			(at 250.19 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6267,7 +6748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 69.85 0)
+			(at 250.19 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6276,7 +6757,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 234.95 69.85 0)
+			(at 250.19 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6288,9 +6769,75 @@
 			(uuid "8bce4b4c-7071-43eb-8c6b-8cbb557dbcd3")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 85.09 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe0f0aea-317a-4ebf-a38e-bcb6f71aa540")
+		(property "Reference" "#PWR07"
+			(at 85.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 85.09 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 85.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e16f948c-cdb1-4ae9-8772-9ade69f88f1f")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - Temperature"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6415,7 +6962,7 @@
 			(uuid "558f65db-2a4b-49fd-893d-7aa4fe2655ca")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "U5")
 					(unit 1)
@@ -6424,8 +6971,8 @@
 		)
 	)
 	(sheet
-		(at 90.17 149.86)
-		(size 20.32 20.32)
+		(at 27.94 157.48)
+		(size 21.59 12.7)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6434,9 +6981,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "1d6692e6-3da6-4bb1-8db9-92d5a320b8aa")
-		(property "Sheetname" "BufferedADC"
-			(at 90.17 149.1484 0)
+		(uuid "0549bf44-8a12-4128-91ec-db5e1165e6eb")
+		(property "Sheetname" "MAX31865AAP+3"
+			(at 27.94 156.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6444,8 +6991,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "BufferedADC.kicad_sch"
-			(at 90.17 170.7646 0)
+		(property "Sheetfile" "MAX31865AAP+.kicad_sch"
+			(at 27.94 170.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6453,116 +7000,214 @@
 				(justify left top)
 			)
 		)
-		(pin "ADCOUT2" input
-			(at 110.49 154.94 0)
+		(pin "CS3v" input
+			(at 49.53 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7feac3e6-8639-4797-96ea-82bc1e150431")
+			(uuid "0ec9b884-c6de-42f3-9ff4-5ee26f921bef")
 		)
-		(pin "ADCIN1" input
-			(at 90.17 152.4 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c4cbac49-c1b7-4f46-af1d-e92c73fa3fe8")
-		)
-		(pin "ADCIN2" input
-			(at 90.17 154.94 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8de5df87-bd64-439d-9433-27c2c2a9462b")
-		)
-		(pin "ADCOUT1" input
-			(at 110.49 152.4 0)
+		(pin "MISO3v" input
+			(at 49.53 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3b8411e1-359f-4d77-ab98-5805064c2a2b")
+			(uuid "1a401851-dd0e-40b8-8bf5-08c123b4e02b")
 		)
-		(pin "ADCOUT4" input
-			(at 110.49 160.02 0)
+		(pin "SLC3v" input
+			(at 49.53 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a68eb437-f7ed-4953-9f13-ddf04d807eae")
+			(uuid "6e94aad8-08af-4ca9-9d81-953de7d92ba7")
 		)
-		(pin "ADCIN4" input
-			(at 90.17 160.02 180)
+		(pin "FORCE-" input
+			(at 27.94 165.1 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3c54e1d2-b096-4e82-b214-ccaf38388d21")
+			(uuid "cb1ebd36-f586-43a1-9f47-9d4eab90160d")
 		)
-		(pin "ADCIN3" input
-			(at 90.17 157.48 180)
+		(pin "RTDIn+" input
+			(at 27.94 160.02 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2d5a9425-169e-4ee0-bb8d-16c86dc1eeb7")
+			(uuid "25695ff1-4914-447f-a845-961b66ac1e73")
 		)
-		(pin "ADCOUT3" input
-			(at 110.49 157.48 0)
+		(pin "FORCE+" input
+			(at 27.94 162.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "87550e60-b114-41c4-a767-1de65dbc2816")
+		)
+		(pin "RTDin-" input
+			(at 27.94 167.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a058ff37-4ecf-4e20-a118-a7764a339299")
+		)
+		(pin "MOSI3v" input
+			(at 49.53 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d88ee128-20d9-44d3-a93d-3766378c71dd")
-		)
-		(pin "GND" input
-			(at 90.17 167.64 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "da3f23e9-ea99-496a-a929-4805f772a528")
-		)
-		(pin "Vin" input
-			(at 90.17 165.1 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a901dbba-3f93-4a6a-aab5-7436e4a9e9ef")
+			(uuid "a363f4b6-b0c6-4788-90f9-047605c00f95")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(page "5")
+					(page "8")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 143.51 53.34)
+		(at 27.94 114.3)
+		(size 21.59 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e0562a2-0f62-4c3a-a7f1-916335767d69")
+		(property "Sheetname" "MAX31865AAP+1"
+			(at 27.94 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MAX31865AAP+.kicad_sch"
+			(at 27.94 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CS3v" input
+			(at 49.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "35bd1749-ccb4-4480-8899-c13a153f68f9")
+		)
+		(pin "MISO3v" input
+			(at 49.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ab7a1f36-86cb-4ec1-99fe-a6a6b9ba8a59")
+		)
+		(pin "SLC3v" input
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a0cfd04f-528a-4c57-8161-de8853b8dca9")
+		)
+		(pin "FORCE-" input
+			(at 27.94 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c72dcd71-0f50-4079-820f-9f1d125b3751")
+		)
+		(pin "RTDIn+" input
+			(at 27.94 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "441e222f-8180-438a-8750-b795a52ff540")
+		)
+		(pin "FORCE+" input
+			(at 27.94 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "54825c11-9f03-4578-8e25-fefd09a4f2d3")
+		)
+		(pin "RTDin-" input
+			(at 27.94 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dd505a1a-1a5b-4507-9937-21703324d918")
+		)
+		(pin "MOSI3v" input
+			(at 49.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3ee2d480-8242-45fa-8d50-07daf78d4a88")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - Temperature"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 44.45)
 		(size 20.32 13.97)
 		(fields_autoplaced yes)
 		(stroke
@@ -6574,7 +7219,7 @@
 		)
 		(uuid "5df34325-0121-481e-982d-7498a0311385")
 		(property "Sheetname" "CANBus-MCP2551"
-			(at 143.51 52.6284 0)
+			(at 158.75 43.7384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,7 +7228,7 @@
 			)
 		)
 		(property "Sheetfile" "CANBus-MCP2551.kicad_sch"
-			(at 143.51 67.8946 0)
+			(at 158.75 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6592,7 +7237,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 143.51 64.77 180)
+			(at 158.75 55.88 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6602,7 +7247,7 @@
 			(uuid "c8579b17-2df7-48d8-a79a-af73815b047c")
 		)
 		(pin "VCC" input
-			(at 143.51 62.23 180)
+			(at 158.75 53.34 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6612,7 +7257,7 @@
 			(uuid "31a17adc-fb1b-42d2-a85e-067af904ca78")
 		)
 		(pin "CANH" input
-			(at 163.83 55.88 0)
+			(at 179.07 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6622,7 +7267,7 @@
 			(uuid "66bf01ff-180c-48b4-82aa-68244ddf3696")
 		)
 		(pin "TX_TTL_CAN" input
-			(at 143.51 58.42 180)
+			(at 158.75 49.53 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6632,7 +7277,7 @@
 			(uuid "0da2dedb-2ab3-4ce2-8512-6643a09d2b7e")
 		)
 		(pin "CANL" input
-			(at 163.83 59.69 0)
+			(at 179.07 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +7287,7 @@
 			(uuid "58344257-15ff-4324-b2b8-385777cf32d6")
 		)
 		(pin "RX_TTL_CAN" input
-			(at 143.51 55.88 180)
+			(at 158.75 46.99 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6652,7 +7297,7 @@
 			(uuid "c1e91cd2-ba8d-4ba1-862b-4640a615e9da")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(page "4")
 				)
@@ -6660,7 +7305,7 @@
 		)
 	)
 	(sheet
-		(at 143.51 27.94)
+		(at 158.75 19.05)
 		(size 20.32 13.97)
 		(fields_autoplaced yes)
 		(stroke
@@ -6672,7 +7317,7 @@
 		)
 		(uuid "7d96c4e1-93d6-45eb-8bfa-0469ecf38441")
 		(property "Sheetname" "CANBUS-MCP2515"
-			(at 143.51 27.2284 0)
+			(at 158.75 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6681,7 +7326,7 @@
 			)
 		)
 		(property "Sheetfile" "CANBUS-MCP2515.kicad_sch"
-			(at 143.51 42.4946 0)
+			(at 158.75 33.6046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6690,7 +7335,7 @@
 			)
 		)
 		(pin "VCC" input
-			(at 143.51 30.48 180)
+			(at 158.75 21.59 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6700,7 +7345,7 @@
 			(uuid "0552d3a5-adb8-432d-9174-d8dc4e466ecb")
 		)
 		(pin "GND" input
-			(at 143.51 33.02 180)
+			(at 158.75 24.13 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6710,7 +7355,7 @@
 			(uuid "153d2f08-8624-4e12-8892-7abcfa77adb7")
 		)
 		(pin "RXtoCANTC" input
-			(at 143.51 38.1 180)
+			(at 158.75 29.21 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6720,7 +7365,7 @@
 			(uuid "a2ba5788-9653-4866-a7d0-ce29fc68935c")
 		)
 		(pin "TXtoCANTC" input
-			(at 143.51 40.64 180)
+			(at 158.75 31.75 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6730,7 +7375,7 @@
 			(uuid "b7e6087c-73cd-4a15-8346-f7d9dc7634ed")
 		)
 		(pin "MISO" input
-			(at 163.83 30.48 0)
+			(at 179.07 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,7 +7385,7 @@
 			(uuid "a7982cb8-ba2a-40b6-8960-4099a1b74c92")
 		)
 		(pin "INT" input
-			(at 143.51 35.56 180)
+			(at 158.75 26.67 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6750,7 +7395,7 @@
 			(uuid "775e22ff-9579-4267-8949-64fbe913f4d4")
 		)
 		(pin "SCK" input
-			(at 163.83 35.56 0)
+			(at 179.07 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6760,7 +7405,7 @@
 			(uuid "1f744bff-75b2-419b-8e56-322c0c8faea0")
 		)
 		(pin "MOSI" input
-			(at 163.83 33.02 0)
+			(at 179.07 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6770,7 +7415,7 @@
 			(uuid "e2c934d5-6f83-42ed-b4b5-5bf37bc22c2c")
 		)
 		(pin "CS" input
-			(at 163.83 38.1 0)
+			(at 179.07 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6780,7 +7425,7 @@
 			(uuid "2346e6da-7ce2-4a3f-aca9-ee2b261baff6")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(page "3")
 				)
@@ -6788,7 +7433,7 @@
 		)
 	)
 	(sheet
-		(at 176.53 105.41)
+		(at 191.77 96.52)
 		(size 34.29 35.56)
 		(fields_autoplaced yes)
 		(stroke
@@ -6800,7 +7445,7 @@
 		)
 		(uuid "8782b0ef-1b0c-41b9-8665-2e7da5446ba9")
 		(property "Sheetname" "BareMinAtmel328P"
-			(at 176.53 104.6984 0)
+			(at 191.77 95.8084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6809,7 +7454,7 @@
 			)
 		)
 		(property "Sheetfile" "BareMinAtmel328P.kicad_sch"
-			(at 176.53 141.5546 0)
+			(at 191.77 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6818,7 +7463,7 @@
 			)
 		)
 		(pin "PB3-D11-MOSI" input
-			(at 176.53 134.62 180)
+			(at 191.77 125.73 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6828,7 +7473,7 @@
 			(uuid "750e8d38-f6e9-4bee-9332-a90cc9551b57")
 		)
 		(pin "PB4-D12-MISO" input
-			(at 176.53 137.16 180)
+			(at 191.77 128.27 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6838,7 +7483,7 @@
 			(uuid "94c5d463-a2cb-4f14-bc86-617c27eda9f1")
 		)
 		(pin "PB2-D10-SS" input
-			(at 176.53 132.08 180)
+			(at 191.77 123.19 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6848,7 +7493,7 @@
 			(uuid "80c82340-2bbd-4d01-b0f5-336e5662e4ea")
 		)
 		(pin "PB5-D13-SCK" input
-			(at 176.53 139.7 180)
+			(at 191.77 130.81 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6858,7 +7503,7 @@
 			(uuid "816fffd0-0b07-4952-82de-a40f30de3aca")
 		)
 		(pin "PB1-D9" input
-			(at 176.53 129.54 180)
+			(at 191.77 120.65 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6868,7 +7513,7 @@
 			(uuid "3c0ef61b-ed27-42b3-8746-334288fe763f")
 		)
 		(pin "PB0-D8" input
-			(at 176.53 127 180)
+			(at 191.77 118.11 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6878,7 +7523,7 @@
 			(uuid "93261635-91c1-4fca-ad58-e9d634ac4630")
 		)
 		(pin "PC4-A4-SDA" input
-			(at 210.82 116.84 0)
+			(at 226.06 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6888,7 +7533,7 @@
 			(uuid "12f382f5-b487-4768-b1c7-bcd8ea926fab")
 		)
 		(pin "PC2-A2" input
-			(at 210.82 111.76 0)
+			(at 226.06 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6898,7 +7543,7 @@
 			(uuid "1235ecb0-11f1-4c14-b076-82c55ac0cc0c")
 		)
 		(pin "PC3-A3" input
-			(at 210.82 114.3 0)
+			(at 226.06 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6908,7 +7553,7 @@
 			(uuid "891d709c-e05d-4586-b72f-208b81642076")
 		)
 		(pin "PC5-A5-SCL" input
-			(at 210.82 119.38 0)
+			(at 226.06 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6918,7 +7563,7 @@
 			(uuid "63d6fc83-f871-4c2e-aa97-b423c61d4c6b")
 		)
 		(pin "PC1-A1" input
-			(at 210.82 109.22 0)
+			(at 226.06 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6928,7 +7573,7 @@
 			(uuid "ca6a52b1-7c7f-4b22-bf46-38f47f9f39ed")
 		)
 		(pin "PC0-A0" input
-			(at 210.82 106.68 0)
+			(at 226.06 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6938,7 +7583,7 @@
 			(uuid "80aebd88-73b9-485a-a751-ffde1ac42a44")
 		)
 		(pin "AVCC" input
-			(at 210.82 134.62 0)
+			(at 226.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6948,7 +7593,7 @@
 			(uuid "069ed5fd-d78c-4f66-98b9-78f8c1833d5a")
 		)
 		(pin "VCC" input
-			(at 210.82 137.16 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6958,7 +7603,7 @@
 			(uuid "1d447334-43bc-46a4-bbc3-2fe966750671")
 		)
 		(pin "PD1-TX" input
-			(at 176.53 109.22 180)
+			(at 191.77 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6968,7 +7613,7 @@
 			(uuid "ad571931-6b03-46f5-b331-65c02d4283ad")
 		)
 		(pin "PD2-D2" input
-			(at 176.53 111.76 180)
+			(at 191.77 102.87 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6978,7 +7623,7 @@
 			(uuid "d452ab4f-8240-4b27-acee-46f0ba7284a9")
 		)
 		(pin "PD3-D3" input
-			(at 176.53 114.3 180)
+			(at 191.77 105.41 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6988,7 +7633,7 @@
 			(uuid "4ab1de6a-7c0d-4347-8acc-d359e4bf2b0a")
 		)
 		(pin "PD4-D4" input
-			(at 176.53 116.84 180)
+			(at 191.77 107.95 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6998,7 +7643,7 @@
 			(uuid "1979b1ef-0a8e-40b9-8d2f-6cb840c5807a")
 		)
 		(pin "PD0-RX" input
-			(at 176.53 106.68 180)
+			(at 191.77 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7008,7 +7653,7 @@
 			(uuid "e85bf8e7-5a65-45c5-8e2f-c16770f9de1d")
 		)
 		(pin "GND" input
-			(at 210.82 139.7 0)
+			(at 226.06 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7018,7 +7663,7 @@
 			(uuid "3c977ea1-2bc9-495c-afa5-b48de45ac82a")
 		)
 		(pin "PD7-D7" input
-			(at 176.53 124.46 180)
+			(at 191.77 115.57 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7028,7 +7673,7 @@
 			(uuid "df037c0f-a813-4b7d-a64b-04d8922bd1ea")
 		)
 		(pin "PD6-D6" input
-			(at 176.53 121.92 180)
+			(at 191.77 113.03 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7038,7 +7683,7 @@
 			(uuid "4ca4b7a7-e4d1-48d1-a190-d9b91ce49dc8")
 		)
 		(pin "PD5-D5" input
-			(at 176.53 119.38 180)
+			(at 191.77 110.49 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7048,7 +7693,7 @@
 			(uuid "64ae14fe-07c7-4ccc-84ff-669b793f3871")
 		)
 		(pin "AREF" input
-			(at 210.82 132.08 0)
+			(at 226.06 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7058,7 +7703,7 @@
 			(uuid "7802b359-6e4d-4aea-af5b-a8caf9e60a9b")
 		)
 		(pin "RESET" input
-			(at 210.82 129.54 0)
+			(at 226.06 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7068,9 +7713,127 @@
 			(uuid "72be0d90-b3df-4849-95c3-de0f26d42fa9")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 135.89)
+		(size 21.59 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "969f0e51-3c78-4432-93c2-718c069a8b98")
+		(property "Sheetname" "MAX31865AAP+2"
+			(at 27.94 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MAX31865AAP+.kicad_sch"
+			(at 27.94 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CS3v" input
+			(at 49.53 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "db67c8b9-a4e7-43c8-b1c2-2a21db468fc6")
+		)
+		(pin "MISO3v" input
+			(at 49.53 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "389bdb21-70cf-43e5-8292-100ba826d8c1")
+		)
+		(pin "SLC3v" input
+			(at 49.53 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f6f16eb4-008d-4087-916b-f555fd8f0397")
+		)
+		(pin "FORCE-" input
+			(at 27.94 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c55fc0ea-b508-415b-96d9-90db803fcdb9")
+		)
+		(pin "RTDIn+" input
+			(at 27.94 138.43 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bd2690f0-4e23-46e7-b959-a0c151c750dc")
+		)
+		(pin "FORCE+" input
+			(at 27.94 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d7a81bd0-adf1-4095-8ba7-1fe859f549e0")
+		)
+		(pin "RTDin-" input
+			(at 27.94 146.05 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9b686fb5-cedb-4c68-b314-7c3767a76b12")
+		)
+		(pin "MOSI3v" input
+			(at 49.53 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c206980b-7468-4c2e-a2f3-dac1cb79627a")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - Temperature"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(page "7")
 				)
 			)
 		)

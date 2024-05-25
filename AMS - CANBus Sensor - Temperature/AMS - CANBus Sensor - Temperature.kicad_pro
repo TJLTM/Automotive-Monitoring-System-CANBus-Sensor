@@ -609,8 +609,16 @@
       "CANBus-MCP2551"
     ],
     [
-      "1d6692e6-3da6-4bb1-8db9-92d5a320b8aa",
-      "BufferedADC"
+      "2e0562a2-0f62-4c3a-a7f1-916335767d69",
+      "MAX31865AAP+1"
+    ],
+    [
+      "969f0e51-3c78-4432-93c2-718c069a8b98",
+      "MAX31865AAP+2"
+    ],
+    [
+      "0549bf44-8a12-4128-91ec-db5e1165e6eb",
+      "MAX31865AAP+3"
     ]
   ],
   "text_variables": {}

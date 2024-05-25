@@ -2601,7 +2601,7 @@
 			(uuid "fca4aeb8-1deb-41a6-ae60-a6a4d29c1e01")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/8782b0ef-1b0c-41b9-8665-2e7da5446ba9"
 					(reference "J4")
 					(unit 1)
@@ -2669,7 +2669,7 @@
 			(uuid "e43edae0-2134-47c4-a787-c0c605113dd2")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/8782b0ef-1b0c-41b9-8665-2e7da5446ba9"
 					(reference "C2")
 					(unit 1)
@@ -2751,7 +2751,7 @@
 			(uuid "8d8f5548-d370-49e0-a48b-6d7bc62ec654")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/8782b0ef-1b0c-41b9-8665-2e7da5446ba9"
 					(reference "J3")
 					(unit 1)
@@ -2819,7 +2819,7 @@
 			(uuid "1ac4f80e-a8a3-49f0-85dd-1dca07d689c3")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/8782b0ef-1b0c-41b9-8665-2e7da5446ba9"
 					(reference "C1")
 					(unit 1)
@@ -2889,7 +2889,7 @@
 			(uuid "dafb2609-0b9e-48ce-8cea-a9de1106d5b4")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/8782b0ef-1b0c-41b9-8665-2e7da5446ba9"
 					(reference "Y1")
 					(unit 1)
@@ -2959,7 +2959,7 @@
 			(uuid "db283753-23cb-4657-a97a-60e1b3ced0b5")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/8782b0ef-1b0c-41b9-8665-2e7da5446ba9"
 					(reference "R4")
 					(unit 1)
@@ -3027,7 +3027,7 @@
 			(uuid "ca24e342-4a00-4c7b-b796-d0fdbfc22654")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/8782b0ef-1b0c-41b9-8665-2e7da5446ba9"
 					(reference "C3")
 					(unit 1)
@@ -3174,7 +3174,7 @@
 			(uuid "14ccb544-79b0-46ee-b593-e2fc58ccb9c7")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/8782b0ef-1b0c-41b9-8665-2e7da5446ba9"
 					(reference "U2")
 					(unit 1)
