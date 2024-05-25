@@ -2992,12 +2992,56 @@
 		(uuid "fca45c86-2277-4fbf-bb4a-21da16d2dbe0")
 	)
 	(no_connect
+		(at 191.77 110.49)
+		(uuid "077e1041-5555-4ba2-90c9-d42c5a8a78da")
+	)
+	(no_connect
+		(at 191.77 107.95)
+		(uuid "0bcc2bb4-3d06-4d59-b76d-dcd88d662292")
+	)
+	(no_connect
+		(at 191.77 115.57)
+		(uuid "14affbb3-e393-4dc9-9609-a09da51bd6ac")
+	)
+	(no_connect
+		(at 191.77 90.17)
+		(uuid "4ed97650-52e9-42b9-b1cd-23336ec51caa")
+	)
+	(no_connect
+		(at 226.06 95.25)
+		(uuid "60f31e25-eb11-4d78-83df-c092a7b2ee9c")
+	)
+	(no_connect
 		(at 281.94 119.38)
 		(uuid "62eba72c-30a6-4ef1-96b9-d1a3bd1b9f81")
 	)
 	(no_connect
+		(at 226.06 97.79)
+		(uuid "84ab62f2-0197-4ad2-a7fa-e93601ac3f32")
+	)
+	(no_connect
 		(at 281.94 116.84)
 		(uuid "a830a764-3a22-4545-868e-f19efc1f19fa")
+	)
+	(no_connect
+		(at 191.77 100.33)
+		(uuid "b1125c15-6e0a-4b53-87b9-36717a4ddf0e")
+	)
+	(no_connect
+		(at 191.77 92.71)
+		(uuid "be9305a5-837c-4978-9cb5-a1fdb7455127")
+	)
+	(no_connect
+		(at 191.77 102.87)
+		(uuid "c3fa62e7-729f-491a-9e10-b6c9ecc6dc4d")
+	)
+	(no_connect
+		(at 226.06 92.71)
+		(uuid "d8e51e05-23e3-4316-afa4-226d46b20892")
+	)
+	(no_connect
+		(at 191.77 105.41)
+		(uuid "f0f8edca-67a2-4a82-8c11-5127b5637ef2")
 	)
 	(wire
 		(pts
@@ -3418,6 +3462,16 @@
 			(type default)
 		)
 		(uuid "4cafec7f-816e-48ee-ac8c-dbeb6c40ee15")
+	)
+	(wire
+		(pts
+			(xy 148.59 97.79) (xy 191.77 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4efe8bdd-0213-471c-90d0-24e1d61b4506")
 	)
 	(wire
 		(pts
@@ -4301,6 +4355,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 133.35) (xy 148.59 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1dd2309-fa02-4c84-8fee-b1837b00a659")
+	)
+	(wire
+		(pts
 			(xy 39.37 128.27) (xy 50.8 128.27)
 		)
 		(stroke
@@ -4398,6 +4462,16 @@
 			(type default)
 		)
 		(uuid "ed09bc1f-17ff-410d-abec-b4d401b7a789")
+	)
+	(wire
+		(pts
+			(xy 114.3 133.35) (xy 148.59 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9d3372-5a42-4459-a3c3-197487084bd4")
 	)
 	(wire
 		(pts
@@ -5190,7 +5264,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22nF"
 			(at 44.45 87.6299 0)
 			(effects
 				(font
@@ -5199,7 +5273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 41.6052 90.17 0)
 			(effects
 				(font
@@ -6723,7 +6797,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10uF"
 			(at 64.77 91.4399 0)
 			(effects
 				(font
@@ -6732,7 +6806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 61.9252 93.98 0)
 			(effects
 				(font
@@ -8060,7 +8134,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22uF"
 			(at 109.22 101.5999 0)
 			(effects
 				(font
@@ -8069,7 +8143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 106.3752 104.14 0)
 			(effects
 				(font

@@ -656,16 +656,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 67.31) (xy 87.63 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34ac5096-00ff-43e7-b78b-a370cb07430c")
-	)
-	(wire
-		(pts
 			(xy 167.64 87.63) (xy 167.64 91.44)
 		)
 		(stroke
@@ -766,7 +756,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 60.96) (xy 85.09 60.96)
+			(xy 88.9 60.96) (xy 85.09 60.96)
 		)
 		(stroke
 			(width 0)
@@ -874,7 +864,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 87.63 67.31 0)
+		(at 88.9 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
