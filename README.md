@@ -23,4 +23,8 @@ RPM sensor
 this one is a straight foreward design and i may make it an add on module for the ADC since really it's just a Freq to Voltage Sensor 
 
 The I/O box... 
-That one i'm making it a standard 8 in and 8 out setup. can be made to i don't know.... hook into power window units in older cars that can then be remotely controlled or in my case add power windows to some cars. 
+That one i'm making it a standard 8 in and 8 out setup. can be made to i don't know.... hook into power window units in older cars that can then be remotely controlled or in my case add power windows to some cars.
+
+
+
+I'm using my other design for power https://github.com/TJLTM/LM2670SX-Carrier but if you don't like it. BYOPS
