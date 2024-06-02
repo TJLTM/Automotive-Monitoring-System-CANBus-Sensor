@@ -7,7 +7,7 @@
 165.8854,-99.864,180.0,bottom,C14,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,0.33uF,smt,True
 169.2516,-104.3931,-90.0,bottom,C15,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,0.33uF,smt,True
 172.7406,-110.148,180.0,bottom,C16,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,100nF,smt,True
-117.4122,-86.0576,180.0,top,C17,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,22uf,smt,True
+117.4122,-86.0576,180.0,bottom,C17,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,22uf,smt,True
 144.0122,-119.6095,-90.0,bottom,C2,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,22pf,smt,True
 144.0057,-119.597,-90.0,top,C3,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,22pf,smt,True
 149.1469,-119.5239,180.0,bottom,C4,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,22pf,smt,True
@@ -20,8 +20,8 @@
 179.6533,-79.8111,180.0,bottom,IC1,,SOP65P778X199-20N,MAX31865AAP+,smt,True
 179.3146,-93.6244,180.0,bottom,IC2,,SOP65P778X199-20N,MAX31865AAP+,smt,True
 177.0139,-104.4095,180.0,bottom,IC3,,SOP65P778X199-20N,MAX31865AAP+,smt,True
-118.7791,-95.298,0.0,top,IC4,,SOIC127P600X175-16N,CD74HC4050ME4,smt,True
-119.0669,-81.0233,0.0,top,IC5,,SOT230P700X180-4N,AZ1117CH2-3.3TRG1,smt,True
+118.7791,-95.298,0.0,bottom,IC4,,SOIC127P600X175-16N,CD74HC4050ME4,smt,True
+119.0669,-81.0233,0.0,bottom,IC5,,SOT230P700X180-4N,AZ1117CH2-3.3TRG1,smt,True
 157.148,-71.8728,90.0,top,J1,,"TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal",Power_And_CAN,tht,True
 154.1474,-96.7045,90.0,top,J10,,PinHeader_1x02_P2.54mm_Vertical,Conn_01x02,tht,True
 152.8674,-108.2594,90.0,top,J11,,PinHeader_1x02_P2.54mm_Vertical,Conn_01x02,tht,True

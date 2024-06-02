@@ -826,7 +826,7 @@
 		)
 		(uuid "0f165ce7-4d0f-40cb-ad9b-1c2d15a0b09d")
 	)
-	(hierarchical_label "2.5V"
+	(hierarchical_label "Vref"
 		(shape input)
 		(at 181.61 85.09 0)
 		(fields_autoplaced yes)

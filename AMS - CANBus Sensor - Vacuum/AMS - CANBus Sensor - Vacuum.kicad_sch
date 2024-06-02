@@ -9224,16 +9224,6 @@
 			)
 			(uuid "442e0051-d7f2-494c-9f55-efaac91ac196")
 		)
-		(pin "2.5V" input
-			(at 39.37 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "413ee7c6-3838-4a4d-99b2-3edf4a0c87ed")
-		)
 		(pin "GND" input
 			(at 39.37 133.35 0)
 			(effects
@@ -9263,6 +9253,16 @@
 				(justify right)
 			)
 			(uuid "858637dc-a54c-4d1d-8cff-1a2f44e44279")
+		)
+		(pin "Vref" input
+			(at 39.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "12313d9f-16c3-4da3-9baf-395213d0252c")
 		)
 		(instances
 			(project "AMS - CANBus Sensor - Vacuum"
@@ -9826,16 +9826,6 @@
 			)
 			(uuid "8eb88336-7ded-4534-9815-eae79e401a5c")
 		)
-		(pin "2.5V" input
-			(at 39.37 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "99662ef4-397c-4e81-8a7c-b01789e241eb")
-		)
 		(pin "GND" input
 			(at 39.37 156.21 0)
 			(effects
@@ -9865,6 +9855,16 @@
 				(justify right)
 			)
 			(uuid "bdf997ed-1693-4662-9adb-89b503946c88")
+		)
+		(pin "Vref" input
+			(at 39.37 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bb897205-608f-4a0c-ba38-46c2fb2265e7")
 		)
 		(instances
 			(project "AMS - CANBus Sensor - Vacuum"
