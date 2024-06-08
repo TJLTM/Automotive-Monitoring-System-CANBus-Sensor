@@ -15,7 +15,7 @@
 139.0496,-61.7385,90.0,top,J5,,PinHeader_1x02_P2.54mm_Vertical,Conn_01x02,tht,True
 170.718,-84.0223,90.0,top,J6,,"TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal",Screw_Terminal_01x02,tht,True
 135.9656,-94.8095,-90.0,top,NTC1,,R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,10k,tht,True
-130.9763,-87.5526,0.0,top,Powerboard1,,PinHeader_1x03_P2.54mm_Vertical,Conn_01x03,tht,True
+130.9763,-92.6026,180.0,top,Powerboard1,,PinHeader_1x03_P2.54mm_Vertical,Conn_01x03,tht,True
 136.586,-84.4236,90.0,top,Q1,,TO254P469X1042X1967-3P,IRF9Z34NPBF,tht,True
 129.8143,-81.1293,180.0,bottom,R1,,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,10k,smt,True
 122.2604,-78.8725,0.0,top,R10,,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,47K,smt,True
