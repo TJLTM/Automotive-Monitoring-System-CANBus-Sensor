@@ -626,7 +626,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 80.01) (xy 168.91 80.01)
+			(xy 166.37 80.01) (xy 181.61 80.01)
 		)
 		(stroke
 			(width 0)
@@ -653,16 +653,6 @@
 			(type default)
 		)
 		(uuid "2d9f2203-455b-495e-827d-707663acb6db")
-	)
-	(wire
-		(pts
-			(xy 167.64 87.63) (xy 167.64 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3daf0ea2-2a1b-4481-a5c3-b1e175217c04")
 	)
 	(wire
 		(pts
@@ -716,23 +706,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 87.63) (xy 166.37 87.63)
+			(xy 181.61 87.63) (xy 166.37 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a21276a2-adea-447b-a593-7b1da41c3800")
-	)
-	(wire
-		(pts
-			(xy 168.91 80.01) (xy 168.91 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4bdf0d0-c2b0-44a4-a169-3f353c6364cf")
 	)
 	(wire
 		(pts
@@ -746,7 +726,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 82.55) (xy 166.37 82.55)
+			(xy 181.61 82.55) (xy 166.37 82.55)
 		)
 		(stroke
 			(width 0)
@@ -826,7 +806,7 @@
 		)
 		(uuid "0f165ce7-4d0f-40cb-ad9b-1c2d15a0b09d")
 	)
-	(hierarchical_label "2.5V"
+	(hierarchical_label "VRef"
 		(shape input)
 		(at 181.61 85.09 0)
 		(fields_autoplaced yes)
@@ -838,9 +818,9 @@
 		)
 		(uuid "7455ea02-a02b-4770-a14d-c3608b2f4b09")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "VS+"
 		(shape input)
-		(at 168.91 74.93 0)
+		(at 181.61 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -850,9 +830,9 @@
 		)
 		(uuid "a3ba9f7a-f63d-47ff-85af-bf691ba5d3ff")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "VS-"
 		(shape input)
-		(at 167.64 91.44 0)
+		(at 181.61 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -876,7 +856,7 @@
 	)
 	(hierarchical_label "VoutToADC"
 		(shape input)
-		(at 171.45 82.55 0)
+		(at 181.61 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
