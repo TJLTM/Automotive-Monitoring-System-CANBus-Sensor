@@ -607,10 +607,6 @@
     [
       "5df34325-0121-481e-982d-7498a0311385",
       "CANBus-MCP2551"
-    ],
-    [
-      "1d6692e6-3da6-4bb1-8db9-92d5a320b8aa",
-      "BufferedADC"
     ]
   ],
   "text_variables": {}

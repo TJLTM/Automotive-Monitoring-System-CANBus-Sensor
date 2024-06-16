@@ -1111,7 +1111,7 @@
 			(uuid "2a42a279-0c9f-43b9-a8a7-f67c338d0870")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/5df34325-0121-481e-982d-7498a0311385"
 					(reference "D1")
 					(unit 1)
@@ -1181,7 +1181,7 @@
 			(uuid "f2334a31-8dd0-4d92-8db2-967f285ceede")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/5df34325-0121-481e-982d-7498a0311385"
 					(reference "J5")
 					(unit 1)
@@ -1270,7 +1270,7 @@
 			(uuid "0614ac2f-b9fb-44e1-9f11-be002ad81a64")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/5df34325-0121-481e-982d-7498a0311385"
 					(reference "U4")
 					(unit 1)
@@ -1340,7 +1340,7 @@
 			(uuid "4961dbbc-d18e-4855-9e6f-ee5d87eb7f27")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/5df34325-0121-481e-982d-7498a0311385"
 					(reference "R7")
 					(unit 1)
@@ -1410,7 +1410,7 @@
 			(uuid "2caa6737-d9bd-45f9-a77d-0b740cd14644")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/5df34325-0121-481e-982d-7498a0311385"
 					(reference "R6")
 					(unit 1)

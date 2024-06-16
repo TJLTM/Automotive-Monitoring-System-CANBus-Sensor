@@ -5,193 +5,6 @@
 	(uuid "1c8b441e-37da-469b-a62d-a2093a833f7a")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Screw_Terminal_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Screw_Terminal_01x04"
 			(pin_names
 				(offset 1.016) hide)
@@ -765,216 +578,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:R_Potentiometer_US"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Potentiometer_US"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Potentiometer, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor variable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Potentiometer_US_0_1"
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2153,16 +1756,6 @@
 		(color 0 0 0 0)
 		(uuid "e5409c50-1a44-4e39-9557-140369dc31a3")
 	)
-	(junction
-		(at 71.12 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8d73295-7057-4571-a0be-56c92d9f3d53")
-	)
-	(no_connect
-		(at 176.53 116.84)
-		(uuid "03f8b992-63fb-4d42-919e-c08d1b032b54")
-	)
 	(no_connect
 		(at 176.53 106.68)
 		(uuid "11f071e2-8a1e-45dd-9288-7907fed3f82f")
@@ -2172,40 +1765,16 @@
 		(uuid "16d5ed95-ec56-4a9d-8e9f-dcd91b374cd7")
 	)
 	(no_connect
-		(at 176.53 114.3)
-		(uuid "355e03e9-0e9d-4ad2-a987-c6b2b27b098d")
-	)
-	(no_connect
 		(at 266.7 135.89)
 		(uuid "62eba72c-30a6-4ef1-96b9-d1a3bd1b9f81")
-	)
-	(no_connect
-		(at 176.53 132.08)
-		(uuid "7811c41d-ed7e-4fc3-8057-6867d67c8051")
 	)
 	(no_connect
 		(at 210.82 119.38)
 		(uuid "7d6f272f-3cc2-4725-a156-039613408014")
 	)
 	(no_connect
-		(at 176.53 124.46)
-		(uuid "a5b031ca-bce4-40e4-a4b6-dc3355fef1e2")
-	)
-	(no_connect
 		(at 266.7 133.35)
 		(uuid "a830a764-3a22-4545-868e-f19efc1f19fa")
-	)
-	(no_connect
-		(at 176.53 121.92)
-		(uuid "c89a1468-bcff-433d-a2dc-16f5042de393")
-	)
-	(no_connect
-		(at 176.53 127)
-		(uuid "f5c9d3bd-4954-4864-8607-31a2e946299f")
-	)
-	(no_connect
-		(at 176.53 119.38)
-		(uuid "f909a8d2-3bd7-4afe-bdc5-3bfcba7bb887")
 	)
 	(wire
 		(pts
@@ -2236,26 +1805,6 @@
 			(type default)
 		)
 		(uuid "04a249e3-185d-46fc-8800-6a918fd0a339")
-	)
-	(wire
-		(pts
-			(xy 274.32 157.48) (xy 110.49 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06f8bedf-cefb-482f-983b-7847a47f4ad0")
-	)
-	(wire
-		(pts
-			(xy 110.49 160.02) (xy 276.86 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "096e7ccf-9943-404e-99a7-d6c51c8c683f")
 	)
 	(wire
 		(pts
@@ -2329,26 +1878,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 160.02) (xy 90.17 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10fb8bc0-55e9-4c78-b5b4-4d02aa4fbf8b")
-	)
-	(wire
-		(pts
-			(xy 64.77 160.02) (xy 64.77 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1618edfb-4284-49ac-8e8c-7ac375aebe8f")
-	)
-	(wire
-		(pts
 			(xy 38.1 58.42) (xy 38.1 57.15)
 		)
 		(stroke
@@ -2419,16 +1948,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 133.35) (xy 83.82 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "289dbf85-7ced-4011-bddb-a3e1a1b2c9e4")
-	)
-	(wire
-		(pts
 			(xy 139.7 38.1) (xy 143.51 38.1)
 		)
 		(stroke
@@ -2436,16 +1955,6 @@
 			(type default)
 		)
 		(uuid "2c8c4cb3-9452-4c4a-aeed-69547536d24c")
-	)
-	(wire
-		(pts
-			(xy 83.82 152.4) (xy 90.17 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e82bc49-f891-4eeb-9f1a-8c44d7ca151c")
 	)
 	(wire
 		(pts
@@ -2476,16 +1985,6 @@
 			(type default)
 		)
 		(uuid "3557d242-92d0-47d1-8b2e-f205686a4c1c")
-	)
-	(wire
-		(pts
-			(xy 273.05 111.76) (xy 210.82 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37ebdfc4-e24c-479b-a60a-6438de0c5a04")
 	)
 	(wire
 		(pts
@@ -2539,16 +2038,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 160.02) (xy 276.86 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b9e4333-456d-4f09-8e06-d71368012693")
-	)
-	(wire
-		(pts
 			(xy 121.92 38.1) (xy 134.62 38.1)
 		)
 		(stroke
@@ -2556,16 +2045,6 @@
 			(type default)
 		)
 		(uuid "4cafec7f-816e-48ee-ac8c-dbeb6c40ee15")
-	)
-	(wire
-		(pts
-			(xy 210.82 109.22) (xy 271.78 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d4d7c86-8d49-4421-9ead-91cd8c2e7fee")
 	)
 	(wire
 		(pts
@@ -2586,26 +2065,6 @@
 			(type default)
 		)
 		(uuid "538df5ea-1cd6-404f-8220-e6419d6a2803")
-	)
-	(wire
-		(pts
-			(xy 50.8 134.62) (xy 43.18 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "555e78b1-c5b0-42a8-8a1d-92f927451d6f")
-	)
-	(wire
-		(pts
-			(xy 71.12 114.3) (xy 71.12 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57389be0-d5b4-4b1f-b7ce-d6dae46fbe64")
 	)
 	(wire
 		(pts
@@ -2669,16 +2128,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 175.26) (xy 60.96 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "661802d6-5322-4675-8c5d-042219281ddd")
-	)
-	(wire
-		(pts
 			(xy 210.82 106.68) (xy 212.09 106.68)
 		)
 		(stroke
@@ -2689,16 +2138,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 151.13) (xy 58.42 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67db7827-fa48-4e7f-8284-f4ef11b2b03b")
-	)
-	(wire
-		(pts
 			(xy 176.53 139.7) (xy 162.56 139.7)
 		)
 		(stroke
@@ -2706,16 +2145,6 @@
 			(type default)
 		)
 		(uuid "6d1619d9-f3db-413e-b34f-d27d92ca7e30")
-	)
-	(wire
-		(pts
-			(xy 276.86 116.84) (xy 210.82 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e1e60bc-e025-4e2a-82ed-2d493ba48920")
 	)
 	(wire
 		(pts
@@ -2736,46 +2165,6 @@
 			(type default)
 		)
 		(uuid "7279722c-6d23-401e-a1c9-0b8a72d7c17e")
-	)
-	(wire
-		(pts
-			(xy 90.17 167.64) (xy 86.36 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73cd0b93-d072-43ea-8b80-a4b05981ede2")
-	)
-	(wire
-		(pts
-			(xy 50.8 163.83) (xy 50.8 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "743854e7-ff2b-43b2-9dc9-fea77d1cd9ad")
-	)
-	(wire
-		(pts
-			(xy 82.55 154.94) (xy 90.17 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75ac59ab-d69a-4911-a6ea-413f4ace6b15")
-	)
-	(wire
-		(pts
-			(xy 83.82 170.18) (xy 83.82 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78b7ec93-fc98-4cdc-8599-3c75848bfd77")
 	)
 	(wire
 		(pts
@@ -2809,16 +2198,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 137.16) (xy 66.04 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aab09bd-81c7-4952-8c2a-b1339be876ee")
-	)
-	(wire
-		(pts
 			(xy 176.53 137.16) (xy 166.37 137.16)
 		)
 		(stroke
@@ -2826,26 +2205,6 @@
 			(type default)
 		)
 		(uuid "7cf0bd9e-bf55-4b2d-add5-fc6e1559615a")
-	)
-	(wire
-		(pts
-			(xy 71.12 114.3) (xy 74.93 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d1e97fe-2a4e-4afa-bcb4-470aced50326")
-	)
-	(wire
-		(pts
-			(xy 43.18 179.07) (xy 43.18 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dc1cbb9-5890-4e84-981e-3c91dab49b80")
 	)
 	(wire
 		(pts
@@ -2889,26 +2248,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 116.84) (xy 50.8 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92089d06-d85a-47e8-b472-86482f14704a")
-	)
-	(wire
-		(pts
-			(xy 43.18 129.54) (xy 66.04 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "924fe397-aa1a-4122-94ec-4010094e54f7")
-	)
-	(wire
-		(pts
 			(xy 163.83 59.69) (xy 171.45 59.69)
 		)
 		(stroke
@@ -2916,16 +2255,6 @@
 			(type default)
 		)
 		(uuid "93253b85-d63f-49a0-b5d1-782344241f2f")
-	)
-	(wire
-		(pts
-			(xy 54.61 160.02) (xy 64.77 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97188104-6858-4dcc-b5a3-cf991a04a682")
 	)
 	(wire
 		(pts
@@ -2949,16 +2278,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 161.29) (xy 86.36 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b8ef5c6-d875-4bf8-828e-659b4af2c7a7")
-	)
-	(wire
-		(pts
 			(xy 74.93 41.91) (xy 74.93 44.45)
 		)
 		(stroke
@@ -2966,36 +2285,6 @@
 			(type default)
 		)
 		(uuid "a46a008c-e77c-499e-ba17-7e905e845481")
-	)
-	(wire
-		(pts
-			(xy 46.99 175.26) (xy 60.96 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa0844c1-a923-4e16-b29e-6c941fe747de")
-	)
-	(wire
-		(pts
-			(xy 273.05 154.94) (xy 273.05 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aca89d69-a606-40fa-8315-bc8d7c9d817a")
-	)
-	(wire
-		(pts
-			(xy 82.55 147.32) (xy 82.55 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b01b1ca6-ed0d-450c-ac62-cb75b01176bd")
 	)
 	(wire
 		(pts
@@ -3019,36 +2308,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 143.51) (xy 58.42 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b53f803c-d0d6-4922-9f6a-e05108363e25")
-	)
-	(wire
-		(pts
-			(xy 210.82 114.3) (xy 274.32 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8296983-3ff7-42ed-bcdc-69a5573b5680")
-	)
-	(wire
-		(pts
-			(xy 86.36 161.29) (xy 86.36 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9231836-087e-485e-a9c1-62194f306bc6")
-	)
-	(wire
-		(pts
 			(xy 166.37 137.16) (xy 166.37 83.82)
 		)
 		(stroke
@@ -3056,16 +2315,6 @@
 			(type default)
 		)
 		(uuid "bc47a8c0-c9f8-4119-b1a0-a40bd5b0092a")
-	)
-	(wire
-		(pts
-			(xy 64.77 157.48) (xy 90.17 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc4cb690-f556-4f13-83ee-21d5f219c31f")
 	)
 	(wire
 		(pts
@@ -3119,16 +2368,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 109.22) (xy 271.78 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c20924f9-f807-4e22-8eb4-03185b772afd")
-	)
-	(wire
-		(pts
 			(xy 135.89 58.42) (xy 143.51 58.42)
 		)
 		(stroke
@@ -3169,26 +2408,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 156.21) (xy 50.8 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2d80c6b-661b-4f98-b36f-98e46854d605")
-	)
-	(wire
-		(pts
-			(xy 110.49 154.94) (xy 273.05 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d37079c5-1829-41c0-9fec-2a61aa4dab1f")
-	)
-	(wire
-		(pts
 			(xy 143.51 40.64) (xy 135.89 40.64)
 		)
 		(stroke
@@ -3196,16 +2415,6 @@
 			(type default)
 		)
 		(uuid "d3ea6198-788a-462e-95e8-15f089c4f5b5")
-	)
-	(wire
-		(pts
-			(xy 86.36 167.64) (xy 86.36 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6c309ca-23fc-46e9-9449-8fa5872edeb6")
 	)
 	(wire
 		(pts
@@ -3239,26 +2448,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 170.18) (xy 83.82 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc83c2b9-a6c3-488e-82f0-538919f3fff3")
-	)
-	(wire
-		(pts
-			(xy 274.32 114.3) (xy 274.32 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de839466-886b-4687-9fcc-b57557e94a82")
-	)
-	(wire
-		(pts
 			(xy 231.14 133.35) (xy 236.22 133.35)
 		)
 		(stroke
@@ -3266,26 +2455,6 @@
 			(type default)
 		)
 		(uuid "e08b2865-b8cf-464a-a39f-ee174aaeede2")
-	)
-	(wire
-		(pts
-			(xy 43.18 137.16) (xy 43.18 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e11f84aa-c5c0-4007-ba6a-141f358b2f6b")
-	)
-	(wire
-		(pts
-			(xy 83.82 133.35) (xy 83.82 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1f8fe9a-174c-4c32-96bf-67a221882171")
 	)
 	(wire
 		(pts
@@ -3329,26 +2498,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 165.1) (xy 90.17 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eda75fb0-e4cb-432e-a5e1-84af924fc249")
-	)
-	(wire
-		(pts
-			(xy 62.23 147.32) (xy 82.55 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eec0fe03-764d-4940-b548-87a6ca71f0ff")
-	)
-	(wire
-		(pts
 			(xy 220.98 132.08) (xy 220.98 134.62)
 		)
 		(stroke
@@ -3356,26 +2505,6 @@
 			(type default)
 		)
 		(uuid "f0c2011c-3a07-4cc0-94bf-d96686b2361b")
-	)
-	(wire
-		(pts
-			(xy 271.78 152.4) (xy 110.49 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2d0ead0-f0a5-4bf6-ae09-869362c14f17")
-	)
-	(wire
-		(pts
-			(xy 43.18 114.3) (xy 50.8 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f64ed7d0-a0e9-4845-96f9-1afe7ca9e06d")
 	)
 	(wire
 		(pts
@@ -3396,16 +2525,6 @@
 			(type default)
 		)
 		(uuid "fc20d4bc-0328-4fd7-a963-df0d013bb939")
-	)
-	(wire
-		(pts
-			(xy 58.42 132.08) (xy 43.18 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fda67edc-60d3-4da3-8e59-f77fe52e466c")
 	)
 	(global_label "CANBUS_H"
 		(shape input)
@@ -3496,154 +2615,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_US")
-		(at 43.18 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "090e78a6-a498-4f33-b440-9d73c4c393ac")
-		(property "Reference" "RV4"
-			(at 40.64 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "200k"
-			(at 40.64 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 43.18 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer, US symbol"
-			(at 43.18 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "93d36870-83a7-4286-850a-1c4bf2619653")
-		)
-		(pin "1"
-			(uuid "744ee2f7-1b86-4fde-965a-cecc7049de4c")
-		)
-		(pin "3"
-			(uuid "d01ed9d8-a052-4c10-b5cb-80c69380d5c8")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "RV4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 38.1 132.08 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f5739ad-7045-44e9-b5f2-87e8f52151b8")
-		(property "Reference" "J2"
-			(at 35.56 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Power_And_CAN"
-			(at 35.56 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
-			(at 38.1 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 38.1 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ec17b86-c29b-412b-86b5-61b6f2b7da5c")
-		)
-		(pin "2"
-			(uuid "0a90c00f-112d-437e-a665-3a537c7b2962")
-		)
-		(pin "3"
-			(uuid "39cc378f-9ba3-4e51-8243-6b3518b26178")
-		)
-		(pin "4"
-			(uuid "f5a0fa41-254d-4c85-bf9b-c50a0df7b453")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 22.86 30.48 0)
 		(unit 1)
@@ -3701,7 +2672,7 @@
 			(uuid "3ed6ba07-96ee-475c-897d-c69a12e16b51")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR01")
 					(unit 1)
@@ -3827,206 +2798,9 @@
 			(uuid "f262eb1c-c57c-46a4-b4c9-247dca56b0a5")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:3568")
-		(at 50.8 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2207e950-062a-49a3-a08e-7a128b8701d1")
-		(property "Reference" "U1"
-			(at 60.96 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3568"
-			(at 60.96 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "3568"
-			(at 67.31 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse Holder 30A 500V 1 Circuit Blade Through Hole"
-			(at 67.31 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "7.5"
-			(at 67.31 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "534-3568"
-			(at 67.31 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3568?qs=fP5bVVCrK%2Fd7nbA%2FPpwnKw%3D%3D"
-			(at 67.31 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 67.31 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "3568"
-			(at 67.31 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "01bd328e-6c26-4566-9954-f70ff5eabfd7")
-		)
-		(pin "3"
-			(uuid "2f3b84ef-bfe9-4d4c-a1ce-724684600d7c")
-		)
-		(pin "2"
-			(uuid "1ff6661d-11c4-4d1e-b549-39dd4f2bdc96")
-		)
-		(pin "1"
-			(uuid "c345f2e6-f0be-48c4-83d9-33603f6b30cc")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 38.1 114.3 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "27e350f2-5fff-4539-ad46-12ad9f6ee025")
-		(property "Reference" "J6"
-			(at 35.56 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 35.56 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
-			(at 38.1 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 38.1 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e3d5e90-0bfa-4de8-b3e8-552efbcb9514")
-		)
-		(pin "2"
-			(uuid "2c65cfd9-d299-4832-afce-1f748ece1c90")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -4090,74 +2864,9 @@
 			(uuid "630ac413-7ac0-4a4d-87c5-b3c69081b7cd")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 86.36 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b34101c-cd20-4423-a171-e6a30575f1cd")
-		(property "Reference" "#PWR011"
-			(at 86.36 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 86.487 175.8442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cea1f41c-a2ff-4403-9254-3a1f9c366c40")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4220,146 +2929,9 @@
 			(uuid "11da98d9-9ffc-4ff9-8f62-3193d4f2a712")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_US")
-		(at 66.04 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e704528-82fc-4c0e-9e17-7d51834e0c99")
-		(property "Reference" "RV1"
-			(at 63.5 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "200k"
-			(at 63.5 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 66.04 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer, US symbol"
-			(at 66.04 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b25bc57d-23d7-49d6-b50f-ac471bb57c24")
-		)
-		(pin "1"
-			(uuid "b321b27f-bbb0-4d26-b7af-b03f808f3ff9")
-		)
-		(pin "3"
-			(uuid "af44411d-887e-4f8a-ac0f-aa912e20a546")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "RV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 58.42 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e723969-9978-4ed4-9885-a1d8d58b5aa4")
-		(property "Reference" "#PWR05"
-			(at 58.42 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.547 158.0642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41670829-7d95-4c77-aeed-7dc81bf45dda")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4484,7 +3056,7 @@
 			(uuid "4a9edadc-3b0a-4aee-97f8-34d82d301c74")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "Reset1")
 					(unit 1)
@@ -4549,81 +3121,9 @@
 			(uuid "fc17bc03-aa67-40fa-b2d1-d8d65958faa6")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_US")
-		(at 50.8 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "568601f0-c487-463d-8019-35411bdef44c")
-		(property "Reference" "RV3"
-			(at 48.26 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "200k"
-			(at 48.26 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 50.8 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer, US symbol"
-			(at 50.8 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "71af6bd9-d1f0-4b6d-9aa4-d76207b17fed")
-		)
-		(pin "1"
-			(uuid "a3e5e861-67db-45ea-9764-f0db4c71ce51")
-		)
-		(pin "3"
-			(uuid "f1a46770-02d0-4eb4-9b03-7ce2fd6f233e")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "RV3")
 					(unit 1)
 				)
 			)
@@ -4687,7 +3187,7 @@
 			(uuid "5762219c-754b-4b29-9304-e5daa4179bcb")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR013")
 					(unit 1)
@@ -4752,75 +3252,9 @@
 			(uuid "b9a40b15-7f65-44cb-9899-be644563b397")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 74.93 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76b3b9e3-8fa4-47e8-9332-845fe32a3a6f")
-		(property "Reference" "#PWR022"
-			(at 74.93 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 74.93 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 74.93 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42c248ca-9c30-4ccc-9524-01b4d65fec9e")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4884,7 +3318,7 @@
 			(uuid "b5077b30-45fa-4f3d-88ef-e79104b23566")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#FLG01")
 					(unit 1)
@@ -4953,74 +3387,9 @@
 			(uuid "3612df13-2110-4f34-908b-ccfecb8db211")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8db21dc4-0b0f-4d67-b273-8cc2000908da")
-		(property "Reference" "#PWR04"
-			(at 66.04 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.167 144.0942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1bbc606-0a76-4d83-8475-c3316b7295b4")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5083,7 +3452,7 @@
 			(uuid "5e0a2aaf-6d32-4bc0-809d-771a6b32a73d")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR06")
 					(unit 1)
@@ -5156,7 +3525,7 @@
 			(uuid "a4f0e1d7-772c-4007-804c-c43c20782f26")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "Powerboard1")
 					(unit 1)
@@ -5232,7 +3601,7 @@
 			(uuid "5d77a1de-03f1-4bbd-8b71-a8f1b51eb12a")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "J1")
 					(unit 1)
@@ -5297,75 +3666,9 @@
 			(uuid "af76d48f-0735-4863-8bf4-0768441718b9")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 81.28 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c10e529b-5e1a-4886-84ce-d296e9d1b8e6")
-		(property "Reference" "#PWR010"
-			(at 81.28 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 81.28 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 81.28 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a302515e-e0f1-42bc-940b-a72bb6e900bd")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5431,7 +3734,7 @@
 			(uuid "1c413531-f104-4980-9041-26fddca891e0")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "R2")
 					(unit 1)
@@ -5494,7 +3797,7 @@
 			(uuid "00136c90-3252-48dc-92e3-a6e3b039c264")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR020")
 					(unit 1)
@@ -5559,7 +3862,7 @@
 			(uuid "2a06006e-6aea-4619-a38a-ccebc1e203e6")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR08")
 					(unit 1)
@@ -5626,74 +3929,9 @@
 			(uuid "820f617c-daaa-49ce-977c-8e81f3c6d029")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 50.8 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d376a37b-48bc-4890-a61d-7704fe45324a")
-		(property "Reference" "#PWR07"
-			(at 50.8 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.927 170.7642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f82d320c-3e4f-4891-b3d9-070a047307df")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5757,7 +3995,7 @@
 			(uuid "d7153aaf-59d9-4d50-9212-4e21ba1c6321")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR018")
 					(unit 1)
@@ -5822,7 +4060,7 @@
 			(uuid "2de995ba-cb9e-49c2-accb-3a0c12fa1d86")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR017")
 					(unit 1)
@@ -5887,7 +4125,7 @@
 			(uuid "1d8db916-797c-45fb-8bec-56c782b20237")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR012")
 					(unit 1)
@@ -5954,146 +4192,9 @@
 			(uuid "1d1ce2c5-49d3-43b7-8295-ea233d214f8e")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "NTC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_US")
-		(at 58.42 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec44a861-b07e-4503-8ef4-d50a4dff5453")
-		(property "Reference" "RV2"
-			(at 55.88 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "200k"
-			(at 55.88 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 58.42 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer, US symbol"
-			(at 58.42 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7a2638e3-927f-4748-ab50-92e285414090")
-		)
-		(pin "1"
-			(uuid "f996d177-c6ba-4393-90cd-9b1eb80beed8")
-		)
-		(pin "3"
-			(uuid "88561b90-dc7c-4867-a46a-c8b49307220c")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "RV2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 43.18 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f78d365f-81f0-47a7-b3ae-24e79a4dd432")
-		(property "Reference" "#PWR09"
-			(at 43.18 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.307 186.0042 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1bbf745a-c9ff-447f-8376-e203fd097f35")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6156,7 +4257,7 @@
 			(uuid "e498c632-3cd8-4cf4-b70a-599ce246320b")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR014")
 					(unit 1)
@@ -6222,7 +4323,7 @@
 			(uuid "72dc543e-22d6-4a43-a3e7-efb074563cab")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR015")
 					(unit 1)
@@ -6288,7 +4389,7 @@
 			(uuid "8bce4b4c-7071-43eb-8c6b-8cbb557dbcd3")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR019")
 					(unit 1)
@@ -6415,148 +4516,10 @@
 			(uuid "558f65db-2a4b-49fd-893d-7aa4fe2655ca")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "U5")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 90.17 149.86)
-		(size 20.32 20.32)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "1d6692e6-3da6-4bb1-8db9-92d5a320b8aa")
-		(property "Sheetname" "BufferedADC"
-			(at 90.17 149.1484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "BufferedADC.kicad_sch"
-			(at 90.17 170.7646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ADCOUT2" input
-			(at 110.49 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7feac3e6-8639-4797-96ea-82bc1e150431")
-		)
-		(pin "ADCIN1" input
-			(at 90.17 152.4 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c4cbac49-c1b7-4f46-af1d-e92c73fa3fe8")
-		)
-		(pin "ADCIN2" input
-			(at 90.17 154.94 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8de5df87-bd64-439d-9433-27c2c2a9462b")
-		)
-		(pin "ADCOUT1" input
-			(at 110.49 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3b8411e1-359f-4d77-ab98-5805064c2a2b")
-		)
-		(pin "ADCOUT4" input
-			(at 110.49 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a68eb437-f7ed-4953-9f13-ddf04d807eae")
-		)
-		(pin "ADCIN4" input
-			(at 90.17 160.02 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3c54e1d2-b096-4e82-b214-ccaf38388d21")
-		)
-		(pin "ADCIN3" input
-			(at 90.17 157.48 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2d5a9425-169e-4ee0-bb8d-16c86dc1eeb7")
-		)
-		(pin "ADCOUT3" input
-			(at 110.49 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "d88ee128-20d9-44d3-a93d-3766378c71dd")
-		)
-		(pin "GND" input
-			(at 90.17 167.64 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "da3f23e9-ea99-496a-a929-4805f772a528")
-		)
-		(pin "Vin" input
-			(at 90.17 165.1 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a901dbba-3f93-4a6a-aab5-7436e4a9e9ef")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(page "5")
 				)
 			)
 		)
@@ -6652,7 +4615,7 @@
 			(uuid "c1e91cd2-ba8d-4ba1-862b-4640a615e9da")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(page "4")
 				)
@@ -6780,7 +4743,7 @@
 			(uuid "2346e6da-7ce2-4a3f-aca9-ee2b261baff6")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(page "3")
 				)
@@ -7068,7 +5031,7 @@
 			(uuid "72be0d90-b3df-4849-95c3-de0f26d42fa9")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Pressure"
+			(project "AMS - CANBus - RGB"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(page "2")
 				)
