@@ -449,7 +449,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "AMS - CANBus - RGB.kicad_pro",
+    "filename": "AMS - CANBus - RGB - Nchannel.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -607,6 +607,10 @@
     [
       "5df34325-0121-481e-982d-7498a0311385",
       "CANBus-MCP2551"
+    ],
+    [
+      "d5e18eb1-e184-4f26-bde7-416ad96688c3",
+      "Output12v"
     ]
   ],
   "text_variables": {}

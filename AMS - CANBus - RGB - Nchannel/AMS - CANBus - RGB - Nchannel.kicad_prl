@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "AMS - CANBus - RGB.kicad_prl",
+    "filename": "AMS - CANBus - RGB - Nchannel.kicad_prl",
     "version": 3
   },
   "project": {
