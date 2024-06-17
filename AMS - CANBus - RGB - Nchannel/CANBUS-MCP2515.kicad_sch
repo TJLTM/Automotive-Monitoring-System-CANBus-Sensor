@@ -1426,7 +1426,7 @@
 			(uuid "777590de-5648-4e82-990b-5540acc3e243")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/7d96c4e1-93d6-45eb-8bfa-0469ecf38441"
 					(reference "U3")
 					(unit 1)
@@ -1494,7 +1494,7 @@
 			(uuid "bd63e63b-ab23-47d0-9a7a-898c4de4ee6e")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/7d96c4e1-93d6-45eb-8bfa-0469ecf38441"
 					(reference "C6")
 					(unit 1)
@@ -1562,7 +1562,7 @@
 			(uuid "dcd2f052-b632-4c87-a450-bd673914a2c4")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/7d96c4e1-93d6-45eb-8bfa-0469ecf38441"
 					(reference "R5")
 					(unit 1)
@@ -1633,7 +1633,7 @@
 			(uuid "339f3664-524d-453b-a3cd-b5c942f16747")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/7d96c4e1-93d6-45eb-8bfa-0469ecf38441"
 					(reference "Y2")
 					(unit 1)
@@ -1702,7 +1702,7 @@
 			(uuid "db53e0ae-2d26-4476-a192-4e60734ff6f2")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/7d96c4e1-93d6-45eb-8bfa-0469ecf38441"
 					(reference "C4")
 					(unit 1)
@@ -1770,7 +1770,7 @@
 			(uuid "4fb0969e-9725-48bb-a549-80ff722cbccc")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/7d96c4e1-93d6-45eb-8bfa-0469ecf38441"
 					(reference "C7")
 					(unit 1)
@@ -1839,7 +1839,7 @@
 			(uuid "ba278cf0-d3a4-4bda-b6b2-86e81b6433db")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/7d96c4e1-93d6-45eb-8bfa-0469ecf38441"
 					(reference "C5")
 					(unit 1)

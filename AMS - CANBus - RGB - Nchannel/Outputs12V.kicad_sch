@@ -2062,7 +2062,7 @@
 			(uuid "7a2bb7b8-ce9f-43cd-b8b1-35d70da935e8")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "R16")
 					(unit 1)
@@ -2138,7 +2138,7 @@
 			(uuid "4ce5a6e6-09ae-4716-b378-75ca5036b4e1")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "Q6")
 					(unit 1)
@@ -2263,7 +2263,7 @@
 			(uuid "11e3a3bd-31bc-4388-a1e6-a369c468c134")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "Q7")
 					(unit 1)
@@ -2332,7 +2332,7 @@
 			(uuid "8e79a1f5-39db-4e5c-b5a1-e51e148ed95a")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "R12")
 					(unit 1)
@@ -2408,7 +2408,7 @@
 			(uuid "0d9ab8d5-3b0c-4b30-9a5e-d0f01a086927")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "Q8")
 					(unit 1)
@@ -2533,7 +2533,7 @@
 			(uuid "ffbabd27-d6b7-49b7-b30e-ce4ed4d2dc8e")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "Q5")
 					(unit 1)
@@ -2602,7 +2602,7 @@
 			(uuid "0990b817-4ff9-4a8a-b054-bf0a11a9a18c")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "R9")
 					(unit 1)
@@ -2671,7 +2671,7 @@
 			(uuid "ff14f39d-befa-4cb2-aa37-c6f503803aba")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "R11")
 					(unit 1)
@@ -2740,7 +2740,7 @@
 			(uuid "114baa42-8657-4e9f-bf5c-bd31baf14f82")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "R13")
 					(unit 1)
@@ -2809,7 +2809,7 @@
 			(uuid "e3e801b1-8bad-488e-a677-1a1cc28f0360")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "R14")
 					(unit 1)
@@ -2932,7 +2932,7 @@
 			(uuid "d88cc6b1-9048-419c-b186-0e20f5a30317")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "Z3")
 					(unit 1)
@@ -3057,7 +3057,7 @@
 			(uuid "9c3da904-68bd-4c25-beae-145449c4ce69")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "Q9")
 					(unit 1)
@@ -3180,7 +3180,7 @@
 			(uuid "17ae98c6-3b17-41f6-b022-0efa066cabab")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "Z2")
 					(unit 1)
@@ -3249,7 +3249,7 @@
 			(uuid "c5536263-c297-4c83-9828-11c932a472ca")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "R15")
 					(unit 1)
@@ -3325,7 +3325,7 @@
 			(uuid "ce461280-0f97-4e90-b31c-f840a06a8b34")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "Q4")
 					(unit 1)
@@ -3394,7 +3394,7 @@
 			(uuid "50b31554-66fc-428f-9f1a-569d7b452180")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "R17")
 					(unit 1)
@@ -3463,7 +3463,7 @@
 			(uuid "fa09199d-97b3-4a6e-ab6c-683bf7e83f00")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "R19")
 					(unit 1)
@@ -3586,7 +3586,7 @@
 			(uuid "efea70eb-df2c-4595-ad59-d3b312c31c71")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "Z4")
 					(unit 1)
@@ -3655,7 +3655,7 @@
 			(uuid "0e1dd4c7-91b0-4046-ac32-fb49bf3754d0")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "R8")
 					(unit 1)
@@ -3731,7 +3731,7 @@
 			(uuid "f28f0048-9f94-415c-864e-c312314511d1")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "Q2")
 					(unit 1)
@@ -3800,7 +3800,7 @@
 			(uuid "1c9b8b5a-dde1-4846-8edb-b97da2b0cb32")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "R18")
 					(unit 1)
@@ -3869,7 +3869,7 @@
 			(uuid "90dd5371-dd09-43e6-8c5e-34acbed4af44")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "R10")
 					(unit 1)
@@ -3992,7 +3992,7 @@
 			(uuid "052eeac9-d9be-4443-9a18-4375b171f2eb")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "Z1")
 					(unit 1)
@@ -4117,7 +4117,7 @@
 			(uuid "388420f8-3a0e-4a15-97b2-36b5cfb4bc59")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Nchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/d5e18eb1-e184-4f26-bde7-416ad96688c3"
 					(reference "Q3")
 					(unit 1)
