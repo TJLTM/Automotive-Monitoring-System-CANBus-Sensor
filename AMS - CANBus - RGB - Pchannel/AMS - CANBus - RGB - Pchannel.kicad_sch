@@ -1214,311 +1214,6 @@
 				)
 			)
 		)
-		(symbol "Isolator:LTV-817"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -5.08 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LTV-817"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
-				(at -5.08 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, DIP-4"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN DC Optocoupler"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LTV-817_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -0.635) (xy -1.905 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0.635) (xy 4.445 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -2.54) (xy 2.54 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.905) (xy 2.54 -1.905) (xy 2.54 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651) (xy 3.048 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "LTV-817_1_1"
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SamacSys_Parts:3568"
 			(pin_names
 				(offset 0.762)
@@ -3077,26 +2772,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 146.05) (xy 121.92 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "057da685-9655-433a-b06e-1218fd1ce158")
-	)
-	(wire
-		(pts
-			(xy 121.92 154.94) (xy 121.92 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06655624-9d50-4ae4-a82e-4ba7ed3ff8fc")
-	)
-	(wire
-		(pts
 			(xy 55.88 124.46) (xy 69.85 124.46)
 		)
 		(stroke
@@ -3227,16 +2902,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 167.64) (xy 137.16 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18aee1df-7494-4181-80f4-53b07046b788")
-	)
-	(wire
-		(pts
 			(xy 93.98 119.38) (xy 119.38 119.38)
 		)
 		(stroke
@@ -3274,6 +2939,16 @@
 			(type default)
 		)
 		(uuid "21f24421-0eb0-4050-b413-06e5fa2b45bf")
+	)
+	(wire
+		(pts
+			(xy 93.98 127) (xy 97.79 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22c0c41c-2ffe-4601-8df4-0e916673c58e")
 	)
 	(wire
 		(pts
@@ -3337,16 +3012,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 133.35) (xy 104.14 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38bbf694-9cf9-4614-a3a9-d0e9f342c90b")
-	)
-	(wire
-		(pts
 			(xy 163.83 129.54) (xy 163.83 81.28)
 		)
 		(stroke
@@ -3354,16 +3019,6 @@
 			(type default)
 		)
 		(uuid "3a8439c3-a4ff-4098-a828-390ee1057446")
-	)
-	(wire
-		(pts
-			(xy 106.68 125.73) (xy 106.68 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b666841-c137-4423-bd50-54c8414d79e8")
 	)
 	(wire
 		(pts
@@ -3547,16 +3202,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 125.73) (xy 106.68 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60bb97ae-ba51-450c-9dae-9653d61e05b4")
-	)
-	(wire
-		(pts
 			(xy 74.93 44.45) (xy 74.93 49.53)
 		)
 		(stroke
@@ -3667,16 +3312,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 157.48) (xy 137.16 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fdac25c-098b-4a90-b212-30aadbb9fe66")
-	)
-	(wire
-		(pts
 			(xy 73.66 182.88) (xy 73.66 175.26)
 		)
 		(stroke
@@ -3747,7 +3382,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 167.64) (xy 121.92 167.64)
+			(xy 111.76 167.64) (xy 137.16 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3794,6 +3429,16 @@
 			(type default)
 		)
 		(uuid "9ad9e9dc-4c7a-4b9b-982d-caea540c3ea7")
+	)
+	(wire
+		(pts
+			(xy 137.16 157.48) (xy 137.16 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d11cab9-041d-407b-a24a-f303d536e41f")
 	)
 	(wire
 		(pts
@@ -4024,26 +3669,6 @@
 			(type default)
 		)
 		(uuid "ccb188e5-a53d-4076-9c03-f93482ed4faa")
-	)
-	(wire
-		(pts
-			(xy 106.68 130.81) (xy 110.49 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfcee6ec-3ba1-466f-8d4d-b5ad8327e7fc")
-	)
-	(wire
-		(pts
-			(xy 104.14 128.27) (xy 93.98 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2ba6108-7f24-4559-8f81-a5c93e8963be")
 	)
 	(wire
 		(pts
@@ -4314,6 +3939,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 97.79 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01025b2a-c16f-4ea3-ac20-2a3efec502ee")
+		(property "Reference" "#PWR04"
+			(at 97.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.917 131.3942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68666a40-1913-49d6-ae13-8b811d430e66")
+		)
+		(instances
+			(project "AMS - CANBus - RGB - Pchannel"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 73.66 186.69 0)
 		(unit 1)
@@ -4374,7 +4064,7 @@
 			(uuid "3023feef-2dfa-4858-b50f-194b4745ff53")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "C8")
 					(unit 1)
@@ -4440,7 +4130,7 @@
 			(uuid "3ed6ba07-96ee-475c-897d-c69a12e16b51")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR01")
 					(unit 1)
@@ -4566,7 +4256,7 @@
 			(uuid "f262eb1c-c57c-46a4-b4c9-247dca56b0a5")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "Q1")
 					(unit 1)
@@ -4632,7 +4322,7 @@
 			(uuid "630ac413-7ac0-4a4d-87c5-b3c69081b7cd")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#FLG02")
 					(unit 1)
@@ -4708,7 +4398,7 @@
 			(uuid "d9f0bb45-7e86-4ce4-8ce1-e687a6cca052")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "Q10")
 					(unit 1)
@@ -4787,7 +4477,7 @@
 			(uuid "e72033dc-2723-44ad-b2ee-77b99d793772")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "J2")
 					(unit 1)
@@ -4852,7 +4542,7 @@
 			(uuid "11da98d9-9ffc-4ff9-8f62-3193d4f2a712")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR02")
 					(unit 1)
@@ -4979,7 +4669,7 @@
 			(uuid "4a9edadc-3b0a-4aee-97f8-34d82d301c74")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "Reset1")
 					(unit 1)
@@ -5044,7 +4734,7 @@
 			(uuid "fc17bc03-aa67-40fa-b2d1-d8d65958faa6")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR021")
 					(unit 1)
@@ -5110,7 +4800,7 @@
 			(uuid "5762219c-754b-4b29-9304-e5daa4179bcb")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR013")
 					(unit 1)
@@ -5175,75 +4865,9 @@
 			(uuid "b9a40b15-7f65-44cb-9899-be644563b397")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 121.92 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ec3146a-bbe9-404f-8ad5-d9098f3721ab")
-		(property "Reference" "#PWR09"
-			(at 121.92 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 121.92 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 121.92 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd12044a-0906-446b-b40d-43cbcffdc6ce")
-		)
-		(instances
-			(project "AMS - CANBus - RGB"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5306,7 +4930,7 @@
 			(uuid "11fc5dad-918e-40a9-ba52-9497f63e7f0c")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR07")
 					(unit 1)
@@ -5372,7 +4996,7 @@
 			(uuid "b5077b30-45fa-4f3d-88ef-e79104b23566")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#FLG01")
 					(unit 1)
@@ -5441,78 +5065,9 @@
 			(uuid "3612df13-2110-4f34-908b-ccfecb8db211")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 121.92 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b40e22c-fce7-4208-afdd-79e5e203f4a8")
-		(property "Reference" "R21"
-			(at 123.698 149.9616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330"
-			(at 123.698 152.273 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 120.142 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cfe7b272-075e-4f41-928f-9f33b73fdd31")
-		)
-		(pin "2"
-			(uuid "2e675008-aebf-44c3-ba30-4bfd961d3a8e")
-		)
-		(instances
-			(project "AMS - CANBus - RGB"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -5575,7 +5130,7 @@
 			(uuid "5e0a2aaf-6d32-4bc0-809d-771a6b32a73d")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR06")
 					(unit 1)
@@ -5648,7 +5203,7 @@
 			(uuid "a4f0e1d7-772c-4007-804c-c43c20782f26")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "Powerboard1")
 					(unit 1)
@@ -5724,74 +5279,9 @@
 			(uuid "5d77a1de-03f1-4bbd-8b71-a8f1b51eb12a")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 104.14 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a42549e2-c35b-478d-955e-07a10b2adfd5")
-		(property "Reference" "#PWR05"
-			(at 104.14 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.267 137.7442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58319f8b-9230-49fc-a9d7-e1eeb531a341")
-		)
-		(instances
-			(project "AMS - CANBus - RGB"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5854,86 +5344,9 @@
 			(uuid "af76d48f-0735-4863-8bf4-0768441718b9")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:LTV-817")
-		(at 129.54 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae4335bf-18a9-4339-bcff-63f77b6c7e0d")
-		(property "Reference" "U1"
-			(at 129.54 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-817"
-			(at 129.54 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
-			(at 124.46 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 129.54 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, DIP-4"
-			(at 129.54 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "b62a6779-e090-48c5-8a67-bde95cd097d4")
-		)
-		(pin "3"
-			(uuid "ddf66c89-b3d8-4753-8471-4f1c1b1f706b")
-		)
-		(pin "1"
-			(uuid "0754099c-ac16-43fa-876d-411212728e6d")
-		)
-		(pin "2"
-			(uuid "120afb4d-a734-4d07-ba66-60c4af214168")
-		)
-		(instances
-			(project "AMS - CANBus - RGB"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5999,139 +5412,9 @@
 			(uuid "8bfe049a-1e7e-48ab-9f2d-d65d504caf42")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+VDC")
-		(at 110.49 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba84ffc6-9b58-4a02-be94-d8c0a6f77b77")
-		(property "Reference" "#PWR04"
-			(at 110.49 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VDC"
-			(at 110.49 123.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+VDC\""
-			(at 110.49 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1dc0b2df-77d8-476d-bd8c-dc1458f6c061")
-		)
-		(instances
-			(project "AMS - CANBus - RGB"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 137.16 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bda14d67-599b-463d-8756-743c7e99529a")
-		(property "Reference" "#PWR011"
-			(at 137.16 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.287 179.6542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6fc1943c-7988-4944-8781-a261baea9334")
-		)
-		(instances
-			(project "AMS - CANBus - RGB"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6197,7 +5480,7 @@
 			(uuid "1c413531-f104-4980-9041-26fddca891e0")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "R2")
 					(unit 1)
@@ -6262,7 +5545,7 @@
 			(uuid "e0be66fa-1460-480d-9287-18640b07c9c0")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR010")
 					(unit 1)
@@ -6325,7 +5608,7 @@
 			(uuid "00136c90-3252-48dc-92e3-a6e3b039c264")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR020")
 					(unit 1)
@@ -6390,7 +5673,7 @@
 			(uuid "2a06006e-6aea-4619-a38a-ccebc1e203e6")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR08")
 					(unit 1)
@@ -6457,7 +5740,7 @@
 			(uuid "820f617c-daaa-49ce-977c-8e81f3c6d029")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "R3")
 					(unit 1)
@@ -6523,7 +5806,7 @@
 			(uuid "d7153aaf-59d9-4d50-9212-4e21ba1c6321")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR018")
 					(unit 1)
@@ -6588,7 +5871,7 @@
 			(uuid "2de995ba-cb9e-49c2-accb-3a0c12fa1d86")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR017")
 					(unit 1)
@@ -6657,7 +5940,7 @@
 			(uuid "b14604e5-ce3a-4517-81d4-388ab162863e")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "R20")
 					(unit 1)
@@ -6722,7 +6005,7 @@
 			(uuid "1d8db916-797c-45fb-8bec-56c782b20237")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR012")
 					(unit 1)
@@ -6789,7 +6072,7 @@
 			(uuid "1d1ce2c5-49d3-43b7-8295-ea233d214f8e")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "NTC1")
 					(unit 1)
@@ -6858,7 +6141,7 @@
 			(uuid "b87d3d61-a126-453b-89df-e15e26193fc4")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "R22")
 					(unit 1)
@@ -6923,7 +6206,7 @@
 			(uuid "e498c632-3cd8-4cf4-b70a-599ce246320b")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR014")
 					(unit 1)
@@ -6989,7 +6272,7 @@
 			(uuid "72dc543e-22d6-4a43-a3e7-efb074563cab")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR015")
 					(unit 1)
@@ -7055,7 +6338,7 @@
 			(uuid "8bce4b4c-7071-43eb-8c6b-8cbb557dbcd3")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR019")
 					(unit 1)
@@ -7182,10 +6465,137 @@
 			(uuid "558f65db-2a4b-49fd-893d-7aa4fe2655ca")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "U5")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 113.03)
+		(size 19.05 15.24)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f359a5a-d071-4a8b-ab40-13983d2e0b66")
+		(property "Sheetname" "OutputGNDPChannel"
+			(at 74.93 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OutputGNDPChannel.kicad_sch"
+			(at 60.706 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GRND" input
+			(at 93.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bb7990c9-bbdf-41b8-a432-2c79448326ad")
+		)
+		(pin "OUT1TTL" input
+			(at 93.98 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "de36aee9-8859-48c1-82ec-98762e498a2f")
+		)
+		(pin "OUT1" input
+			(at 74.93 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0d928fdc-fada-4cd4-8010-3b1c7c70b1d8")
+		)
+		(pin "OUT3" input
+			(at 74.93 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eff308e7-f2f2-45c8-a452-db35e6f52234")
+		)
+		(pin "OUT4" input
+			(at 74.93 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "72d3f1e2-d8b8-41eb-ac7f-638bc92e2876")
+		)
+		(pin "OUT3TTL" input
+			(at 93.98 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6cc6f8cb-9b9c-4ddc-a994-ebf9977a451b")
+		)
+		(pin "OUT4TTL" input
+			(at 93.98 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9adfabf5-3b8b-4dbf-a5db-142ca81cd522")
+		)
+		(pin "OUT2" input
+			(at 74.93 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6c6bb4ed-74d0-45b4-b0ec-7faaad5aa1a4")
+		)
+		(pin "OUT2TTL" input
+			(at 93.98 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8129ce00-67a5-4c1c-9765-0282bf7a40bf")
+		)
+		(instances
+			(project "AMS - CANBus - RGB - Pchannel"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(page "5")
 				)
 			)
 		)
@@ -7281,7 +6691,7 @@
 			(uuid "c1e91cd2-ba8d-4ba1-862b-4640a615e9da")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(page "4")
 				)
@@ -7409,7 +6819,7 @@
 			(uuid "2346e6da-7ce2-4a3f-aca9-ee2b261baff6")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(page "3")
 				)
@@ -7697,147 +7107,9 @@
 			(uuid "72be0d90-b3df-4849-95c3-de0f26d42fa9")
 		)
 		(instances
-			(project "AMS - CANBus - RGB"
+			(project "AMS - CANBus - RGB - Pchannel"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 74.93 113.03)
-		(size 19.05 16.51)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "d5e18eb1-e184-4f26-bde7-416ad96688c3")
-		(property "Sheetname" "Output12v"
-			(at 74.93 112.3184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Outputs12V.kicad_sch"
-			(at 74.93 130.1246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "Out2" input
-			(at 74.93 116.84 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "500ce04c-6530-40a6-baa0-f5535aaac54e")
-		)
-		(pin "Out3TTL" input
-			(at 93.98 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e9d4ec96-45a6-40f8-a0eb-cec28ae8f3d3")
-		)
-		(pin "VS" input
-			(at 93.98 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a250010d-ee6b-4a7b-bd72-34f085d94b1a")
-		)
-		(pin "Out1" input
-			(at 74.93 114.3 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8d731c8e-b54f-45b2-82e1-416bede13c6d")
-		)
-		(pin "Out4" input
-			(at 74.93 121.92 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "bcd75d93-637e-40ff-afe1-9de068573505")
-		)
-		(pin "Out3" input
-			(at 74.93 119.38 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b9c72737-6e7a-48ed-8c16-1e79ef0d8ec6")
-		)
-		(pin "Out4TTL" input
-			(at 93.98 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "53ceff74-6696-4d9a-b474-13fd52b29f60")
-		)
-		(pin "Out1TTL" input
-			(at 93.98 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "1aa23b7f-61e5-4cfb-8a5a-c73dfe0adc9f")
-		)
-		(pin "GRND" input
-			(at 93.98 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "07a107d8-dbc4-4a1d-91e5-14fe49f81462")
-		)
-		(pin "Out2TTL" input
-			(at 93.98 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "0d35f2a6-ff5b-4744-b4aa-6f01b5f13909")
-		)
-		(instances
-			(project "AMS - CANBus - RGB"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
-					(page "5")
 				)
 			)
 		)
