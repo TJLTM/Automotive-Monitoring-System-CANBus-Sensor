@@ -6,7 +6,7 @@
 158.2232,-117.1785,180.0,top,C5,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,22pf,smt,True
 136.1393,-101.4318,180.0,bottom,C6,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,100nf,smt,True
 136.143,-103.9017,180.0,bottom,C7,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,100nf,smt,True
-179.8394,-83.9365,-90.0,bottom,C8,,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,22nF,smt,True
+183.352783,-79.255903,-90.0,bottom,C8,,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,22nF,smt,True
 161.8819,-69.2441,180.0,bottom,D1,,SOT65P210X110-3N,"PESD5V0L2UU,115",smt,True
 177.5495,-76.6345,180.0,top,D2,,D_DO-41_SOD81_P10.16mm_Horizontal,1N4007,tht,True
 163.7122,-106.7591,180.0,top,D3,,D_DO-41_SOD81_P10.16mm_Horizontal,1N4007,tht,True
@@ -34,7 +34,7 @@
 151.8361,-78.257,0.0,bottom,R14,,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,1M,smt,True
 156.6284,-74.5886,0.0,bottom,R15,,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,1M,smt,True
 144.9956,-101.059,-90.0,bottom,R2,,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,4.7k,smt,True
-176.3442,-83.9365,-90.0,bottom,R20,,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,1M,smt,True
+183.339349,-79.240905,-90.0,top,R20,,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,1M,smt,True
 164.8778,-76.6569,-90.0,bottom,R22,,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,22k,smt,True
 135.973,-90.6987,-90.0,bottom,R3,,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,10k,smt,True
 132.0964,-111.4623,-90.0,bottom,R4,,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,10k,smt,True
