@@ -9,14 +9,16 @@ D1,1,"PESD5V0L2UU,115",SOT65P210X110-3N,,smt
 IC4,1,CD74HC4050ME4,SOIC127P600X175-16N,,smt
 IC5,1,AZ1117CH2-3.3TRG1,SOT230P700X180-4N,,smt
 J1,1,Power_And_CAN,"TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal",,tht
-"J10, J11, J13, J2, J5, J7, J8",7,Conn_01x02,PinHeader_1x02_P2.54mm_Vertical,,tht
-"J12, J6, J9, Powerboard1",4,Conn_01x03,PinHeader_1x03_P2.54mm_Vertical,,tht
+"J10, J11, J13, J2, J7, J8",6,Conn_01x02,PinHeader_1x02_P1.00mm_Vertical_SMD_Pin1Left,,smt
+"J12, J6, J9",3,Conn_01x03,PinHeader_1x03_P1.00mm_Vertical_SMD_Pin1Left,,smt
 J14,1,RTD1,"TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal",,tht
 J15,1,RTD2,"TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal",,tht
 J16,1,RTD3,"TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal",,tht
 J3,1,TTL_Programmer,PinHeader_1x06_P2.54mm_Vertical,,tht
 J4,1,ICSP,PinHeader_2x03_P2.54mm_Vertical_SMD,,smt
+J5,1,Conn_01x02,PinHeader_1x02_P2.54mm_Vertical,,tht
 NTC1,1,10k,R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,,tht
+Powerboard1,1,Conn_01x03,PinHeader_1x03_P2.54mm_Vertical,,tht
 Q1,1,IRF9Z34NPBF,TO254P469X1042X1967-3P,,tht
 "R1, R3, R4, R5",4,10k,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,,smt
 "R10, R8, R9",3,430,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,,smt
