@@ -1994,7 +1994,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 114.3) (xy 201.93 125.73)
+			(xy 201.93 114.3) (xy 201.93 136.525)
 		)
 		(stroke
 			(width 0)
@@ -2031,16 +2031,6 @@
 			(type default)
 		)
 		(uuid "588e1757-422c-4f3f-999b-1553ff008c20")
-	)
-	(wire
-		(pts
-			(xy 201.93 128.27) (xy 201.93 136.525)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5af9e75a-6399-4a9e-903f-d79025771d05")
 	)
 	(wire
 		(pts
@@ -2708,7 +2698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 36.5252 71.12 0)
 			(effects
 				(font
@@ -2745,75 +2735,6 @@
 			(project "AMS - CANBus Sensor - RPM"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/6cf7d612-5579-48db-b820-5632afa39602"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 207.01 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0edde312-3ce5-44fc-97e5-4dda435427ac")
-		(property "Reference" "J7"
-			(at 209.042 125.9332 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 209.042 128.2446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 207.01 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 207.01 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 207.01 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa70f3da-471e-4d88-a47e-329161c89c10")
-		)
-		(pin "2"
-			(uuid "cfa812bf-0fa0-460b-9628-0c69218effbb")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - RPM"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/6cf7d612-5579-48db-b820-5632afa39602"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2913,7 +2834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left"
 			(at 153.67 64.77 0)
 			(effects
 				(font
@@ -3123,7 +3044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left"
 			(at 102.87 53.34 0)
 			(effects
 				(font
@@ -3468,7 +3389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 98.7552 68.58 0)
 			(effects
 				(font
@@ -3931,7 +3852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 158.4452 132.08 0)
 			(effects
 				(font
