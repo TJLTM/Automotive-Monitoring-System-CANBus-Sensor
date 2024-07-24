@@ -508,24 +508,6 @@
 		(uuid "134cb6d9-b3a4-48a1-a474-5d9f17917593")
 	)
 	(junction
-		(at 87.63 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e05779b-a4e2-4c45-b0ba-f0a160dc62e5")
-	)
-	(junction
-		(at 184.15 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4085d834-0526-4e9c-8004-5cb64456b57f")
-	)
-	(junction
-		(at 87.63 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "638c345f-f3cb-4465-811b-f572fa9d749b")
-	)
-	(junction
 		(at 151.13 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -536,12 +518,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94866e01-aa91-40b2-8a48-adc2695312c1")
-	)
-	(junction
-		(at 185.42 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e86fad57-ca89-4b4b-8bbb-2b9999ecd9a2")
 	)
 	(junction
 		(at 115.57 81.28)
@@ -561,7 +537,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 86.36) (xy 87.63 86.36)
+			(xy 83.82 86.36) (xy 115.57 86.36)
 		)
 		(stroke
 			(width 0)
@@ -601,26 +577,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 99.06) (xy 185.42 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fcca494-bd1a-4bdb-88b4-8406d6e78956")
-	)
-	(wire
-		(pts
-			(xy 185.42 85.09) (xy 184.15 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2144bb54-9b49-44cb-8aee-b99d58c68910")
-	)
-	(wire
-		(pts
 			(xy 102.87 74.93) (xy 102.87 78.74)
 		)
 		(stroke
@@ -631,63 +587,13 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 86.36) (xy 184.15 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3383a952-e18b-433b-991a-3a4e02d3e3e1")
-	)
-	(wire
-		(pts
-			(xy 184.15 86.36) (xy 189.23 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3811c33a-47d9-45d1-a4b0-674a91192adb")
-	)
-	(wire
-		(pts
-			(xy 87.63 86.36) (xy 115.57 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b876e06-a7b2-445f-9fa1-a7090682c13b")
-	)
-	(wire
-		(pts
-			(xy 185.42 91.44) (xy 191.77 91.44)
+			(xy 151.13 91.44) (xy 191.77 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4a8ba12d-9209-4785-af58-ee21dc42a0ec")
-	)
-	(wire
-		(pts
-			(xy 83.82 91.44) (xy 87.63 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52daf14b-2caf-4b1f-badd-8edaf7cea8aa")
-	)
-	(wire
-		(pts
-			(xy 87.63 99.06) (xy 87.63 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "607390a8-50a3-4f0e-9814-fedacecb2775")
 	)
 	(wire
 		(pts
@@ -751,16 +657,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 91.44) (xy 185.42 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5c0b069-5d68-4b13-be00-40ef321180aa")
-	)
-	(wire
-		(pts
 			(xy 160.02 104.14) (xy 160.02 107.95)
 		)
 		(stroke
@@ -791,23 +687,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 86.36) (xy 184.15 86.36)
+			(xy 151.13 86.36) (xy 189.23 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cefb5e1f-b39d-4ecb-8c5f-23f372537c78")
-	)
-	(wire
-		(pts
-			(xy 185.42 74.93) (xy 185.42 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da244692-c5a4-419b-a1a0-816d23c5d621")
 	)
 	(wire
 		(pts
@@ -831,17 +717,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 74.93) (xy 87.63 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fac6148e-ccfe-4899-8235-2e32462db4d0")
-	)
-	(wire
-		(pts
-			(xy 87.63 91.44) (xy 115.57 91.44)
+			(xy 83.82 91.44) (xy 115.57 91.44)
 		)
 		(stroke
 			(width 0)
@@ -945,42 +821,6 @@
 		)
 		(uuid "6444f892-9a31-46f2-83c4-1e5b37ed3356")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 87.63 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6a11c2a8-ff37-4193-9fe8-28479ee85d59")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 185.42 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "90ce4345-8735-496a-9afd-6d6c3e152957")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 185.42 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a0b4435a-8739-4ab8-aefb-a1228ee610bc")
-	)
 	(hierarchical_label "ADCOUT4"
 		(shape input)
 		(at 159.385 66.04 0)
@@ -992,18 +832,6 @@
 			(justify left)
 		)
 		(uuid "ae2d6eea-46de-4516-935b-7a0a0f8ae300")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 87.63 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b101d6d8-1d91-4940-a700-41b96719b7e9")
 	)
 	(hierarchical_label "Vin"
 		(shape input)
@@ -1222,161 +1050,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 185.42 95.25 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "883d5b35-74ae-4626-88f8-107b7df774f3")
-		(property "Reference" "R15"
-			(at 190.6778 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100K"
-			(at 188.3664 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 187.198 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 185.42 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b8aaf8e-37d9-4569-8e84-dbe523f949ff")
-		)
-		(pin "2"
-			(uuid "12811b79-68f8-45ef-8f4e-dbcae8af4381")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/1d6692e6-3da6-4bb1-8db9-92d5a320b8aa"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-			(project "AMS-Mega2560-Base"
-				(path "/7d0dab95-9e7a-486e-a1d7-fc48860fd57d/4fa38cd6-152a-4f14-8b73-29a5177e2f36"
-					(reference "R20")
-					(unit 1)
-				)
-				(path "/7d0dab95-9e7a-486e-a1d7-fc48860fd57d/c390175f-6da3-488d-b45d-a38073c08c6d"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 87.63 82.55 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92e5a936-50a7-42c2-a37e-59f82b17b67f")
-		(property "Reference" "R8"
-			(at 92.8878 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100K"
-			(at 90.5764 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 89.408 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 87.63 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5ba6b70-753f-4d24-a4fa-8901df220f6d")
-		)
-		(pin "2"
-			(uuid "e806c245-46f3-41af-a705-4bc09a53925d")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/1d6692e6-3da6-4bb1-8db9-92d5a320b8aa"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-			(project "AMS-Mega2560-Base"
-				(path "/7d0dab95-9e7a-486e-a1d7-fc48860fd57d/4fa38cd6-152a-4f14-8b73-29a5177e2f36"
-					(reference "R2")
-					(unit 1)
-				)
-				(path "/7d0dab95-9e7a-486e-a1d7-fc48860fd57d/c390175f-6da3-488d-b45d-a38073c08c6d"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 160.02 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1454,83 +1127,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 87.63 95.25 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e1e0beab-bd0b-4772-a29d-35e5941c8c5b")
-		(property "Reference" "R9"
-			(at 92.8878 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100K"
-			(at 90.5764 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 89.408 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 87.63 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "449fdbe1-24c9-4092-a82e-a5df0f19eb8e")
-		)
-		(pin "2"
-			(uuid "3211b09c-6674-4ce8-849f-e07950267257")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/1d6692e6-3da6-4bb1-8db9-92d5a320b8aa"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-			(project "AMS-Mega2560-Base"
-				(path "/7d0dab95-9e7a-486e-a1d7-fc48860fd57d/4fa38cd6-152a-4f14-8b73-29a5177e2f36"
-					(reference "R3")
-					(unit 1)
-				)
-				(path "/7d0dab95-9e7a-486e-a1d7-fc48860fd57d/c390175f-6da3-488d-b45d-a38073c08c6d"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 160.02 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1601,84 +1197,6 @@
 				)
 				(path "/7d0dab95-9e7a-486e-a1d7-fc48860fd57d/c390175f-6da3-488d-b45d-a38073c08c6d"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 185.42 81.28 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f6bba217-ef94-45b1-82fb-168a3c87c526")
-		(property "Reference" "R14"
-			(at 190.6778 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100K"
-			(at 188.3664 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 187.198 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 185.42 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f943214-c2d2-4c4c-a4c5-4de568dc1e7d")
-		)
-		(pin "2"
-			(uuid "c655dbff-5d40-4c1f-94bb-7b3da381e5a3")
-		)
-		(instances
-			(project "AMS - CANBus Sensor - Pressure"
-				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/1d6692e6-3da6-4bb1-8db9-92d5a320b8aa"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-			(project "AMS-Mega2560-Base"
-				(path "/7d0dab95-9e7a-486e-a1d7-fc48860fd57d/4fa38cd6-152a-4f14-8b73-29a5177e2f36"
-					(reference "R4")
-					(unit 1)
-				)
-				(path "/7d0dab95-9e7a-486e-a1d7-fc48860fd57d/c390175f-6da3-488d-b45d-a38073c08c6d"
-					(reference "R25")
 					(unit 1)
 				)
 			)
