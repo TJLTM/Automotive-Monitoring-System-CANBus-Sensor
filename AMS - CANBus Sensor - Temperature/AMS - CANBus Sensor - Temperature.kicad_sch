@@ -3152,6 +3152,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 129.54) (xy 60.96 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51882209-c626-411c-aaf0-0510e9fce4d9")
+	)
+	(wire
+		(pts
 			(xy 179.07 24.13) (xy 215.9 24.13)
 		)
 		(stroke
@@ -3292,6 +3302,26 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 172.72) (xy 60.96 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6965bffa-ccd0-4d0b-afad-e0fdec4617af")
+	)
+	(wire
+		(pts
+			(xy 49.53 151.13) (xy 60.96 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69b5c66e-98fd-40ea-bc57-6e49b4817527")
+	)
+	(wire
+		(pts
 			(xy 49.53 146.05) (xy 69.85 146.05)
 		)
 		(stroke
@@ -3359,6 +3389,16 @@
 			(type default)
 		)
 		(uuid "736ec237-dafe-4871-93ad-9d95b3a3e98b")
+	)
+	(wire
+		(pts
+			(xy 49.53 170.18) (xy 60.96 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757fc074-b3c4-4556-a011-9090f74ad98c")
 	)
 	(wire
 		(pts
@@ -3872,6 +3912,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 148.59) (xy 58.42 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a09d4f-0d36-42c1-8e49-85adaf8db1aa")
+	)
+	(wire
+		(pts
 			(xy 158.75 31.75) (xy 151.13 31.75)
 		)
 		(stroke
@@ -3949,6 +3999,16 @@
 			(type default)
 		)
 		(uuid "e08b2865-b8cf-464a-a39f-ee174aaeede2")
+	)
+	(wire
+		(pts
+			(xy 49.53 127) (xy 60.96 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1bbd10e-b691-461c-a0f7-214fde29bc59")
 	)
 	(wire
 		(pts
@@ -4424,6 +4484,136 @@
 			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 60.96 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cb817c5-2cfb-494c-957f-5a16bedd4344")
+		(property "Reference" "#PWR028"
+			(at 57.15 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 65.024 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 60.96 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f5d56b1-9d99-409d-beb2-27dcbfcd7315")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - Temperature"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f243fa8-e097-4bee-b837-a9d7d569bd80")
+		(property "Reference" "#PWR025"
+			(at 60.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15fa3fd5-8914-47c9-bb6d-1f1690509759")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - Temperature"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -5086,6 +5276,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 58.42 148.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ae535b3-1ce2-44fd-b284-9057a912fa6b")
+		(property "Reference" "#PWR027"
+			(at 54.61 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 62.484 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 58.42 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e64e4c6-c0a3-4d88-9f38-4ac7364c4f68")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - Temperature"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+VDC")
 		(at 34.29 27.94 0)
 		(unit 1)
@@ -5403,6 +5658,71 @@
 			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "592bdade-3c1b-493d-87d3-5bb23cb34cec")
+		(property "Reference" "#PWR023"
+			(at 60.96 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12c87b33-1b7e-4eba-bb7f-17ee60d62300")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - Temperature"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6458,6 +6778,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 60.96 170.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1132620-dce9-41f5-b219-2310db688fe1")
+		(property "Reference" "#PWR026"
+			(at 57.15 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 65.024 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 60.96 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc7d3e95-62dd-4989-964e-d18f1037b60f")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - Temperature"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 250.19 78.74 180)
 		(unit 1)
@@ -6782,6 +7167,71 @@
 			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "NTC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec56cc28-9f12-4c97-8d67-494da2e98eeb")
+		(property "Reference" "#PWR024"
+			(at 60.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96d87de5-dc40-4521-b319-2c87ef708a1a")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - Temperature"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7320,7 +7770,7 @@
 	)
 	(sheet
 		(at 27.94 157.48)
-		(size 21.59 12.7)
+		(size 21.59 16.51)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -7340,7 +7790,7 @@
 			)
 		)
 		(property "Sheetfile" "MAX31865AAP+.kicad_sch"
-			(at 27.94 170.7646 0)
+			(at 27.94 174.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,6 +7878,26 @@
 			)
 			(uuid "a363f4b6-b0c6-4788-90f9-047605c00f95")
 		)
+		(pin "GND" input
+			(at 49.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ec9e0de7-5dc2-4b25-8937-203e250b5aba")
+		)
+		(pin "3.3V" input
+			(at 49.53 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d2c14880-4b46-48b5-b839-d3ccccde637e")
+		)
 		(instances
 			(project "AMS - CANBus Sensor - Temperature"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
@@ -7438,7 +7908,7 @@
 	)
 	(sheet
 		(at 27.94 114.3)
-		(size 21.59 12.7)
+		(size 21.59 16.51)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -7458,7 +7928,7 @@
 			)
 		)
 		(property "Sheetfile" "MAX31865AAP+.kicad_sch"
-			(at 27.94 127.5846 0)
+			(at 27.94 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7545,6 +8015,26 @@
 				(justify right)
 			)
 			(uuid "3ee2d480-8242-45fa-8d50-07daf78d4a88")
+		)
+		(pin "GND" input
+			(at 49.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7d71c6c0-6289-486f-a5bd-4f574021ba1c")
+		)
+		(pin "3.3V" input
+			(at 49.53 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a0362e68-4982-4231-813d-07a087d6a5cb")
 		)
 		(instances
 			(project "AMS - CANBus Sensor - Temperature"
@@ -8070,7 +8560,7 @@
 	)
 	(sheet
 		(at 27.94 135.89)
-		(size 21.59 12.7)
+		(size 21.59 16.51)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -8090,7 +8580,7 @@
 			)
 		)
 		(property "Sheetfile" "MAX31865AAP+.kicad_sch"
-			(at 27.94 149.1746 0)
+			(at 27.94 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8177,6 +8667,26 @@
 				(justify right)
 			)
 			(uuid "c206980b-7468-4c2e-a2f3-dac1cb79627a")
+		)
+		(pin "GND" input
+			(at 49.53 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "26d1cf75-64cf-4986-9010-21b22dddc529")
+		)
+		(pin "3.3V" input
+			(at 49.53 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "478f760c-0e6e-49a0-add4-5dae98c00643")
 		)
 		(instances
 			(project "AMS - CANBus Sensor - Temperature"
