@@ -4,13 +4,18 @@ What is this?
 these are the sensor hardware designs that match up with https://github.com/TJLTM/Automotive-Monitoring-System-CANBus-Sensor-FW repo so that i can keep the Hardware designs over here and the FW over there. mostly just so i'm not in some weird state where i'm working on a FW for one thing and the hardware for another and get into a screwed up merge situation. this has happened before in my other projects. 
 
 If you look at the other repo you'll see i've made provisions for the following sensors 
-* Temp (ADC)
+* Temp (RTD)
 * Voltage (ADC)
+  * Pressure
+  * Current
+  * Temp (not RTD Based)
+  * Any sensor that outputs a votlage signal if gain is needed that would have to be added
 * Vacuum
 * I/O
-* RPM 
-
-the ones marked as (ADC) are the same hardware but different firmware since the only thing that really changes in those setups are the sensor hooked up to the ADC and what scale is fed into the 10bit ADC 
+* RPM
+* LED or other general Output
+  * P-channel
+  * N-channel  
 
 The other boards ahve the hardware built on to the boards since those require some type of special sensor
 
@@ -22,6 +27,9 @@ this one is a straight foreward design and i may make it an add on module for th
 
 The I/O box... 
 That one i'm making it a standard 8 in and 8 out setup. can be made to i don't know.... hook into power window units in older cars that can then be remotely controlled or in my case add power windows to some cars.
+
+LED 
+General 3 Channel RGB leds can be driven off of this I'm making it 4 channel since i have the space for it. It can either be high or low side switching depending on your application. this is using the 0-255 PWM output of the AVR
 
 
 
