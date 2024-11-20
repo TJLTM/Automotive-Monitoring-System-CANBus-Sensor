@@ -4,13 +4,11 @@ What is this?
 these are the sensor hardware designs that match up with https://github.com/TJLTM/Automotive-Monitoring-System-CANBus-Sensor-FW repo so that i can keep the Hardware designs over here and the FW over there. mostly just so i'm not in some weird state where i'm working on a FW for one thing and the hardware for another and get into a screwed up merge situation. this has happened before in my other projects. 
 
 If you look at the other repo you'll see i've made provisions for the following sensors 
--- Pressure (ADC)
--- Temp (ADC)
--- Current (ADC)
--- Voltage (ADC)
--- Vacuum 
--- I/O 
--- RPM 
+* Temp (ADC)
+* Voltage (ADC)
+* Vacuum
+* I/O
+* RPM 
 
 the ones marked as (ADC) are the same hardware but different firmware since the only thing that really changes in those setups are the sensor hooked up to the ADC and what scale is fed into the 10bit ADC 
 
