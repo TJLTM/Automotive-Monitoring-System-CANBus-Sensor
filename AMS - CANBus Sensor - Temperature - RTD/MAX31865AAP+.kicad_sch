@@ -2111,7 +2111,7 @@
 			(uuid "2878d6fc-df55-4ace-a834-b3df14d317c7")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/2e0562a2-0f62-4c3a-a7f1-916335767d69"
 					(reference "IC1")
 					(unit 1)
@@ -2188,7 +2188,7 @@
 			(uuid "123da290-fdd3-489c-9b9c-63479afbbd94")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/2e0562a2-0f62-4c3a-a7f1-916335767d69"
 					(reference "C9")
 					(unit 1)
@@ -2265,7 +2265,7 @@
 			(uuid "66684982-0008-44cf-845f-2b91e13a8b54")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/2e0562a2-0f62-4c3a-a7f1-916335767d69"
 					(reference "C8")
 					(unit 1)
@@ -2342,7 +2342,7 @@
 			(uuid "1be1b490-4623-4c2f-9ac6-58eb0772c03f")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/2e0562a2-0f62-4c3a-a7f1-916335767d69"
 					(reference "R8")
 					(unit 1)
@@ -2384,7 +2384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 97.79 95.25 0)
 			(effects
 				(font
@@ -2418,7 +2418,7 @@
 			(uuid "b1aafc8a-35e2-41a4-9899-2b3d0a72bc6a")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/2e0562a2-0f62-4c3a-a7f1-916335767d69"
 					(reference "J2")
 					(unit 1)
@@ -2460,7 +2460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 97.79 109.22 0)
 			(effects
 				(font
@@ -2497,7 +2497,7 @@
 			(uuid "5278e4f7-1ea3-4d55-ad33-851c57518a5b")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/2e0562a2-0f62-4c3a-a7f1-916335767d69"
 					(reference "J6")
 					(unit 1)
@@ -2540,7 +2540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 191.77 97.79 0)
 			(effects
 				(font
@@ -2574,7 +2574,7 @@
 			(uuid "ed3f68a6-f314-4ab8-9fa4-bfeb4c705e50")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/2e0562a2-0f62-4c3a-a7f1-916335767d69"
 					(reference "J7")
 					(unit 1)
@@ -2651,7 +2651,7 @@
 			(uuid "de112a1e-f99b-4463-b464-595ba70eee44")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/2e0562a2-0f62-4c3a-a7f1-916335767d69"
 					(reference "C10")
 					(unit 1)

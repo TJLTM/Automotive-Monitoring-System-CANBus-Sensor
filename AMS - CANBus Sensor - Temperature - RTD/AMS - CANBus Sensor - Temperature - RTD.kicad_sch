@@ -4481,7 +4481,7 @@
 			(uuid "91a13b0f-4ad5-4c0a-b69a-2099ce5b9ba1")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR011")
 					(unit 1)
@@ -4546,7 +4546,7 @@
 			(uuid "6f5d56b1-9d99-409d-beb2-27dcbfcd7315")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR028")
 					(unit 1)
@@ -4611,7 +4611,7 @@
 			(uuid "15fa3fd5-8914-47c9-bb6d-1f1690509759")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR025")
 					(unit 1)
@@ -4676,7 +4676,7 @@
 			(uuid "1ebe06dd-d5fd-4060-96db-b8ccd266b4dc")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR05")
 					(unit 1)
@@ -4742,7 +4742,7 @@
 			(uuid "3ed6ba07-96ee-475c-897d-c69a12e16b51")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR01")
 					(unit 1)
@@ -4807,7 +4807,7 @@
 			(uuid "fa42bfe2-9bb5-4ba8-b0a1-f760fb971ab5")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR09")
 					(unit 1)
@@ -4933,7 +4933,7 @@
 			(uuid "f262eb1c-c57c-46a4-b4c9-247dca56b0a5")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "Q1")
 					(unit 1)
@@ -5009,7 +5009,7 @@
 			(uuid "f5c986f3-cafc-4d51-9ab1-ccca77fd390b")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "J14")
 					(unit 1)
@@ -5074,7 +5074,7 @@
 			(uuid "1f2458c0-d909-458b-9c47-546c9202b6d9")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR022")
 					(unit 1)
@@ -5140,7 +5140,7 @@
 			(uuid "630ac413-7ac0-4a4d-87c5-b3c69081b7cd")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#FLG02")
 					(unit 1)
@@ -5267,7 +5267,7 @@
 			(uuid "337f1841-ffeb-4e04-99ae-df6095ed156f")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "IC5")
 					(unit 1)
@@ -5332,7 +5332,7 @@
 			(uuid "7e64e4c6-c0a3-4d88-9f38-4ac7364c4f68")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR027")
 					(unit 1)
@@ -5397,7 +5397,7 @@
 			(uuid "11da98d9-9ffc-4ff9-8f62-3193d4f2a712")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR02")
 					(unit 1)
@@ -5524,7 +5524,7 @@
 			(uuid "4a9edadc-3b0a-4aee-97f8-34d82d301c74")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "Reset1")
 					(unit 1)
@@ -5589,7 +5589,7 @@
 			(uuid "fc17bc03-aa67-40fa-b2d1-d8d65958faa6")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR021")
 					(unit 1)
@@ -5655,7 +5655,7 @@
 			(uuid "5762219c-754b-4b29-9304-e5daa4179bcb")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR013")
 					(unit 1)
@@ -5720,7 +5720,7 @@
 			(uuid "12c87b33-1b7e-4eba-bb7f-17ee60d62300")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR023")
 					(unit 1)
@@ -5785,7 +5785,7 @@
 			(uuid "b9a40b15-7f65-44cb-9899-be644563b397")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR03")
 					(unit 1)
@@ -5850,7 +5850,7 @@
 			(uuid "94c74831-7ba0-4bc2-a524-49e1f9d2898c")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR04")
 					(unit 1)
@@ -5916,7 +5916,7 @@
 			(uuid "b5077b30-45fa-4f3d-88ef-e79104b23566")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#FLG01")
 					(unit 1)
@@ -6079,7 +6079,7 @@
 			(uuid "d16351d0-d423-4006-a41a-7c9b03e9daac")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "IC4")
 					(unit 1)
@@ -6148,7 +6148,7 @@
 			(uuid "3612df13-2110-4f34-908b-ccfecb8db211")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "R1")
 					(unit 1)
@@ -6213,7 +6213,7 @@
 			(uuid "5e0a2aaf-6d32-4bc0-809d-771a6b32a73d")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR06")
 					(unit 1)
@@ -6286,7 +6286,7 @@
 			(uuid "a4f0e1d7-772c-4007-804c-c43c20782f26")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "Powerboard1")
 					(unit 1)
@@ -6362,7 +6362,7 @@
 			(uuid "5d77a1de-03f1-4bbd-8b71-a8f1b51eb12a")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "J1")
 					(unit 1)
@@ -6427,7 +6427,7 @@
 			(uuid "af76d48f-0735-4863-8bf4-0768441718b9")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR016")
 					(unit 1)
@@ -6495,7 +6495,7 @@
 			(uuid "1c413531-f104-4980-9041-26fddca891e0")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "R2")
 					(unit 1)
@@ -6571,7 +6571,7 @@
 			(uuid "12f27f00-ca6b-48f3-bb17-aedafd6c1d26")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "J15")
 					(unit 1)
@@ -6641,7 +6641,7 @@
 			(uuid "e091ff5b-3f68-4d4e-8001-b09e0c39f88d")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "C17")
 					(unit 1)
@@ -6704,7 +6704,7 @@
 			(uuid "00136c90-3252-48dc-92e3-a6e3b039c264")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR020")
 					(unit 1)
@@ -6769,7 +6769,7 @@
 			(uuid "2a06006e-6aea-4619-a38a-ccebc1e203e6")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR08")
 					(unit 1)
@@ -6834,7 +6834,7 @@
 			(uuid "fc7d3e95-62dd-4989-964e-d18f1037b60f")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR026")
 					(unit 1)
@@ -6901,7 +6901,7 @@
 			(uuid "820f617c-daaa-49ce-977c-8e81f3c6d029")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "R3")
 					(unit 1)
@@ -6967,7 +6967,7 @@
 			(uuid "d7153aaf-59d9-4d50-9212-4e21ba1c6321")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR018")
 					(unit 1)
@@ -7032,7 +7032,7 @@
 			(uuid "2de995ba-cb9e-49c2-accb-3a0c12fa1d86")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR017")
 					(unit 1)
@@ -7097,7 +7097,7 @@
 			(uuid "1d8db916-797c-45fb-8bec-56c782b20237")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR012")
 					(unit 1)
@@ -7164,7 +7164,7 @@
 			(uuid "1d1ce2c5-49d3-43b7-8295-ea233d214f8e")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "NTC1")
 					(unit 1)
@@ -7229,7 +7229,7 @@
 			(uuid "96d87de5-dc40-4521-b319-2c87ef708a1a")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR024")
 					(unit 1)
@@ -7294,7 +7294,7 @@
 			(uuid "b5186ec4-59c9-4961-b719-4b8e13899e5b")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR010")
 					(unit 1)
@@ -7370,7 +7370,7 @@
 			(uuid "8fb82b26-e6a2-44a5-aab7-85aea485b14c")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "J16")
 					(unit 1)
@@ -7435,7 +7435,7 @@
 			(uuid "e498c632-3cd8-4cf4-b70a-599ce246320b")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR014")
 					(unit 1)
@@ -7501,7 +7501,7 @@
 			(uuid "72dc543e-22d6-4a43-a3e7-efb074563cab")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR015")
 					(unit 1)
@@ -7567,7 +7567,7 @@
 			(uuid "8bce4b4c-7071-43eb-8c6b-8cbb557dbcd3")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR019")
 					(unit 1)
@@ -7633,7 +7633,7 @@
 			(uuid "e16f948c-cdb1-4ae9-8772-9ade69f88f1f")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "#PWR07")
 					(unit 1)
@@ -7760,7 +7760,7 @@
 			(uuid "558f65db-2a4b-49fd-893d-7aa4fe2655ca")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(reference "U5")
 					(unit 1)
@@ -7899,7 +7899,7 @@
 			(uuid "d2c14880-4b46-48b5-b839-d3ccccde637e")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(page "8")
 				)
@@ -8037,7 +8037,7 @@
 			(uuid "a0362e68-4982-4231-813d-07a087d6a5cb")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(page "6")
 				)
@@ -8135,7 +8135,7 @@
 			(uuid "c1e91cd2-ba8d-4ba1-862b-4640a615e9da")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(page "4")
 				)
@@ -8263,7 +8263,7 @@
 			(uuid "2346e6da-7ce2-4a3f-aca9-ee2b261baff6")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(page "3")
 				)
@@ -8551,7 +8551,7 @@
 			(uuid "72be0d90-b3df-4849-95c3-de0f26d42fa9")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(page "2")
 				)
@@ -8689,7 +8689,7 @@
 			(uuid "478f760c-0e6e-49a0-add4-5dae98c00643")
 		)
 		(instances
-			(project "AMS - CANBus Sensor - Temperature"
+			(project "AMS - CANBus Sensor - Temperature - RTD"
 				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a"
 					(page "7")
 				)

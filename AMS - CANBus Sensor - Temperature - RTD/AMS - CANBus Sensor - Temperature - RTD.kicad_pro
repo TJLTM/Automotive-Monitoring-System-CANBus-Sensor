@@ -58,7 +58,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|156482001|84247501|7aff6ec6-378e-4903-956f-679986768d1c|d5690830-2327-4c68-bcbe-cd34c77e5dff",
+        "courtyards_overlap|156702399|91147499|a2c5505a-336b-4d9f-b020-7a164dee33b4|7aff6ec6-378e-4903-956f-679986768d1c",
+        "courtyards_overlap|156704699|84149599|d5690830-2327-4c68-bcbe-cd34c77e5dff|089452bf-8434-4a78-a9fa-a50355e3d64e"
+      ],
       "meta": {
         "version": 2
       },
@@ -449,7 +453,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "AMS - CANBus Sensor - Temperature.kicad_pro",
+    "filename": "AMS - CANBus Sensor - Temperature - RTD.kicad_pro",
     "version": 1
   },
   "net_settings": {
