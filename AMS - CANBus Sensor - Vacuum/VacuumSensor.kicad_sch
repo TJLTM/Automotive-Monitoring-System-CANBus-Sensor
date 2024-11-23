@@ -838,7 +838,7 @@
 		)
 		(uuid "7455ea02-a02b-4770-a14d-c3608b2f4b09")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "+VS"
 		(shape input)
 		(at 168.91 74.93 0)
 		(fields_autoplaced yes)
@@ -850,7 +850,7 @@
 		)
 		(uuid "a3ba9f7a-f63d-47ff-85af-bf691ba5d3ff")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "-VS"
 		(shape input)
 		(at 167.64 91.44 0)
 		(fields_autoplaced yes)
