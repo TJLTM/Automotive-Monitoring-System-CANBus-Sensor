@@ -1082,139 +1082,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+VDC"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+VDC"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+VDC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+VDC_0_1"
-				(polyline
-					(pts
-						(xy -1.143 3.175) (xy 1.143 3.175)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 3.175)
-					(radius 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.032) (xy 0 4.318)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+VDC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+VDC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -1380,6 +1247,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 54.61) (xy 130.81 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc2950a-ca46-4abd-90f5-0226a04499bc")
+	)
+	(wire
+		(pts
 			(xy 113.03 128.27) (xy 120.65 128.27)
 		)
 		(stroke
@@ -1518,6 +1395,17 @@
 		)
 		(uuid "f4ee2ff8-497a-4640-a8a6-313d657bc88e")
 	)
+	(hierarchical_label "OutputVS"
+		(shape input)
+		(at 130.81 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e14a619-b0e8-4914-bdba-51af1912d3ae")
+	)
 	(hierarchical_label "Output"
 		(shape input)
 		(at 140.97 99.06 0)
@@ -1630,97 +1518,6 @@
 				)
 				(path "/76196dfb-f920-48e5-a1dc-ea507c9de24d/89689880-8094-4a55-a490-88d5fe271e17"
 					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+VDC")
-		(at 130.81 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4247b850-5307-43a0-b5ab-dfaccb74dd57")
-		(property "Reference" "#PWR027"
-			(at 130.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VDC"
-			(at 130.81 55.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2e22ae9-0f3f-44fb-a101-0b0417814b98")
-		)
-		(instances
-			(project "MakeItRain"
-				(path "/6e68f0cd-800e-4167-9553-71fc59da1eeb/00000000-0000-0000-0000-000061506093"
-					(reference "#PWR024")
-					(unit 1)
-				)
-				(path "/6e68f0cd-800e-4167-9553-71fc59da1eeb/00000000-0000-0000-0000-00006158b349"
-					(reference "#PWR027")
-					(unit 1)
-				)
-				(path "/6e68f0cd-800e-4167-9553-71fc59da1eeb/00000000-0000-0000-0000-00006158b83d"
-					(reference "#PWR030")
-					(unit 1)
-				)
-				(path "/6e68f0cd-800e-4167-9553-71fc59da1eeb/00000000-0000-0000-0000-00006158b957"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-			(project "BasicBitch328pThingy"
-				(path "/76196dfb-f920-48e5-a1dc-ea507c9de24d/26dc26ed-3196-4529-9a93-574e99e736ed"
-					(reference "#PWR037")
-					(unit 1)
-				)
-				(path "/76196dfb-f920-48e5-a1dc-ea507c9de24d/612b018a-644d-4608-bec3-996a8f991b06"
-					(reference "#PWR027")
-					(unit 1)
-				)
-				(path "/76196dfb-f920-48e5-a1dc-ea507c9de24d/89689880-8094-4a55-a490-88d5fe271e17"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
