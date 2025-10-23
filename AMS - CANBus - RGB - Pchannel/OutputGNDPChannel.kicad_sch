@@ -724,24 +724,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 60.96 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0264ef2f-f9e8-4d1b-8e5a-b33b12c214a9")
-	)
-	(junction
-		(at 53.34 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69de5cf1-a97a-4b36-bf5c-60e4a061322d")
-	)
-	(junction
-		(at 142.24 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "888847bc-11ad-45f2-a49f-0011c9e8678f")
-	)
 	(wire
 		(pts
 			(xy 115.57 132.08) (xy 125.73 132.08)
@@ -761,66 +743,6 @@
 			(type default)
 		)
 		(uuid "08c7ace0-fdee-4710-a43b-1a2778f15243")
-	)
-	(wire
-		(pts
-			(xy 161.29 143.51) (xy 162.56 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14bd57c0-28b0-41e4-b08b-2fa2a8b57fb5")
-	)
-	(wire
-		(pts
-			(xy 161.29 134.62) (xy 161.29 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "188c5e58-0c4f-4554-a9b7-739f133e1e53")
-	)
-	(wire
-		(pts
-			(xy 60.96 109.22) (xy 83.82 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a1a10bd-e18d-4269-a91d-b87e29719d47")
-	)
-	(wire
-		(pts
-			(xy 158.75 91.44) (xy 158.75 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27a7b6e2-f789-4e19-a08e-38fd70aea302")
-	)
-	(wire
-		(pts
-			(xy 60.96 116.84) (xy 60.96 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27b49c7d-8bfc-4b6e-a5f1-a36ad43fb392")
-	)
-	(wire
-		(pts
-			(xy 158.75 54.61) (xy 158.75 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ee728aa-0b0a-4fe8-b1ab-1de71b49e1fb")
 	)
 	(wire
 		(pts
@@ -844,26 +766,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 55.88) (xy 53.34 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47db2eec-131a-46e8-b07a-60f16398a793")
-	)
-	(wire
-		(pts
-			(xy 161.29 119.38) (xy 161.29 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d04fae4-816f-4c2a-8072-9044654b7eb3")
-	)
-	(wire
-		(pts
 			(xy 121.92 81.28) (xy 125.73 81.28)
 		)
 		(stroke
@@ -871,66 +773,6 @@
 			(type default)
 		)
 		(uuid "591f887e-c76a-4eed-9a61-ad6a84354ff8")
-	)
-	(wire
-		(pts
-			(xy 133.35 71.12) (xy 133.35 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a4777aa-d757-4767-84a0-01bf5950523d")
-	)
-	(wire
-		(pts
-			(xy 60.96 127) (xy 60.96 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a4d427c-24aa-41dd-ba7f-c5b16451da85")
-	)
-	(wire
-		(pts
-			(xy 133.35 54.61) (xy 158.75 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "717012ba-1f4f-4c94-aaea-86af618d9189")
-	)
-	(wire
-		(pts
-			(xy 74.93 83.82) (xy 74.93 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83fe16ed-95b4-4504-9f94-3402f7bdf9d5")
-	)
-	(wire
-		(pts
-			(xy 133.35 63.5) (xy 133.35 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88d6a91d-3b95-4982-aad0-0878f751f782")
-	)
-	(wire
-		(pts
-			(xy 161.29 106.68) (xy 142.24 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cb22ab7-1016-4fd1-ade3-eb713dbe153f")
 	)
 	(wire
 		(pts
@@ -944,56 +786,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 55.88) (xy 53.34 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96bf3ad6-e92b-4c32-84d4-7f4d91f48d13")
-	)
-	(wire
-		(pts
-			(xy 142.24 120.65) (xy 142.24 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9753a1de-c209-4f07-8765-cd7a8978a273")
-	)
-	(wire
-		(pts
-			(xy 53.34 71.12) (xy 53.34 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99b1fdab-abc7-48d9-8ecb-6a9cdf7fdb24")
-	)
-	(wire
-		(pts
-			(xy 142.24 106.68) (xy 142.24 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4adacfb-de2c-4e1b-916c-f1e2e2a54c22")
-	)
-	(wire
-		(pts
-			(xy 53.34 73.66) (xy 53.34 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9f15dc5-0835-4288-9c58-8219eeaa6916")
-	)
-	(wire
-		(pts
 			(xy 35.56 80.01) (xy 30.48 80.01)
 		)
 		(stroke
@@ -1001,36 +793,6 @@
 			(type default)
 		)
 		(uuid "af0de8e8-5750-4b68-bf95-d1244c9754c4")
-	)
-	(wire
-		(pts
-			(xy 60.96 124.46) (xy 60.96 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b34dd4f9-788a-4821-a498-24112bdb3a57")
-	)
-	(wire
-		(pts
-			(xy 60.96 127) (xy 76.2 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb83ca02-08e7-4690-abfc-065720b7a4b1")
-	)
-	(wire
-		(pts
-			(xy 67.31 73.66) (xy 53.34 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca6f48bf-9a25-49f2-a1d6-42d4a46608ff")
 	)
 	(wire
 		(pts
@@ -1044,36 +806,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 109.22) (xy 83.82 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1fe6ffe-f7c7-4112-8834-bdf029d6461e")
-	)
-	(wire
-		(pts
-			(xy 83.82 137.16) (xy 83.82 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbf2380c-d524-41b0-9f13-7b96e4ad69ac")
-	)
-	(wire
-		(pts
-			(xy 74.93 68.58) (xy 74.93 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e32c3ebe-6b46-46ee-beef-ce031b0460c1")
-	)
-	(wire
-		(pts
 			(xy 133.35 132.08) (xy 134.62 132.08)
 		)
 		(stroke
@@ -1081,26 +813,6 @@
 			(type default)
 		)
 		(uuid "e42e934f-4df9-4a3f-89a9-2de7ec113fe8")
-	)
-	(wire
-		(pts
-			(xy 142.24 124.46) (xy 153.67 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed3baf53-2d31-4e2e-b0a2-fb303c513302")
-	)
-	(wire
-		(pts
-			(xy 142.24 124.46) (xy 142.24 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6730d59-caab-44ff-b7df-e4dde47f6c17")
 	)
 	(wire
 		(pts
@@ -1122,20 +834,9 @@
 		)
 		(uuid "fc02ee8a-0144-499f-8169-f8792c0fbd6c")
 	)
-	(hierarchical_label "VSource"
-		(shape input)
-		(at 158.75 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "04efb575-c3d2-4b39-9cc2-8d5ce7987996")
-	)
 	(hierarchical_label "OUT4"
 		(shape input)
-		(at 162.56 143.51 0)
+		(at 161.29 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1179,7 +880,7 @@
 	)
 	(hierarchical_label "OUT2"
 		(shape input)
-		(at 83.82 143.51 0)
+		(at 83.82 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1201,7 +902,7 @@
 	)
 	(hierarchical_label "OUT1"
 		(shape input)
-		(at 74.93 97.79 0)
+		(at 76.2 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1210,20 +911,9 @@
 		)
 		(uuid "aecb7d16-8903-4565-9c0a-1f1f23cb79e8")
 	)
-	(hierarchical_label "VSource"
-		(shape input)
-		(at 161.29 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b1d172a1-f066-499b-8e1f-a93bd05c364e")
-	)
 	(hierarchical_label "OUT3"
 		(shape input)
-		(at 158.75 95.25 0)
+		(at 158.75 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1253,28 +943,6 @@
 			(justify left)
 		)
 		(uuid "e253a69e-3995-4f60-af00-b4cd5e44f7ea")
-	)
-	(hierarchical_label "VSource"
-		(shape input)
-		(at 83.82 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e437e3e0-76d4-42a6-8d7a-79f5220da58a")
-	)
-	(hierarchical_label "VSource"
-		(shape input)
-		(at 74.93 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ed8ecda0-7ee4-4027-b48a-6411285ba06a")
 	)
 	(hierarchical_label "OUT2TTL"
 		(shape input)
@@ -1369,8 +1037,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:IRF510")
-		(at 151.13 81.28 0)
-		(mirror x)
+		(at 151.13 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1378,7 +1045,7 @@
 		(dnp no)
 		(uuid "14b330a0-0e63-422e-8c8c-89a4a7bc0a07")
 		(property "Reference" "Q3"
-			(at 162.56 85.0901 0)
+			(at 162.56 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1387,7 +1054,7 @@
 			)
 		)
 		(property "Value" "IRF510"
-			(at 162.56 82.5501 0)
+			(at 162.56 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,7 +1063,7 @@
 			)
 		)
 		(property "Footprint" "TO254P465X1024X2050-3P"
-			(at 162.56 80.01 0)
+			(at 162.56 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1406,7 +1073,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1581363.pdf"
-			(at 162.56 77.47 0)
+			(at 162.56 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1416,7 +1083,7 @@
 			)
 		)
 		(property "Description" "MOSFET RECOMMENDED ALT 844-IRF510PBF"
-			(at 162.56 74.93 0)
+			(at 162.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1426,7 +1093,7 @@
 			)
 		)
 		(property "Height" "4.65"
-			(at 162.56 72.39 0)
+			(at 162.56 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1436,7 +1103,7 @@
 			)
 		)
 		(property "Mouser Part Number" "844-IRF510"
-			(at 162.56 69.85 0)
+			(at 162.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1446,7 +1113,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/IRF510?qs=ehM%252BESVsXgwwPzb18JjqFw%3D%3D"
-			(at 162.56 67.31 0)
+			(at 162.56 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1456,7 +1123,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 162.56 64.77 0)
+			(at 162.56 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1466,7 +1133,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IRF510"
-			(at 162.56 62.23 0)
+			(at 162.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,7 +1522,6 @@
 	(symbol
 		(lib_id "SamacSys_Parts:IRF510")
 		(at 153.67 124.46 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1863,7 +1529,7 @@
 		(dnp no)
 		(uuid "85225d8a-cd74-409d-b7e5-30fbafa8bf9d")
 		(property "Reference" "Q5"
-			(at 165.1 128.2701 0)
+			(at 165.1 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1872,7 +1538,7 @@
 			)
 		)
 		(property "Value" "IRF510"
-			(at 165.1 125.7301 0)
+			(at 165.1 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1881,7 +1547,7 @@
 			)
 		)
 		(property "Footprint" "TO254P465X1024X2050-3P"
-			(at 165.1 123.19 0)
+			(at 165.1 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,7 +1557,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1581363.pdf"
-			(at 165.1 120.65 0)
+			(at 165.1 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,7 +1567,7 @@
 			)
 		)
 		(property "Description" "MOSFET RECOMMENDED ALT 844-IRF510PBF"
-			(at 165.1 118.11 0)
+			(at 165.1 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1911,7 +1577,7 @@
 			)
 		)
 		(property "Height" "4.65"
-			(at 165.1 115.57 0)
+			(at 165.1 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1921,7 +1587,7 @@
 			)
 		)
 		(property "Mouser Part Number" "844-IRF510"
-			(at 165.1 113.03 0)
+			(at 165.1 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,7 +1597,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/IRF510?qs=ehM%252BESVsXgwwPzb18JjqFw%3D%3D"
-			(at 165.1 110.49 0)
+			(at 165.1 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,7 +1607,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 165.1 107.95 0)
+			(at 165.1 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +1617,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IRF510"
-			(at 165.1 105.41 0)
+			(at 165.1 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,7 +1785,6 @@
 	(symbol
 		(lib_id "SamacSys_Parts:IRF510")
 		(at 76.2 127 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2127,7 +1792,7 @@
 		(dnp no)
 		(uuid "b9a9371e-9eb0-41ca-9d55-ef90b74229fe")
 		(property "Reference" "Q4"
-			(at 87.63 130.8101 0)
+			(at 87.63 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2136,7 +1801,7 @@
 			)
 		)
 		(property "Value" "IRF510"
-			(at 87.63 128.2701 0)
+			(at 87.63 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +1810,7 @@
 			)
 		)
 		(property "Footprint" "TO254P465X1024X2050-3P"
-			(at 87.63 125.73 0)
+			(at 87.63 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2155,7 +1820,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1581363.pdf"
-			(at 87.63 123.19 0)
+			(at 87.63 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2165,7 +1830,7 @@
 			)
 		)
 		(property "Description" "MOSFET RECOMMENDED ALT 844-IRF510PBF"
-			(at 87.63 120.65 0)
+			(at 87.63 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,7 +1840,7 @@
 			)
 		)
 		(property "Height" "4.65"
-			(at 87.63 118.11 0)
+			(at 87.63 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2185,7 +1850,7 @@
 			)
 		)
 		(property "Mouser Part Number" "844-IRF510"
-			(at 87.63 115.57 0)
+			(at 87.63 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,7 +1860,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/IRF510?qs=ehM%252BESVsXgwwPzb18JjqFw%3D%3D"
-			(at 87.63 113.03 0)
+			(at 87.63 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2205,7 +1870,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 87.63 110.49 0)
+			(at 87.63 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +1880,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IRF510"
-			(at 87.63 107.95 0)
+			(at 87.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +2124,6 @@
 	(symbol
 		(lib_id "SamacSys_Parts:IRF510")
 		(at 67.31 73.66 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2467,7 +2131,7 @@
 		(dnp no)
 		(uuid "d2334f71-1f7e-46fa-853c-6922da8c1ded")
 		(property "Reference" "Q2"
-			(at 78.74 77.4701 0)
+			(at 78.74 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2476,7 +2140,7 @@
 			)
 		)
 		(property "Value" "IRF510"
-			(at 78.74 74.9301 0)
+			(at 78.74 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +2149,7 @@
 			)
 		)
 		(property "Footprint" "TO254P465X1024X2050-3P"
-			(at 78.74 72.39 0)
+			(at 78.74 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2495,7 +2159,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1581363.pdf"
-			(at 78.74 69.85 0)
+			(at 78.74 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2505,7 +2169,7 @@
 			)
 		)
 		(property "Description" "MOSFET RECOMMENDED ALT 844-IRF510PBF"
-			(at 78.74 67.31 0)
+			(at 78.74 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2515,7 +2179,7 @@
 			)
 		)
 		(property "Height" "4.65"
-			(at 78.74 64.77 0)
+			(at 78.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,7 +2189,7 @@
 			)
 		)
 		(property "Mouser Part Number" "844-IRF510"
-			(at 78.74 62.23 0)
+			(at 78.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2535,7 +2199,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/IRF510?qs=ehM%252BESVsXgwwPzb18JjqFw%3D%3D"
-			(at 78.74 59.69 0)
+			(at 78.74 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,7 +2209,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 78.74 57.15 0)
+			(at 78.74 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,7 +2219,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IRF510"
-			(at 78.74 54.61 0)
+			(at 78.74 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
