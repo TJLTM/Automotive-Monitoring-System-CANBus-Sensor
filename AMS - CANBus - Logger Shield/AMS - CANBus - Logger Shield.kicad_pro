@@ -59,7 +59,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "footprint_type_mismatch|155000000|59000000|4bc67550-7699-41c4-a80c-972f95bbb8e0|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|164710000|47870000|a1531b39-8dae-4637-9a8d-49791182f594|afabb8c7-2cf9-4107-801f-9a53812760a4",
+          ""
+        ],
+        [
+          "silk_edge_clearance|164830000|47990000|a1531b39-8dae-4637-9a8d-49791182f594|7e4f65c7-e4e4-48f1-83e5-b078ab5cb465",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -519,7 +532,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "../../../Users/tjltm/Desktop/AMS - CANBus - Logger Shield.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
